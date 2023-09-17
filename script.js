@@ -5,6 +5,7 @@ const answerButtons = document.querySelectorAll(".answer-btn");
 
 let questionID = 0;
 let quizzStarted = false;
+let btnSlected = [false,false,false,false];
 const data = {
     "questions": [
         {
@@ -66,32 +67,49 @@ function Start() {
 }
 
 function LoadQuestion(_index){
+    btnSlected = [false,false,false,false];
     const currentQuestion = data.questions[_index];
     questionText.textContent = currentQuestion.question;
     for (let i = 0; i < answerButtons.length; i++) {
+        answerButtons[i].style.backgroundColor = "#f1f2f0";
         answerButtons[i].textContent = currentQuestion.options[i];
     }
 }
 
-function BottomBTN(){
-    if (!quizzStarted){
-        questionID = 0;
-        LoadQuestion(0);
-        quizzStarted = true;
-        bottomButton.textContent = "Valid";
-    }else{
-        questionID += 1;
-        LoadQuestion(questionID);
-    }
+function Valid(){
+    questionID += 1;
+    LoadQuestion(questionID);
 }
 
 
-function Answer(arg1) {
-    alert("Argument : " + arg1);
+function Restart(){
+    questionID = 0;
+    LoadQuestion(questionID);
+}
+
+function Skip(){
+    questionID += 1;
+    LoadQuestion(questionID);
+}
+
+
+
+function Answer(_id) {
+    if (btnSlected[_id] == false){
+        answerButtons[_id].style.backgroundColor = "#778DA9";
+        btnSlected[_id] = true;
+    }else{
+        answerButtons[_id].style.backgroundColor = "#f1f2f0";
+        btnSlected[_id] = false;
+
+    }
+    // answerButtons[arg1].style.backgroundColor = "red";
 }
 
 function ValidAnswer(){
     alert("Argument : " + arg1);
 
 }
+
+LoadQuestion(0);
 
