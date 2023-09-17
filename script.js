@@ -76,7 +76,7 @@ for (let i = 0; i < answerButtons.length; i++) {
         }
         if(!button.classList.contains('selected')){
             button.style.backgroundColor = '#415A77';
-            button.style.color = '';
+            button.style.color = 'white';
         }
     });
 
