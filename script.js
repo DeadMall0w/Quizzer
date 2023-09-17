@@ -1,11 +1,14 @@
 
 const questionText = document.getElementById("question-text");
-const validButton = document.getElementById("bottom-btn");
+const validButton = document.getElementById("valid-btn");
 const answerButtons = document.querySelectorAll(".answer-btn");
+const numberQuestion = document.getElementById("nb-question");
+
 
 let questionID = 0;
 let valided = false;
 let btnSlected = [false,false,false,false];
+let correctAnswer = 0;
 
 const data = {
     "questions": [
@@ -62,54 +65,119 @@ const data = {
     ]
 };
 
+numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
+
+for (let i = 0; i < answerButtons.length; i++) {
+    const button = answerButtons[i];
+
+    button.addEventListener('mouseover', () => {
+        if (valided){
+            return;
+        }
+        if(!button.classList.contains('selected')){
+            button.style.backgroundColor = '#415A77';
+            button.style.color = '';
+        }
+    });
+
+    button.addEventListener('click', () => {
+        if (valided){
+            return;
+        }
+        if (button.classList.contains('selected')) {
+            button.classList.remove('selected');
+            button.style.backgroundColor = '#f1f2f0';
+            button.style.color = 'black';
+        } else {
+            button.classList.add('selected');
+            button.style.backgroundColor = '#778DA9';
+            button.style.color = '';
+        }
+    });
+
+    button.addEventListener('mouseout', () => {
+        if (valided){
+            return;
+        }
+        if(!button.classList.contains('selected')){
+            button.style.backgroundColor = '#f1f2f0';
+            button.style.color = '';
+        }
+    });
+}
+
 function Start() {
     questionID = 0;
     LoadQuestion(3);
 }
 
 function LoadQuestion(_index){
+    if (_index >= data.questions.length){
+        alert("vous avez terminer le quizz avec " + correctAnswer + " bonne reponse sur " + data.questions.length);
+        return;
+    }
     btnSlected = [false,false,false,false];
     const currentQuestion = data.questions[_index];
     questionText.textContent = currentQuestion.question;
     for (let i = 0; i < answerButtons.length; i++) {
-        answerButtons[i].style.backgroundColor = "#f1f2f0";
+        answerButtons[i].classList.remove('selected');
+        answerButtons[i].style.backgroundColor = '#f1f2f0';
+
         answerButtons[i].textContent = currentQuestion.options[i];
     }
 }
 
 function Valid(){
-    ChekAnswers();
+    if (!valided){
+        ChekAnswers();
+        valided = true;
+        validButton.textContent = "Suivant";
+    }else{
+        validButton.textContent = "Valider";
+        questionID += 1;
+        numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
+        LoadQuestion(questionID);
+        valided = false;
+    }
 }
 
 
 function Restart(){
     questionID = 0;
+    numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
     LoadQuestion(questionID);
     valided = false;
 }
 
 function Skip(){
     questionID += 1;
+    numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
     LoadQuestion(questionID);
     valided = false;
 }
 
 function ChekAnswers() {
+    let isCorrect = true;
+
     for (let i = 0; i < btnSlected.length; i++) {
-        if (data.questions[questionID].correct_option == i){ //* la reponse est la bonne
-            if (btnSlected[i] == true){ //* c'est correcte
+        if (data.questions[questionID].correct_option == i){
+            if (btnSlected[i] == true){
                 answerButtons[i].style.backgroundColor = "green";
             }else{
+                isCorrect = false;
                 answerButtons[i].style.backgroundColor = "green";
-
             }
-        }else{ //* ce n'est pas la bonne reponse
-            if (btnSlected[i] == true){ //* c'est correcte
-                answerButtons[i].style.backgroundColor = "red";}
+        }else{
+            if (btnSlected[i] == true){
+                isCorrect = false;
+                answerButtons[i].style.backgroundColor = "red";
+            }
         }
     }
 
-    valided = true;
+    if(isCorrect == true){
+        correctAnswer+=1;
+    }
 }
 
 function Answer(_id) {
@@ -117,18 +185,11 @@ function Answer(_id) {
         return;
     }
     if (btnSlected[_id] == false){
-        answerButtons[_id].style.backgroundColor = "#778DA9";
         btnSlected[_id] = true;
     }else{
-        answerButtons[_id].style.backgroundColor = "#f1f2f0";
         btnSlected[_id] = false;
 
     }
-}
-
-function ValidAnswer(){
-    alert("Argument : " + arg1);
-
 }
 
 LoadQuestion(0);

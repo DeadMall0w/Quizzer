@@ -57,24 +57,30 @@ h1 {
     background-color: #f1f2f0;
     cursor: pointer;
     width: 200px;
+    transition: background-color 0.3s, color 0.3s;
+    color: #0D1B2A;
 }
 
-.bottom-button :hover{
-    font-size: 150px;
+.bottom-button:hover {
+    background-color: #0D1B2A; 
+    color: #ffffff;
     font-style: italic;
 }
 
+.selected {
+    font-style: normal;/* Couleur de fond pour les boutons sélectionnés */
+}
 .answer-btn {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f1f2f0;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 
 
 .answer-btn:hover {
-    font-size: 15px;
     font-style: italic;
+    font-weight: bold;
 }
