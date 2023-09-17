@@ -1,11 +1,12 @@
 
 const questionText = document.getElementById("question-text");
-const bottomButton = document.getElementById("bottom-btn");
+const validButton = document.getElementById("bottom-btn");
 const answerButtons = document.querySelectorAll(".answer-btn");
 
 let questionID = 0;
-let quizzStarted = false;
+let valided = false;
 let btnSlected = [false,false,false,false];
+
 const data = {
     "questions": [
         {
@@ -77,24 +78,44 @@ function LoadQuestion(_index){
 }
 
 function Valid(){
-    questionID += 1;
-    LoadQuestion(questionID);
+    ChekAnswers();
 }
 
 
 function Restart(){
     questionID = 0;
     LoadQuestion(questionID);
+    valided = false;
 }
 
 function Skip(){
     questionID += 1;
     LoadQuestion(questionID);
+    valided = false;
 }
 
+function ChekAnswers() {
+    for (let i = 0; i < btnSlected.length; i++) {
+        if (data.questions[questionID].correct_option == i){ //* la reponse est la bonne
+            if (btnSlected[i] == true){ //* c'est correcte
+                answerButtons[i].style.backgroundColor = "green";
+            }else{
+                answerButtons[i].style.backgroundColor = "green";
 
+            }
+        }else{ //* ce n'est pas la bonne reponse
+            if (btnSlected[i] == true){ //* c'est correcte
+                answerButtons[i].style.backgroundColor = "red";}
+        }
+    }
+
+    valided = true;
+}
 
 function Answer(_id) {
+    if(valided == true){
+        return;
+    }
     if (btnSlected[_id] == false){
         answerButtons[_id].style.backgroundColor = "#778DA9";
         btnSlected[_id] = true;
@@ -103,7 +124,6 @@ function Answer(_id) {
         btnSlected[_id] = false;
 
     }
-    // answerButtons[arg1].style.backgroundColor = "red";
 }
 
 function ValidAnswer(){
