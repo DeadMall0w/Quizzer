@@ -113,9 +113,10 @@ function Start() {
 
 function LoadQuestion(_index){
     if (_index >= data.questions.length){
-        alert("vous avez terminer le quizz avec " + correctAnswer + " bonne reponse sur " + data.questions.length);
+        alert("GG Vous avez terminer le quizz avec " + correctAnswer + " bonne reponse sur " + data.questions.length);
         return;
     }
+    numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
     btnSlected = [false,false,false,false];
     const currentQuestion = data.questions[_index];
     questionText.textContent = currentQuestion.question;
@@ -135,7 +136,6 @@ function Valid(){
     }else{
         validButton.textContent = "Valider";
         questionID += 1;
-        numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
         LoadQuestion(questionID);
         valided = false;
     }
