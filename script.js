@@ -203,7 +203,7 @@ const voca = {
       },
       {
         "frc": "Le foie, hépatique",
-        "espagnol": "El hígado, hepático"
+        "espagnol": "El hígado, hepáy"
       },
       {
         "frc": "Un poumon, pulmonaires",
