@@ -215,11 +215,11 @@ const voca = {
       },
       {
         "frc": "Trouver",
-        "espagnol": "Encontrar"
+        "espagnol": "Encuentrar"
       },
       {
         "frc": "Augmentation",
-        "espagnol": "Incremento"
+        "espagnol": "Incremento, un aumentp"
       },
       {
         "frc": "Don",
