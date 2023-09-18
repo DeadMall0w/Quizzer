@@ -234,7 +234,7 @@ const voca = {
         "espagnol": "Cinco mil, dos mil"
       },
       {
-        "frc": "357 392",
+        "frc": "357 492",
         "espagnol": "trescientos cincuenta y siete mil cuatrocientos noventa y dos"
       },
       {
