@@ -84,3 +84,37 @@ h1 {
     font-style: italic;
     font-weight: bold;
 }
+
+
+
+.correct {
+    background-color: #4CAF50; 
+    font-style: none;
+    font-weight: none;
+}
+
+.incorrect {
+    background-color: #f44336; 
+    font-style: italic;
+    font-weight: bold;
+}
+
+.white {
+    background-color: #ffffff; 
+    font-style: none;
+    font-weight: none;
+}
+#answer-input {
+    border: 2px solid #0D1B2A; 
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: none;
+    font-weight: none;
+    transition: border-color 0.3s ease;
+}
+
+#answer-input:hover {
+    border-color: #003b56;
+  }

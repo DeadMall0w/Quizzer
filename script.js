@@ -1,8 +1,18 @@
-
+document.addEventListener('DOMContentLoaded', function() {
+    // Votre code JavaScript ici, y compris la gestion de l'événement "keydown"
+    const inputElement = document.getElementById('answer-input');
+  
+    inputElement.addEventListener('keydown', function(event) {
+      if (event.keyCode === 13 || event.keyCode === 10) {
+        Valid();
+      }
+    });
+  });
 const questionText = document.getElementById("question-text");
 const validButton = document.getElementById("valid-btn");
 const answerButtons = document.querySelectorAll(".answer-btn");
 const numberQuestion = document.getElementById("nb-question");
+const inputAnswer = document.getElementById('answer-input');
 
 
 let questionID = 0;
@@ -65,46 +75,219 @@ const data = {
     ]
 };
 
-numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
+const voca = {
+    "vocabulaire": [
+      {
+        "frc": "Citoyenneté",
+        "espagnol": "Ciudadanía"
+      },
+      {
+        "frc": "Mondes virtuels",
+        "espagnol": "Mundos virtuales"
+      },
+      {
+        "frc": "Espace privé",
+        "espagnol": "Espacio privado"
+      },
+      {
+        "frc": "Espace publique",
+        "espagnol": "Espacio público"
+      },
+      {
+        "frc": "Identités",
+        "espagnol": "Identidades"
+      },
+      {
+        "frc": "Échanges",
+        "espagnol": "Intercambios"
+      },
+      {
+        "frc": "Fictions",
+        "espagnol": "Ficciones"
+      },
+      {
+        "frc": "Réalités",
+        "espagnol": "Realidades"
+      },
+      {
+        "frc": "Innovations scientifiques",
+        "espagnol": "Innovaciones científicas"
+      },
+      {
+        "frc": "Responsabilités",
+        "espagnol": "Responsabilidades"
+      },
+      {
+        "frc": "Art",
+        "espagnol": "Arte"
+      },
+      {
+        "frc": "Pouvoir",
+        "espagnol": "Poder"
+      },
+      {
+        "frc": "Territoire",
+        "espagnol": "Territorio"
+      },
+      {
+        "frc": "Mémoire",
+        "espagnol": "Memoria"
+      },
+      {
+        "frc": "Diversité",
+        "espagnol": "Diversidad"
+      },
+      {
+        "frc": "Inclusion",
+        "espagnol": "Inclusión"
+      },
+      {
+        "frc": "Un robot",
+        "espagnol": "Un robot"
+      },
+      {
+        "frc": "Une créature fantastique",
+        "espagnol": "Una criatura fantástica"
+      },
+      {
+        "frc": "Les rencontres",
+        "espagnol": "Los encuentros"
+      },
+      {
+        "frc": "Un voyage dans le temps",
+        "espagnol": "Un viaje por el tiempo"
+      },
+      {
+        "frc": "Un mélange",
+        "espagnol": "Un mezcla"
+      },
+      {
+        "frc": "Autonome",
+        "espagnol": "Autónomo"
+      },
+      {
+        "frc": "Un bras",
+        "espagnol": "Un brazo"
+      },
+      {
+        "frc": "Un chirurgien, La chirurgie",
+        "espagnol": "Un cirujano, la cirugía"
+      },
+      {
+        "frc": "Agir",
+        "espagnol": "Actuar"
+      },
+      {
+        "frc": "Arriver",
+        "espagnol": "Llegar"
+      },
+      {
+        "frc": "Un risque",
+        "espagnol": "Un riesgo"
+      },
+      {
+        "frc": "États-Unis",
+        "espagnol": "EE.UU"
+      },
+      {
+        "frc": "Retourner → … à nouveau",
+        "espagnol": "Volver → Ha vuelto a..."
+      },
+      {
+        "frc": "Réussir à, obtenir",
+        "espagnol": "Lograr"
+      },
+      {
+        "frc": "L'entraide",
+        "espagnol": "La ayuda mutua"
+      },
+      {
+        "frc": "Le foie, hépatique",
+        "espagnol": "El hígado, hepático"
+      },
+      {
+        "frc": "Un poumon, pulmonaires",
+        "espagnol": "Un pulmón, pulmonares"
+      },
+      {
+        "frc": "Un rein, rénales",
+        "espagnol": "Un riñón, renales"
+      },
+      {
+        "frc": "Trouver",
+        "espagnol": "Encontrar"
+      },
+      {
+        "frc": "Augmentation",
+        "espagnol": "Incremento"
+      },
+      {
+        "frc": "Don",
+        "espagnol": "Donación"
+      },
+      {
+        "frc": "Succès",
+        "espagnol": "Éxito"
+      },
+      {
+        "frc": "5 000, 2 000",
+        "espagnol": "Cinco mil, dos mil"
+      },
+      {
+        "frc": "357 392",
+        "espagnol": "trescientos cincuenta y siete mil cuatrocientos noventa y dos"
+      },
+      {
+        "frc": "30%",
+        "espagnol": "Treinta por ciento"
+      },
+      {
+        "frc": "46,9",
+        "espagnol": "Cuarenta y seis coma nueve"
+      }
+    ]
+  }
 
-for (let i = 0; i < answerButtons.length; i++) {
-    const button = answerButtons[i];
+// numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
 
-    button.addEventListener('mouseover', () => {
-        if (valided){
-            return;
-        }
-        if(!button.classList.contains('selected')){
-            button.style.backgroundColor = '#415A77';
-            button.style.color = 'white';
-        }
-    });
+// for (let i = 0; i < answerButtons.length; i++) {
+//     const button = answerButtons[i];
 
-    button.addEventListener('click', () => {
-        if (valided){
-            return;
-        }
-        if (button.classList.contains('selected')) {
-            button.classList.remove('selected');
-            button.style.backgroundColor = '#f1f2f0';
-            button.style.color = 'black';
-        } else {
-            button.classList.add('selected');
-            button.style.backgroundColor = '#778DA9';
-            button.style.color = '';
-        }
-    });
+//     button.addEventListener('mouseover', () => {
+//         if (valided){
+//             return;
+//         }
+//         if(!button.classList.contains('selected')){
+//             button.style.backgroundColor = '#415A77';
+//             button.style.color = 'white';
+//         }
+//     });
 
-    button.addEventListener('mouseout', () => {
-        if (valided){
-            return;
-        }
-        if(!button.classList.contains('selected')){
-            button.style.backgroundColor = '#f1f2f0';
-            button.style.color = '';
-        }
-    });
-}
+//     button.addEventListener('click', () => {
+//         if (valided){
+//             return;
+//         }
+//         if (button.classList.contains('selected')) {
+//             button.classList.remove('selected');
+//             button.style.backgroundColor = '#f1f2f0';
+//             button.style.color = 'black';
+//         } else {
+//             button.classList.add('selected');
+//             button.style.backgroundColor = '#778DA9';
+//             button.style.color = '';
+//         }
+//     });
+
+//     button.addEventListener('mouseout', () => {
+//         if (valided){
+//             return;
+//         }
+//         if(!button.classList.contains('selected')){
+//             button.style.backgroundColor = '#f1f2f0';
+//             button.style.color = '';
+//         }
+//     });
+// }
 
 function Start() {
     questionID = 0;
@@ -112,20 +295,22 @@ function Start() {
 }
 
 function LoadQuestion(_index){
-    if (_index >= data.questions.length){
-        alert("GG Vous avez terminer le quizz avec " + correctAnswer + " bonne reponse sur " + data.questions.length);
+    if (_index >= voca.vocabulaire.length){
+        alert("GG Vous avez terminer le quizz avec " + correctAnswer + " bonne reponse sur " + voca.vocabulaire.length);
         return;
     }
-    numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
-    btnSlected = [false,false,false,false];
-    const currentQuestion = data.questions[_index];
-    questionText.textContent = currentQuestion.question;
-    for (let i = 0; i < answerButtons.length; i++) {
-        answerButtons[i].classList.remove('selected');
-        answerButtons[i].style.backgroundColor = '#f1f2f0';
+    numberQuestion.textContent = (questionID+1) + "/" + voca.vocabulaire.length;
+    questionText.textContent = voca.vocabulaire[_index].frc;
+    
+    // btnSlected = [false,false,false,false];
+    // const currentQuestion = data.questions[_index];
+    // questionText.textContent = currentQuestion.question;
+    // for (let i = 0; i < answerButtons.length; i++) {
+    //     answerButtons[i].classList.remove('selected');
+    //     answerButtons[i].style.backgroundColor = '#f1f2f0';
 
-        answerButtons[i].textContent = currentQuestion.options[i];
-    }
+    //     answerButtons[i].textContent = currentQuestion.options[i];
+    // }
 }
 
 function Valid(){
@@ -133,7 +318,12 @@ function Valid(){
         ChekAnswers();
         valided = true;
         validButton.textContent = "Suivant";
+        // inputAnswer.classList.remove('correct', 'incorrect');
+        // inputAnswer.classList.remove('white');
+        inputAnswer.classList.remove('white');
     }else{
+        inputAnswer.classList.add('white');
+        inputAnswer.value = "";
         validButton.textContent = "Valider";
         questionID += 1;
         LoadQuestion(questionID);
@@ -157,6 +347,23 @@ function Skip(){
 }
 
 function ChekAnswers() {
+    if(inputAnswer.value.toLowerCase() == voca.vocabulaire[questionID].espagnol.toLowerCase()){
+        inputAnswer.classList.add('correct');
+        // inputAnswer.classList.remove('white');
+        inputAnswer.classList.remove('incorrect');
+        correctAnswer+=1;
+
+    }else{
+        inputAnswer.classList.add('incorrect');
+        // inputAnswer.classList.remove('white');
+        inputAnswer.classList.remove('correct');
+        inputAnswer.value += " || reponse : " + voca.vocabulaire[questionID].espagnol;
+        
+    }
+
+
+
+    return;
     let isCorrect = true;
 
     for (let i = 0; i < btnSlected.length; i++) {
