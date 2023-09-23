@@ -40,12 +40,12 @@ const questions = {
       "réponse": "L'origine de la crise de 1929 remonte aux prêts massifs accordés par les États-Unis aux pays alliés après la Première Guerre mondiale. Ces prêts étaient remboursés en or, créant une confiance excessive dans le dollar américain, mais finissant par provoquer un déséquilibre économique."
     },
     {
+      "question": "Qu'est-ce que le 'fordisme' ?",
+      "réponse": "Le 'fordisme' désigne un système de production développé par Henry Ford, caractérisé par le travail à la chaîne. Il a permis une augmentation de l'efficacité de la production et a contribué à la chute des prix des biens de consommation. Ce qui provoque une suprodution."
+    },;*
+    {
       "question": "Quelle est la conséquence économique majeure de la crise de 1929 ?",
       "réponse": "La conséquence économique majeure de la crise de 1929 fut le chômage massif, touchant plus de 30 % de la population américaine et provoquant une détresse économique généralisée."
-    },
-    {
-      "question": "Qu'est-ce que le 'fordisme' ?",
-      "réponse": "Le 'fordisme' désigne un système de production développé par Henry Ford, caractérisé par le travail à la chaîne. Il a permis une augmentation de l'efficacité de la production et a contribué à la baisse des prix des biens de consommation."
     },
     {
       "question": "Quelle est la signification de l'indice Dow Jones pendant la crise de 1929 ?",
