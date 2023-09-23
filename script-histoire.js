@@ -42,7 +42,7 @@ const questions = {
     {
       "question": "Qu'est-ce que le 'fordisme' ?",
       "réponse": "Le 'fordisme' désigne un système de production développé par Henry Ford, caractérisé par le travail à la chaîne. Il a permis une augmentation de l'efficacité de la production et a contribué à la chute des prix des biens de consommation. Ce qui provoque une suprodution."
-    },;*
+    },
     {
       "question": "Quelle est la conséquence économique majeure de la crise de 1929 ?",
       "réponse": "La conséquence économique majeure de la crise de 1929 fut le chômage massif, touchant plus de 30 % de la population américaine et provoquant une détresse économique généralisée."
