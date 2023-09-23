@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz sur les Technologies</title>
+    <title>Quiz histoire</title>
     <link rel="stylesheet" href="style-quiz.css" />
   </head>
   <body>
@@ -12,25 +12,21 @@
       <p id="nb-question">10/25</p>
       <h1 id="question-text">test</h1>
       <div class="answers">
-        <input
-          type="text"
-          id="answer-input"
-          class=""
-          placeholder="Entrez la réponse"
-        />
+        <textarea class="answers" id="text-area" rows="1" oninput="AjusterHauteur()" ></textarea>
       </div>
+      <p id="reponse-text"></p>
       <div class="bottom-buttons">
         <button id="restart-btn" class="bottom-button" onclick="Restart()">
           Recommencer
         </button>
         <button id="valid-btn" class="bottom-button" onclick="Valid()">
-          Valid
+          Valider
         </button>
         <button id="skip-btn" class="bottom-button" onclick="Skip()">
           Skip
         </button>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script-histoire.js"></script>
   </body>
 </html>

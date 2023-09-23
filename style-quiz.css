@@ -1,8 +1,17 @@
+/* https://coolors.co/022b3a-1f7a8c-bfdbf7-e1e5f2-ffffff */
+
+:root {
+    --main-bg-color: #0d1b2a;
+    --second-bg-color: #1b263b;
+    --element-bg-color: #e0e1dd;
+
+}
+
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 0;
-    background: radial-gradient(circle, #1b263b, #0d1b2a);
+    background: radial-gradient(circle, var(--second-bg-color), var(--main-bg-color));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,9 +29,14 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #e0e1dd;
+    background-color: var(--element-bg-color);
 }
-
+#text-area{
+    font-size: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
 .quiz-container p{
     font-size: 20px;
 }
@@ -35,11 +49,12 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #e0e1dd;
+    background-color: var(--element-bg-color);
 }
 
 .quizzs-container p{
     font-size: 20px;
+    
 }
 
 h1 {
@@ -82,8 +97,29 @@ h1 {
     font-style: italic;
 }
 
+.retour-button {
+    padding: 10px;
+    border: 1px solid #0D1B2A;
+    border-radius: 2px;
+    background-color: var(--element-bg-color);;
+    cursor: pointer;
+    width: 200px;
+    color: #0D1B2A;
+    text-decoration-line: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.retour-button:hover {
+    background-color: #0D1B2A; 
+    color: #ffffff;
+    font-style: italic;
+}
+
 .selected {
-    font-style: normal;/* Couleur de fond pour les boutons sélectionnés */
+    font-style: normal;
 }
 .answer-btn {
     padding: 10px;
@@ -104,20 +140,14 @@ h1 {
 
 .correct {
     background-color: #4CAF50; 
-    font-style: none;
-    font-weight: none;
 }
 
 .incorrect {
     background-color: #f44336; 
-    font-style: italic;
-    font-weight: bold;
 }
 
 .white {
     background-color: #ffffff; 
-    font-style: none;
-    font-weight: none;
 }
 #answer-input {
     border: 2px solid #0D1B2A; 
