@@ -19,7 +19,7 @@ let questionID = 0;
 let valided = false;
 let btnSlected = [false,false,false,false];
 let correctAnswer = 0;
-
+//* 10, 15, 
 
 const questions = {
   "questions": [
@@ -173,22 +173,6 @@ function LoadQuestion(_index){
     numberQuestion.textContent = (questionID+1) + "/" + questions.questions.length;
     questionText.textContent = questions.questions[questionID].question;
 }
-
-function LoadQuiz(quizName) {
-  fetch(`Quizs/${quizName}.json`)
-    .then(response => response.json())
-    .then(data => {
-      
-      console.log(data);
-    })
-    .catch(error => {
-      console.error("Erreur de chargement du quiz :", error);
-    });
-}
-
-
-chargerQuiz("quiz1");
-
 
 function Valid(){
     if (!valided){

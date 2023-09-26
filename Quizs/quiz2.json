@@ -1,0 +1,41 @@
+{
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Madrid"],
+        "correctAnswer": "Paris"
+      },
+      {
+        "type": "trueFalse",
+        "question": "Is the sky blue?",
+        "correctAnswer": "true"
+      },
+      {
+        "type": "singleChoice",
+        "question": "Which of the following is a primary color?",
+        "options": ["Red", "Green", "Purple", "Orange"],
+        "correctAnswer": "Red"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "F. Scott Fitzgerald"],
+        "correctAnswer": "William Shakespeare"
+      },
+      {
+        "type": "openEndedResponse",
+        "question": "Quelle est la capitale de l'Espagne ?"
+      },
+      {
+        "type": "openEndedResponse",
+        "question": "Décrivez le cycle de l'eau en quelques phrases."
+      }
+    ]
+}
+  
+  
+  
+  
+  
+  

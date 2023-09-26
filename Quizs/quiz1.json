@@ -1,0 +1,25 @@
+[
+    {
+      "type": "choix_multiple",
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Londres", "Berlin", "Paris", "Madrid"],
+      "réponses_correctes": ["Paris"]
+    },
+    {
+      "type": "choix_simple",
+      "question": "Quel est le plus grand mammifère terrestre ?",
+      "options": ["Éléphant", "Lion", "Girafe", "Rhino"],
+      "réponses_correctes": ["Éléphant"]
+    },
+    {
+      "type": "vrai_ou_faux",
+      "question": "La Terre est plate.",
+      "réponses_correctes": ["faux"]
+    },
+    {
+      "type": "réponse_courte",
+      "question": "Combien de continents y a-t-il sur Terre ?",
+      "réponses_correctes": ["7"]
+    }
+
+]
