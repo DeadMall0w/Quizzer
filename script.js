@@ -76,177 +76,230 @@ const data = {
 };
 
 const voca = {
-    "vocabulaire": [
-      {
-        "frc": "Citoyenneté",
-        "espagnol": "Ciudadanía"
-      },
-      {
-        "frc": "Mondes virtuels",
-        "espagnol": "Mundos virtuales"
-      },
-      {
-        "frc": "Espace privé",
-        "espagnol": "Espacio privado"
-      },
-      {
-        "frc": "Espace publique",
-        "espagnol": "Espacio público"
-      },
-      {
-        "frc": "Identités",
-        "espagnol": "Identidades"
-      },
-      {
-        "frc": "Échanges",
-        "espagnol": "Intercambios"
-      },
-      {
-        "frc": "Fictions",
-        "espagnol": "Ficciones"
-      },
-      {
-        "frc": "Réalités",
-        "espagnol": "Realidades"
-      },
-      {
-        "frc": "Innovations scientifiques",
-        "espagnol": "Innovaciones científicas"
-      },
-      {
-        "frc": "Responsabilités",
-        "espagnol": "Responsabilidades"
-      },
-      {
-        "frc": "Art",
-        "espagnol": "Arte"
-      },
-      {
-        "frc": "Pouvoir",
-        "espagnol": "Poder"
-      },
-      {
-        "frc": "Territoire",
-        "espagnol": "Territorio"
-      },
-      {
-        "frc": "Mémoire",
-        "espagnol": "Memoria"
-      },
-      {
-        "frc": "Diversité",
-        "espagnol": "Diversidad"
-      },
-      {
-        "frc": "Inclusion",
-        "espagnol": "Inclusión"
-      },
-      {
-        "frc": "Un robot",
-        "espagnol": "Un robot"
-      },
-      {
-        "frc": "Une créature fantastique",
-        "espagnol": "Una criatura fantástica"
-      },
-      {
-        "frc": "Les rencontres",
-        "espagnol": "Los encuentros"
-      },
-      {
-        "frc": "Un voyage dans le temps",
-        "espagnol": "Un viaje por el tiempo"
-      },
-      {
-        "frc": "Un mélange",
-        "espagnol": "Un mezcla"
-      },
-      {
-        "frc": "Autonome",
-        "espagnol": "Autónomo"
-      },
-      {
-        "frc": "Un bras",
-        "espagnol": "Un brazo"
-      },
-      {
-        "frc": "Un chirurgien, La chirurgie",
-        "espagnol": "Un cirujano, la cirugía"
-      },
-      {
-        "frc": "Agir",
-        "espagnol": "Actuar"
-      },
-      {
-        "frc": "Arriver",
-        "espagnol": "Llegar"
-      },
-      {
-        "frc": "Un risque",
-        "espagnol": "Un riesgo"
-      },
-      {
-        "frc": "États-Unis",
-        "espagnol": "EE.UU"
-      },
-      {
-        "frc": "Retourner → … à nouveau",
-        "espagnol": "Volver → Ha vuelto a..."
-      },
-      {
-        "frc": "Réussir à, obtenir",
-        "espagnol": "Lograr"
-      },
-      {
-        "frc": "L'entraide",
-        "espagnol": "La ayuda mutua"
-      },
-      {
-        "frc": "Le foie, hépatique",
-        "espagnol": "El hígado, hepáy"
-      },
-      {
-        "frc": "Un poumon, pulmonaires",
-        "espagnol": "Un pulmón, pulmonares"
-      },
-      {
-        "frc": "Un rein, rénales",
-        "espagnol": "Un riñón, renales"
-      },
-      {
-        "frc": "Trouver",
-        "espagnol": "Encuentrar"
-      },
-      {
-        "frc": "Augmentation",
-        "espagnol": "Incremento, un aumentp"
-      },
-      {
-        "frc": "Don",
-        "espagnol": "Donación"
-      },
-      {
-        "frc": "Succès",
-        "espagnol": "Éxito"
-      },
-      {
-        "frc": "5 000, 2 000",
-        "espagnol": "Cinco mil, dos mil"
-      },
-      {
-        "frc": "357 492",
-        "espagnol": "trescientos cincuenta y siete mil cuatrocientos noventa y dos"
-      },
-      {
-        "frc": "30%",
-        "espagnol": "Treinta por ciento"
-      },
-      {
-        "frc": "46,9",
-        "espagnol": "Cuarenta y seis coma nueve"
-      }
-    ]
-  }
+  "vocabulaire": [
+    {
+      "frc": "Citoyenneté",
+      "espagnol": "Ciudadanía"
+    },
+    {
+      "frc": "Mondes virtuels",
+      "espagnol": "Mundos virtuales"
+    },
+    {
+      "frc": "Espace privé",
+      "espagnol": "Espacio privado"
+    },
+    {
+      "frc": "Espace publique",
+      "espagnol": "Espacio publicó"
+    },
+    {
+      "frc": "Identités",
+      "espagnol": "Identidades"
+    },
+    {
+      "frc": "Échanges",
+      "espagnol": "Intercambios"
+    },
+    {
+      "frc": "Fictions",
+      "espagnol": "Ficciones"
+    },
+    {
+      "frc": "Réalités",
+      "espagnol": "Realidades"
+    },
+    {
+      "frc": "Innovations scientifiques",
+      "espagnol": "Innovaciones científicas"
+    },
+    {
+      "frc": "Responsabilités",
+      "espagnol": "Responsabilidades"
+    },
+    {
+      "frc": "Art",
+      "espagnol": "Arte"
+    },
+    {
+      "frc": "Pouvoir",
+      "espagnol": "Poder"
+    },
+    {
+      "frc": "Territoire",
+      "espagnol": "Territorio"
+    },
+    {
+      "frc": "Mémoire",
+      "espagnol": "Memoria"
+    },
+    {
+      "frc": "Diversité",
+      "espagnol": "Diversidad"
+    },
+    {
+      "frc": "Inclusion",
+      "espagnol": "Inclusión"
+    },
+    {
+      "frc": "Un robot",
+      "espagnol": "Un robot"
+    },
+    {
+      "frc": "Une créature fantastique",
+      "espagnol": "Una criatura fantástica"
+    },
+    {
+      "frc": "Les rencontres",
+      "espagnol": "Los encuentros"
+    },
+    {
+      "frc": "Un voyage dans le temps",
+      "espagnol": "Un viaje por el tiempo"
+    },
+    {
+      "frc": "Un mélange",
+      "espagnol": "Un mezcla"
+    },
+    {
+      "frc": "Autonome",
+      "espagnol": "Autónomo"
+    },
+    {
+      "frc": "Un bras",
+      "espagnol": "Un brazo"
+    },
+    {
+      "frc": "Un chirurgien, La chirurgie",
+      "espagnol": "Un cirujano, la cirugía"
+    },
+    {
+      "frc": "Agir",
+      "espagnol": "Actuar"
+    },
+    {
+      "frc": "Arriver",
+      "espagnol": "Llegar"
+    },
+    {
+      "frc": "Un risque",
+      "espagnol": "Un riesgo"
+    },
+    {
+      "frc": "États-Unis",
+      "espagnol": "EE.UU"
+    },
+    {
+      "frc": "Retourner → … à nouveau",
+      "espagnol": "Volver → Ha vuelto a..."
+    },
+    {
+      "frc": "Réussir à, obtenir",
+      "espagnol": "Lograr"
+    },
+    {
+      "frc": "L'entraide",
+      "espagnol": "La ayuda mutua"
+    },
+    {
+      "frc": "Le foie, hépatique",
+      "espagnol": "El hígado, hepático"
+    },
+    {
+      "frc": "Un poumon, pulmonaires",
+      "espagnol": "Un pulmón, pulmonares"
+    },
+    {
+      "frc": "Un rein, rénales",
+      "espagnol": "Un riñón, renales"
+    },
+    {
+      "frc": "Trouver",
+      "espagnol": "Encuentrar"
+    },
+    {
+      "frc": "Augmentation",
+      "espagnol": "Un incremento, un aumento"
+    },
+    {
+      "frc": "Don",
+      "espagnol": "Donación"
+    },
+    {
+      "frc": "Succès",
+      "espagnol": "Éxito"
+    },
+    {
+      "frc": "5 000, 2 000",
+      "espagnol": "Cinco mil, dos mil"
+    },
+    {
+      "frc": "357 392",
+      "espagnol": "trescientos cincuenta y siete mil cuatrocientos noventa y dos"
+    },
+    {
+      "frc": "30%",
+      "espagnol": "Treinta porciento"
+    },
+    {
+      "frc": "46,9",
+      "espagnol": "Cuarenta y seis coma nueve"
+    },
+    {
+      "frc": "Choisir",
+      "espagnol": "Escoger"
+    },
+    {
+      "frc": "La peau",
+      "espagnol": "La piel"
+    },
+    {
+      "frc": "Les jambes",
+      "espagnol": "Las piernas"
+    },
+    {
+      "frc": "Un chercheur",
+      "espagnol": "Un investigador"
+    },
+    {
+      "frc": "Le manque",
+      "espagnol": "La escasez"
+    },
+    {
+      "frc": "Une arbalette",
+      "espagnol": "Una baliesta"
+    },
+    {
+      "frc": "Une récolte",
+      "espagnol": "Una cosecha"
+    },
+    {
+      "frc": "La fumée",
+      "espagnol": "El humo"
+    },
+    {
+      "frc": "Abîmé",
+      "espagnol": "Estropeado"
+    },
+    {
+      "frc": "Bon pour la santé",
+      "espagnol": "Saludable"
+    },
+    {
+      "frc": "Substances dangereuses",
+      "espagnol": "Sustancias peligrosas"
+    },
+    {
+      "frc": "Les nouveaux nés",
+      "espagnol": "Los recién nacidos"
+    },
+    {
+      "frc": "Gaz à effet de serre",
+      "espagnol": "Gases de efecto invernadero"
+    }
+  ]
+}
+
 
 // numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
 
