@@ -9,7 +9,12 @@
       {
         "type": "trueFalse",
         "question": "Is the sky blue?",
-        "correctAnswer": "true"
+        "correctAnswer": 0
+      },
+      {
+        "type": "trueFalse",
+        "question": "Can you fly?",
+        "correctAnswer": 1
       },
       {
         "type": "singleChoice",
@@ -21,7 +26,7 @@
         "type": "multipleChoice",
         "question": "Who wrote 'Romeo and Juliet'?",
         "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "F. Scott Fitzgerald"],
-        "correctAnswer": "William Shakespeare"
+        "correctAnswer": 1
       },
       {
         "type": "openEndedResponse",

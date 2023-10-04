@@ -17,7 +17,7 @@ const numberQuestion = document.getElementById("nb-question");
 
 let questionID = 0;
 let valided = false;
-let btnSlected = [];
+let userChoice = [];
 let correctAnswer = 0;
 //* 10, 15, 
 
@@ -50,16 +50,26 @@ function LoadQuestion(){
         alert("Vous avez terminer le quiz, appuyer sur recommencer");
         return;
     }
+
     numberQuestion.textContent = (questionID+1) + "/" + questions.length;
     questionText.textContent = questions[questionID].question;
+
     Clear();
+    userChoice = [];
     if (questions[questionID].type == "multipleChoice"){
-        btnSlected = [];
       for (let index = 0; index < questions[questionID].options.length; index++) {
-        CreateBtn(index+1);
-        btnSlected.push(false);
+        CreateBtn(index+1, questions[questionID].options[index]);
+        userChoice.push(false);
       }
       answerButtons = document.querySelectorAll(".answer-btn");
+    }else if(questions[questionID].type == "trueFalse"){
+        CreateBtn(1, "Vrai");
+        CreateBtn(2, "Faux");
+
+        userChoice.push(false);
+        userChoice.push(false);
+        answerButtons = document.querySelectorAll(".answer-btn");
+
     }
 }
 
@@ -67,17 +77,16 @@ function LoadQuestion(){
 function Clear(){
     for (let index = 0; index < answerButtons.length; index++) {
         answerButtons[index].remove();
-        
     }
 }
 
 
-function CreateBtn(btnID){
+function CreateBtn(btnID, content){
   const button = document.createElement('button');
 
   button.classList.add('answer-btn');
   button.id = 'answers-' + btnID;
-  button.textContent = questions[questionID].options[btnID-1];
+  button.textContent = content; //questions[questionID].options[btnID-1];
   button.onclick = function() {
     Answer(btnID); 
   };
@@ -146,19 +155,21 @@ function ChekAnswers() {
 
 
     let isCorrect = true;
-    // alert(questions[questionID].correctAnswer);
-    for (let i = 0; i < btnSlected.length; i++) {
-        if (questions[questionID].correctAnswer == i){
-            if (btnSlected[i] == true){
-                answerButtons[i].style.backgroundColor = "green";
+    if (questions[questionID].type == "multipleChoice" || questions[questionID].type == "trueFalse"){
+        
+        for (let i = 0; i < userChoice.length; i++) {
+            if (questions[questionID].correctAnswer == i){
+                if (userChoice[i] == true){
+                    answerButtons[i].style.backgroundColor = "green";
+                }else{
+                    isCorrect = false;
+                    answerButtons[i].style.backgroundColor = "green";
+                }
             }else{
-                isCorrect = false;
-                answerButtons[i].style.backgroundColor = "green";
-            }
-        }else{
-            if (btnSlected[i] == true){
-                isCorrect = false;
-                answerButtons[i].style.backgroundColor = "red";
+                if (userChoice[i] == true){
+                    isCorrect = false;
+                    answerButtons[i].style.backgroundColor = "red";
+                }
             }
         }
     }
@@ -172,11 +183,11 @@ function Answer(_id) {
     if(valided == true){
         return;
     }
-    if (btnSlected[_id-1] == false){
-        btnSlected[_id-1] = true;
+    if (userChoice[_id-1] == false){
+        userChoice[_id-1] = true;
         answerButtons[_id-1].style.backgroundColor = '#778DA9';
     }else{
-        btnSlected[_id-1] = false;
+        userChoice[_id-1] = false;
         answerButtons[_id-1].style.backgroundColor = '#f1f2f0';
 
     }
