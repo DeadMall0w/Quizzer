@@ -12,8 +12,8 @@ const questionText = document.getElementById("question-text");
 const validButton = document.getElementById("valid-btn");
 let answerButtons = document.querySelectorAll(".answer-btn");
 const numberQuestion = document.getElementById("nb-question");
-const reponseText = document.getElementById('reponse-text');
-const textarea = document.getElementById('text-area');
+// const reponseText = document.getElementById('reponse-text');
+// const textarea = document.getElementById('text-area');
 
 let questionID = 0;
 let valided = false;
@@ -52,7 +52,9 @@ function LoadQuestion(){
     }
     numberQuestion.textContent = (questionID+1) + "/" + questions.length;
     questionText.textContent = questions[questionID].question;
+    Clear();
     if (questions[questionID].type == "multipleChoice"){
+        btnSlected = [];
       for (let index = 0; index < questions[questionID].options.length; index++) {
         CreateBtn(index+1);
         btnSlected.push(false);
@@ -60,6 +62,16 @@ function LoadQuestion(){
       answerButtons = document.querySelectorAll(".answer-btn");
     }
 }
+
+
+function Clear(){
+    for (let index = 0; index < answerButtons.length; index++) {
+        answerButtons[index].remove();
+        
+    }
+}
+
+
 function CreateBtn(btnID){
   const button = document.createElement('button');
 
@@ -77,14 +89,15 @@ function CreateBtn(btnID){
 
 function Valid(){
     if (!valided){
-        ShowAnswer();
+        // ShowAnswer();
+        ChekAnswers();
         valided = true;
         validButton.textContent = "Suivant";
     }else{
-        textarea.value = "";
-        AjusterHauteur();
+        // textarea.value = "";
+        // AjusterHauteur();
         validButton.textContent = "Valider";
-        reponseText.textContent = "";
+        // reponseText.textContent = "";
         questionID += 1;
         LoadQuestion(questionID);
         valided = false;
@@ -132,11 +145,10 @@ function ChekAnswers() {
 
 
 
-    // return;
     let isCorrect = true;
-
+    // alert(questions[questionID].correctAnswer);
     for (let i = 0; i < btnSlected.length; i++) {
-        if (data.questions[questionID].correct_option == i){
+        if (questions[questionID].correctAnswer == i){
             if (btnSlected[i] == true){
                 answerButtons[i].style.backgroundColor = "green";
             }else{
@@ -160,11 +172,11 @@ function Answer(_id) {
     if(valided == true){
         return;
     }
-    if (btnSlected[_id] == false){
-        btnSlected[_id] = true;
+    if (btnSlected[_id-1] == false){
+        btnSlected[_id-1] = true;
         answerButtons[_id-1].style.backgroundColor = '#778DA9';
     }else{
-        btnSlected[_id] = false;
+        btnSlected[_id-1] = false;
         answerButtons[_id-1].style.backgroundColor = '#f1f2f0';
 
     }

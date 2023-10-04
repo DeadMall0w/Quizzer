@@ -4,7 +4,7 @@
         "type": "multipleChoice",
         "question": "What is the capital of France?",
         "options": ["Paris", "London", "Berlin", "Madrid", "Taïwan", "Washington"],
-        "correctAnswer": "Paris"
+        "correctAnswer": 0
       },
       {
         "type": "trueFalse",
