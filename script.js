@@ -787,12 +787,15 @@ function Valid(){
         inputAnswer.classList.add('white');
         inputAnswer.value = "";
         validButton.textContent = "Valider";
-        questionID += 1;
+        questionID = nombreAleatoire(0,voca.vocabulaire.length);
         LoadQuestion(questionID);
         valided = false;
     }
 }
 
+function nombreAleatoire(min = 1, max = 10) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
 function Restart(){
     questionID = 0;
@@ -802,7 +805,9 @@ function Restart(){
 }
 
 function Skip(){
-    questionID += 1;
+    //questionID += 1;
+questionID = nombreAleatoire(0,voca.vocabulaire.length);
+
     numberQuestion.textContent = (questionID+1) + "/" + data.questions.length;
     LoadQuestion(questionID);
     valided = false;
