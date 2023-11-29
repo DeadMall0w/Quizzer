@@ -35,7 +35,7 @@ const voca = {
         "frc": "pénurie de main d'oeuvre"
     },
     {
-        "espagnol": "raw materials",
+        "espagnol": "raw material",
         "frc": " matière première"
     },
     {
@@ -72,7 +72,7 @@ const voca = {
     },
     {
         "espagnol": "usual environment",
-        "frc": " environment habituelle"
+        "frc": " environment habituel"
     },
     {
         "espagnol": "devastating",
@@ -132,7 +132,7 @@ const voca = {
     },
     {
         "espagnol": "odd jobs",
-        "frc": "petit boulots"
+        "frc": "petits boulots"
     },
     {
         "espagnol": "overcome",
@@ -220,7 +220,7 @@ const voca = {
     },
     {
         "espagnol": "deportation",
-        "frc": " deportation"
+        "frc": " déportation"
     },
     {
         "espagnol": "inclusion",
