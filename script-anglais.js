@@ -23,232 +23,232 @@ let correctAnswer = 0;
 const voca = {
     "vocabulaire":[
     {
-        "frc": "Britain's need",
-        "espagnol": " Besoin de la Grande-Bretagne"
+        "espagnol": "Britain's need",
+        "frc": " Besoin de la Grande-Bretagne"
     },
     {
-        "frc": "backlog",
-        "espagnol": "arriéré"
+        "espagnol": "backlog",
+        "frc": "arriéré"
     },
     {
-        "frc": "labour shortage:need for workers",
-        "espagnol": "pénurie de main d'oeuvre"
+        "espagnol": "labour shortage:need for workers",
+        "frc": "pénurie de main d'oeuvre"
     },
     {
-        "frc": "raw materials",
-        "espagnol": " matière première"
+        "espagnol": "raw materials",
+        "frc": " matière première"
     },
     {
-        "frc": "weakened economy",
-        "espagnol": " économie affaiblie"
+        "espagnol": "weakened economy",
+        "frc": " économie affaiblie"
     },
     {
-        "frc": "postwar",
-        "espagnol": " après guerre"
+        "espagnol": "postwar",
+        "frc": " après guerre"
     },
     {
-        "frc": "rebuild",
-        "espagnol": " reconstruire"
+        "espagnol": "rebuild",
+        "frc": " reconstruire"
     },
     {
-        "frc": "welcome",
-        "espagnol": " acceuillir"
+        "espagnol": "welcome",
+        "frc": " acceuillir"
     },
     {
-        "frc": "reject:turn down",
-        "espagnol": " rejeter"
+        "espagnol": "reject:turn down",
+        "frc": " rejeter"
     },
     {
-        "frc": "to fire",
-        "espagnol": " virer"
+        "espagnol": "to fire",
+        "frc": " virer"
     },
     {
-        "frc": "to cope with",
-        "espagnol": " faire face à"
+        "espagnol": "to cope with",
+        "frc": " faire face à"
     },
     {
-        "frc": "scandal",
-        "espagnol": " scandale"
+        "espagnol": "scandal",
+        "frc": " scandale"
     },
     {
-        "frc": "usual environment",
-        "espagnol": " environment habituelle"
+        "espagnol": "usual environment",
+        "frc": " environment habituelle"
     },
     {
-        "frc": "devastating",
-        "espagnol": " devastateur"
+        "espagnol": "devastating",
+        "frc": " devastateur"
     },
     {
-        "frc": "hardworking",
-        "espagnol": " qui travail dur"
+        "espagnol": "hardworking",
+        "frc": " qui travail dur"
     },
     {
-        "frc": "belong to",
-        "espagnol": " appartenir à"
+        "espagnol": "belong to",
+        "frc": " appartenir à"
     },
     {
-        "frc": "forced to",
-        "espagnol": " être forcé à"
+        "espagnol": "forced to",
+        "frc": " être forcé à"
     },
     {
-        "frc": "uprooted",
-        "espagnol": " déraciné"
+        "espagnol": "uprooted",
+        "frc": " déraciné"
     },
     {
-        "frc": "away from",
-        "espagnol": "loin de"
+        "espagnol": "away from",
+        "frc": "loin de"
     },
     {
-        "frc": "have nothing but",
-        "espagnol": " ne rien avoir d'autre que"
+        "espagnol": "have nothing but",
+        "frc": " ne rien avoir d'autre que"
     },
     {
-        "frc": "menial jobs:unskilled jobs",
-        "espagnol": " emplois non qualifié"
+        "espagnol": "menial jobs:unskilled jobs",
+        "frc": " emplois non qualifié"
     },
     {
-        "frc": "ashamed",
-        "espagnol": " honteux"
+        "espagnol": "ashamed",
+        "frc": " honteux"
     },
     {
-        "frc": "crammed:full of people",
-        "espagnol": " bondé"
+        "espagnol": "crammed:full of people",
+        "frc": " bondé"
     },
     {
-        "frc": "foreign",
-        "espagnol": "étranger"
+        "espagnol": "foreign",
+        "frc": "étranger"
     },
     {
-        "frc": "disdain:despise",
-        "espagnol": "mépris"
+        "espagnol": "disdain:despise",
+        "frc": "mépris"
     },
     {
-        "frc": "desperate to:determined to",
-        "espagnol": " être déterminé à"
+        "espagnol": "desperate to:determined to",
+        "frc": " être déterminé à"
     },
     {
-        "frc": "go up/down the social ladder",
-        "espagnol": " monter/descendre l'echelle sociale"
+        "espagnol": "go up/down the social ladder",
+        "frc": " monter/descendre l'echelle sociale"
     },
     {
-        "frc": "odd jobs",
-        "espagnol": "petit boulots"
+        "espagnol": "odd jobs",
+        "frc": "petit boulots"
     },
     {
-        "frc": "overcome",
-        "espagnol": "surpasser"
+        "espagnol": "overcome",
+        "frc": "surpasser"
     },
     {
-        "frc": "to triumph over",
-        "espagnol": "triompher de"
+        "espagnol": "to triumph over",
+        "frc": "triompher de"
     },
     {
-        "frc": "hurdles",
-        "espagnol": "obstacles"
+        "espagnol": "hurdles",
+        "frc": "obstacles"
     },
     {
-        "frc": "disdain:despise:scorn:look down on",
-        "espagnol": " mépriser"
+        "espagnol": "disdain:despise:scorn:look down on",
+        "frc": " mépriser"
     },
     {
-        "frc": "disdainful:scornful:despising",
-        "espagnol": "méprisant"
+        "espagnol": "disdainful:scornful:despising",
+        "frc": "méprisant"
     },
     {
-        "frc": "make no fuss:go unnoticed",
-        "espagnol": " ne pas faire d'histoire:passé inapercus"
+        "espagnol": "make no fuss:go unnoticed",
+        "frc": " ne pas faire d'histoire:passé inapercus"
     },
     {
-        "frc": "expectation",
-        "espagnol": " attente"
+        "espagnol": "expectation",
+        "frc": " attente"
     },
     {
-        "frc": "benefit from",
-        "espagnol": " bénéficier de"
+        "espagnol": "benefit from",
+        "frc": " bénéficier de"
     },
     {
-        "frc": "Eldorado",
-        "espagnol": "Eldorado"
+        "espagnol": "Eldorado",
+        "frc": "Eldorado"
     },
     {
-        "frc": "good housing",
-        "espagnol": " bon logement"
+        "espagnol": "good housing",
+        "frc": " bon logement"
     },
     {
-        "frc": "mother country",
-        "espagnol": " mère patrie"
+        "espagnol": "mother country",
+        "frc": " mère patrie"
     },
     {
-        "frc": "identical right",
-        "espagnol": "droit identique"
+        "espagnol": "identical right",
+        "frc": "droit identique"
     },
     {
-        "frc": "be entitled to:have the right to",
-        "espagnol": " avoir droit à"
+        "espagnol": "be entitled to:have the right to",
+        "frc": " avoir droit à"
     },
     {
-        "frc": "coming home",
-        "espagnol": " revenir à la maison"
+        "espagnol": "coming home",
+        "frc": " revenir à la maison"
     },
     {
-        "frc": "homesick",
-        "espagnol": "mal du pays"
+        "espagnol": "homesick",
+        "frc": "mal du pays"
     },
     {
-        "frc": "hopeful",
-        "espagnol": " optimiste"
+        "espagnol": "hopeful",
+        "frc": " optimiste"
     },
     {
-        "frc": "pessimistic",
-        "espagnol": "pessimiste"
+        "espagnol": "pessimistic",
+        "frc": "pessimiste"
     },
     {
-        "frc": "independently recruited",
-        "espagnol": "recruté indépendamment"
+        "espagnol": "independently recruited",
+        "frc": "recruté indépendamment"
     },
     {
-        "frc": "actively recruited",
-        "espagnol": " recruté activement"
+        "espagnol": "actively recruited",
+        "frc": " recruté activement"
     },
     {
-        "frc": "dread:fear",
-        "espagnol": "redouter"
+        "espagnol": "dread:fear",
+        "frc": "redouter"
     },
     {
-        "frc": "immigratopn removal centre",
-        "espagnol": "centre de rétention administratif"
+        "espagnol": "immigratopn removal centre",
+        "frc": "centre de rétention administratif"
     },
     {
-        "frc": "deportation",
-        "espagnol": " deportation"
+        "espagnol": "deportation",
+        "frc": " deportation"
     },
     {
-        "frc": "inclusion",
-        "espagnol": "inclusion"
+        "espagnol": "inclusion",
+        "frc": "inclusion"
     },
     {
-        "frc": "exclusion",
-        "espagnol": "exclusion"
+        "espagnol": "exclusion",
+        "frc": "exclusion"
     },
     {
-        "frc": "intolerance",
-        "espagnol": "intolérance"
+        "espagnol": "intolerance",
+        "frc": "intolérance"
     },
     {
-        "frc": "make up one's mind:make a decision",
-        "espagnol": " prendre une décision"
+        "espagnol": "make up one's mind:make a decision",
+        "frc": " prendre une décision"
     },
     {
-        "frc": "settle in:integrate into",
-        "espagnol": "s'intégrer dans"
+        "espagnol": "settle in:integrate into",
+        "frc": "s'intégrer dans"
     },
     {
-        "frc": "start from scratch:begin from the beginning",
-        "espagnol": "commencer de zero:commencer de rien"
+        "espagnol": "start from scratch:begin from the beginning",
+        "frc": "commencer de zero:commencer de rien"
     },
     {
-        "frc": "wish only the best for somebody",
-        "espagnol": " souhaiter uniquement le meilleur pour quelqu'un"
+        "espagnol": "wish only the best for somebody",
+        "frc": " souhaiter uniquement le meilleur pour quelqu'un"
     }
 ]}
 
