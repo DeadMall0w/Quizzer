@@ -215,7 +215,7 @@ const voca = {
         "frc": "redouter"
     },
     {
-        "espagnol": "immigratopn removal centre",
+        "espagnol": "immigraton removal centre",
         "frc": "centre de rétention administratif"
     },
     {
