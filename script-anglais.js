@@ -22,234 +22,234 @@ let correctAnswer = 0;
 
 const voca = {
     "vocabulaire":[
-    {
-        "espagnol": "Britain's need",
-        "frc": " Besoin de la Grande-Bretagne"
-    },
-    {
-        "espagnol": "backlog",
-        "frc": "arriéré"
-    },
-    {
-        "espagnol": "labour shortage:need for workers",
-        "frc": "pénurie de main d'oeuvre"
-    },
-    {
-        "espagnol": "raw material",
-        "frc": " matière première"
-    },
-    {
-        "espagnol": "weakened economy",
-        "frc": " économie affaiblie"
-    },
-    {
-        "espagnol": "postwar",
-        "frc": " après guerre"
-    },
-    {
-        "espagnol": "rebuild",
-        "frc": " reconstruire"
-    },
-    {
-        "espagnol": "welcome",
-        "frc": " acceuillir"
-    },
-    {
-        "espagnol": "reject:turn down",
-        "frc": " rejeter"
-    },
-    {
-        "espagnol": "to fire",
-        "frc": " virer"
-    },
-    {
-        "espagnol": "to cope with",
-        "frc": " faire face à"
-    },
-    {
-        "espagnol": "scandal",
-        "frc": " scandale"
-    },
-    {
-        "espagnol": "usual environment",
-        "frc": " environment habituel"
-    },
-    {
-        "espagnol": "devastating",
-        "frc": " devastateur"
-    },
-    {
-        "espagnol": "hardworking",
-        "frc": " qui travail dur"
-    },
-    {
-        "espagnol": "belong to",
-        "frc": " appartenir à"
-    },
-    {
-        "espagnol": "forced to",
-        "frc": " être forcé à"
-    },
-    {
-        "espagnol": "uprooted",
-        "frc": " déraciné"
-    },
-    {
-        "espagnol": "away from",
-        "frc": "loin de"
-    },
-    {
-        "espagnol": "have nothing but",
-        "frc": " ne rien avoir d'autre que"
-    },
-    {
-        "espagnol": "menial jobs:unskilled jobs",
-        "frc": " emplois non qualifié"
-    },
-    {
-        "espagnol": "ashamed",
-        "frc": " honteux"
-    },
-    {
-        "espagnol": "crammed:full of people",
-        "frc": " bondé"
-    },
-    {
-        "espagnol": "foreign",
-        "frc": "étranger"
-    },
-    {
-        "espagnol": "disdain:despise",
-        "frc": "mépris"
-    },
-    {
-        "espagnol": "desperate to:determined to",
-        "frc": " être déterminé à"
-    },
-    {
-        "espagnol": "go up/down the social ladder",
-        "frc": " monter/descendre l'echelle sociale"
-    },
-    {
-        "espagnol": "odd jobs",
-        "frc": "petits boulots"
-    },
-    {
-        "espagnol": "overcome",
-        "frc": "surpasser"
-    },
-    {
-        "espagnol": "to triumph over",
-        "frc": "triompher de"
-    },
-    {
-        "espagnol": "hurdles",
-        "frc": "obstacles"
-    },
-    {
-        "espagnol": "disdain:despise:scorn:look down on",
-        "frc": " mépriser"
-    },
-    {
-        "espagnol": "disdainful:scornful:despising",
-        "frc": "méprisant"
-    },
-    {
-        "espagnol": "make no fuss:go unnoticed",
-        "frc": " ne pas faire d'histoire:passé inapercus"
-    },
-    {
-        "espagnol": "expectation",
-        "frc": " attente"
-    },
-    {
-        "espagnol": "benefit from",
-        "frc": " bénéficier de"
-    },
-    {
-        "espagnol": "Eldorado",
-        "frc": "Eldorado"
-    },
-    {
-        "espagnol": "good housing",
-        "frc": " bon logement"
-    },
-    {
-        "espagnol": "mother country",
-        "frc": " mère patrie"
-    },
-    {
-        "espagnol": "identical right",
-        "frc": "droit identique"
-    },
-    {
-        "espagnol": "be entitled to:have the right to",
-        "frc": " avoir droit à"
-    },
-    {
-        "espagnol": "coming home",
-        "frc": " revenir à la maison"
-    },
-    {
-        "espagnol": "homesick",
-        "frc": "mal du pays"
-    },
-    {
-        "espagnol": "hopeful",
-        "frc": " optimiste"
-    },
-    {
-        "espagnol": "pessimistic",
-        "frc": "pessimiste"
-    },
-    {
-        "espagnol": "independently recruited",
-        "frc": "recruté indépendamment"
-    },
-    {
-        "espagnol": "actively recruited",
-        "frc": " recruté activement"
-    },
-    {
-        "espagnol": "dread:fear",
-        "frc": "redouter"
-    },
-    {
-        "espagnol": "immigraton removal centre",
-        "frc": "centre de rétention administratif"
-    },
-    {
-        "espagnol": "deportation",
-        "frc": " déportation"
-    },
-    {
-        "espagnol": "inclusion",
-        "frc": "inclusion"
-    },
-    {
-        "espagnol": "exclusion",
-        "frc": "exclusion"
-    },
-    {
-        "espagnol": "intolerance",
-        "frc": "intolérance"
-    },
-    {
-        "espagnol": "make up one's mind:make a decision",
-        "frc": " prendre une décision"
-    },
-    {
-        "espagnol": "settle in:integrate into",
-        "frc": "s'intégrer dans"
-    },
-    {
-        "espagnol": "start from scratch:begin from the beginning",
-        "frc": "commencer de zero:commencer de rien"
-    },
-    {
-        "espagnol": "wish only the best for somebody",
-        "frc": " souhaiter uniquement le meilleur pour quelqu'un"
-    }
+        {
+            "espagnol": "Britain's need",
+            "frc": "Les besoins de la Grande-Bretagne"
+        },
+        {
+            "Anglais": "Backlog",
+            "frc": "arriéré"
+        },
+        {
+            "espagnol": "labour shortage:need for workers",
+            "frc": "Pénurie de main d'oeuvre"
+        },
+        {
+            "espagnol": "raw material",
+            "frc": " matière première"
+        },
+        {
+            "espagnol": "Weakened economy",
+            "frc": "Économie affaiblie"
+        },
+        {
+            "espagnol": "Postwar",
+            "frc": "Après-guerre"
+        },
+        {
+            "espagnol": "Rebuild",
+            "frc": "Reconstruire"
+        },
+        {
+            "espagnol": "Welcome",
+            "frc": "Acceuillir"
+        },
+        {
+            "espagnol": "Reject:turn down",
+            "frc": "Rejeter"
+        },
+        {
+            "espagnol": "To fire",
+            "frc": "Virer"
+        },
+        {
+            "espagnol": "To cope with",
+            "frc": "Faire face à"
+        },
+        {
+            "espagnol": "Scandal",
+            "frc": "Scandale"  
+        },
+        {
+            "espagnol": "Usual environment",
+            "frc": "Environnement habituel"
+        },
+        {
+            "espagnol": "Devastating",
+            "frc": "Dévastateur"
+        },
+        {
+            "espagnol": "Hardworking",
+            "frc": "Qui travaille dur"
+        },
+        {
+            "espagnol": "Belong to",
+            "frc": "Appartenir à"
+        },
+        {
+            "espagnol": "Forced to",
+            "frc": "Être forcé à"
+        },
+        {
+            "espagnol": "Uprooted",
+            "frc": "Déraciné"
+        },
+        {
+            "espagnol": "Away from",
+            "frc": "Loin de"
+        },
+        {
+            "espagnol": "Have nothing but",
+            "frc": "Ne rien avoir d'autre que"
+        },
+        {
+            "espagnol": "Menial jobs:unskilled jobs",
+            "frc": "Emplois non qualifiés"
+        },
+        {
+            "espagnol": "Ashamed",
+            "frc": "Honteux"
+        },
+        {
+            "espagnol": "Crammed:full of people",
+            "frc": "Bondé"
+        },
+        {
+            "espagnol": "Foreign",
+            "frc": "Étranger"
+        },
+        {
+            "espagnol": "Disdain:despise",
+            "frc": "Mépris"
+        },
+        {
+            "espagnol": "Desperate to:determined to",
+            "frc": "Être déterminé à"
+        },
+        {
+            "espagnol": "(Go up/down) the social ladder",
+            "frc": "(Monter/descendre) l'échelle sociale"
+        },
+        {
+            "espagnol": "Odd jobs",
+            "frc": "Petits boulots"
+        },
+        {
+            "espagnol": "Overcome",
+            "frc": "Surpasser"
+        },
+        {
+            "espagnol": "To triumph over",
+            "frc": "Triompher de"
+        },
+        {
+            "espagnol": "Hurdles",
+            "frc": "Obstacles"
+        },
+        {
+            "espagnol": "Disdain:despise:scorn:look down on",
+            "frc": "Mépriser"
+        },
+        {
+            "espagnol": "Disdainful:scornful:despising",
+            "frc": "Méprisant"
+        },
+        {
+            "espagnol": "Make no fuss:go unnoticed",
+            "frc": "Ne pas faire d'histoire:passé inapercus"
+        },
+        {
+            "espagnol": "Expectation",
+            "frc": "Attente"
+        },
+        {
+            "espagnol": "Benefit from",
+            "frc": "Bénéficier de"
+        },
+        {
+            "espagnol": "Eldorado",
+            "frc": "Eldorado"
+        },
+        {
+            "espagnol": "Good housing",
+            "frc": "Bon logement"
+        },
+        {
+            "espagnol": "Mother country",
+            "frc": "Mère patrie"
+        },
+        {
+            "espagnol": "Identical right",
+            "frc": "Droit identique"
+        },
+        {
+            "espagnol": "Be entitled to:have the right to",
+            "frc": "Avoir droit à"
+        },
+        {
+            "espagnol": "Coming home",
+            "frc": "Rentrer à la maison"
+        },
+        {
+            "espagnol": "Homesick",
+            "frc": "Mal du pays"
+        },
+        {
+            "espagnol": "Hopeful",
+            "frc": "Optimiste"
+        },
+        {
+            "espagnol": "Pessimistic",
+            "frc": "Pessimiste"
+        },
+        {
+            "espagnol": "Independently recruited",
+            "frc": "Recruté indépendamment"
+        },
+        {
+            "espagnol": "Actively recruited",
+            "frc": "Recruté activement"
+        },
+        {
+            "espagnol": "Dread:fear",
+            "frc": "Redouter"
+        },
+        {
+            "espagnol": "Immigration removal centre",
+            "frc": "Centre de rétention administratif"
+        },
+        {
+            "espagnol": "Deportation",
+            "frc": "Déportation"
+        },
+        {
+            "espagnol": "Inclusion",
+            "frc": "Inclusion"
+        },
+        {
+            "espagnol": "Exclusion",
+            "frc": "Exclusion"
+        },
+        {
+            "espagnol": "Intolerance",
+            "frc": "Intolérance"
+        },
+        {
+            "espagnol": "Make up one's mind:make a decision",
+            "frc": "Prendre une décision"
+        },
+        {
+            "espagnol": "Settle in:integrate into",
+            "frc": "S'intégrer dans"
+        },
+        {
+            "espagnol": "Start from scratch:begin from the beginning",
+            "frc": "Commencer de zero:commencer de rien"
+        },
+        {
+            "espagnol": "Wish only the best for somebody",
+            "frc": "Souhaiter uniquement le meilleur pour quelqu'un"
+        }
 ]}
 
 function Start() {
