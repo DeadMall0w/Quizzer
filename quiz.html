@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz-style.css" />
+    <title>Quizzer</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <p> 0/109</p>
+      <h1 class="question">Question 1:</h1>
+
+      <div class="input-container">
+        <input type="text" id="answer" placeholder="Votre réponse" />
+        <button class="enter-button" onclick="submitAnswer()">Entrer</button>
+      </div>
+      <div class="buttons">
+        <button onclick="changeQuestion()">Passer la question</button>
+        <button onclick="randomMode()">Mode aléatoire : on</button>
+        <button onclick="showHistory()">Voir les questions</button>
+        <button onclick="newQuiz()">Quitter</button>
+      </div>
+    </div>
+    <script src="quiz-script.js"></script>
+  </body>
+</html>
