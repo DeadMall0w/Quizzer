@@ -28,7 +28,7 @@ async function LoadQuiz(){
 }
 
 function Quit(){
-  window.location.href = "/index.html";
+  window.location.href = "Quizzer/index.html";
 }
 
 function LoadQuestion(){
