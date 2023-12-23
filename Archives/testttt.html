@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test de Traduction</title>
+    <style>
+      .error {
+        background-color: #ffcccc; /* Surlignage en rouge pour les erreurs */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Traduction correcte -->
+    <p id="referenceText">Ceci est un exemple de texte.</p>
+
+    <!-- Traduction soumise par l'utilisateur -->
+    <p id="userText">Ceci est un exemple de texte mal traduit.</p>
+
+    <script>
+      // Récupérer les éléments de texte
+      var referenceText = document.getElementById("referenceText").innerText;
+      var userText = document.getElementById("userText").innerText;
+
+      // Comparer les textes
+      var errors = [];
+      for (
+        var i = 0;
+        i < Math.max(referenceText.length, userText.length);
+        i++
+      ) {
+        if (referenceText[i] !== userText[i]) {
+          errors.push(i);
+        }
+      }
+
+      // Marquer les erreurs sur la page
+      errors.forEach(function (index) {
+        var referenceSpan =
+          '<span class="error">' + referenceText[index] + "</span>";
+        var userSpan = '<span class="error">' + userText[index] + "</span>";
+        referenceText =
+          referenceText.slice(0, index) +
+          referenceSpan +
+          referenceText.slice(index + 1);
+        userText =
+          userText.slice(0, index) + userSpan + userText.slice(index + 1);
+      });
+
+      document.getElementById("referenceText").innerHTML = referenceText;
+      document.getElementById("userText").innerHTML = userText;
+    </script>
+  </body>
+</html>
