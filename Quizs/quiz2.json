@@ -23,7 +23,7 @@
         "correctAnswer": "Red"
       },
       {
-        "type": "multipleChoice",
+        "type": "multipleChoice", 
         "question": "Who wrote 'Romeo and Juliet'?",
         "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "F. Scott Fitzgerald"],
         "correctAnswer": 1
