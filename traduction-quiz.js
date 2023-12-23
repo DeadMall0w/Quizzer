@@ -13,18 +13,23 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-async function LoadQuiz(filePath){
+async function LoadQuiz(){
+  const urlParams = new URLSearchParams(window.location.search);
+  const quizIndex = urlParams.get('quiz');
     try {
-      const response = await fetch("Quizs/"+ filePath);
+      const response = await fetch("Quizs/quiz"+ quizIndex.toString()+".json");
       const data = await response.json();
       questions = data.vocabulaire;
       questionIndex = 0;
       LoadQuestion();
     } catch (error) {
-      console.error('Erreur :', error);
+
     }
 }
 
+function Quit(){
+  window.location.href = "/index.html";
+}
 
 function LoadQuestion(){
     questionText.textContent = questions[questionIndex].langue1;
@@ -85,6 +90,4 @@ function CheckAnswer(correctAnswer, userAnswer) {
   }
 }
 
-
-
-LoadQuiz("anglais.json");
+LoadQuiz();

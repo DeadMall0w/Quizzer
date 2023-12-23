@@ -1,4 +1,6 @@
-[
+{
+  "quizName" :"test quiz",
+  "t":[
     {
       "type": "choix_multiple",
       "question": "Quelle est la capitale de la France ?",
@@ -22,4 +24,4 @@
       "réponses_correctes": ["7"]
     }
 
-]
+]}

@@ -1,4 +1,5 @@
 {
+  "quizName" :"test",
     "questions": [
       {
         "type": "multipleChoice",
