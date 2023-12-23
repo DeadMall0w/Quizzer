@@ -8,18 +8,18 @@
   </head>
   <body>
     <div class="quiz-container">
-      <p> 0/109</p>
-      <h1 class="question">Question 1:</h1>
+      <p id="question-count"> 0/109</p>
+      <h1 id="question-text" >Question 1:</h1>
 
       <div class="input-container">
         <input type="text" id="answer" placeholder="Votre réponse" />
-        <button class="enter-button" onclick="submitAnswer()">Entrer</button>
+        <button id="enter-button" onclick="submitAnswer()">Entrer</button>
       </div>
       <div class="buttons">
         <button onclick="changeQuestion()">Passer la question</button>
         <button onclick="randomMode()">Mode aléatoire : on</button>
         <button onclick="showHistory()">Voir les questions</button>
-        <button onclick="newQuiz()">Quitter</button>
+        <button id="quit-button" onclick="newQuiz()">Quitter</button>
       </div>
     </div>
     <script src="quiz-script.js"></script>

@@ -9,9 +9,40 @@ body {
     margin: 0;
 }
 
-p {
+#question-count {
     font-size: 18px;
     text-align: right;
+}
+
+#quit-button {
+    padding: 15px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: #823b3b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#quit-button:hover {
+    background-color: #a21f1f;
+    font-style: italic;
+}
+
+#enter-button {
+    padding: 15px;
+    background-color: #483D8B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#enter-button:hover {
+    background-color: #3a3172;
+    font-style: italic;
 }
 
 .quiz-container {
@@ -23,11 +54,6 @@ p {
     position: relative;
 }
 
-.question {
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: 5px;
-}
 
 #answer {
     padding: 15px;
@@ -57,21 +83,10 @@ p {
 
 .buttons button:hover {
     background-color: #3a3172;
+    font-style: italic;
+
 }
 
-.input-container .enter-button {
-    padding: 15px;
-    background-color: #483D8B;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.input-container .enter-button:hover {
-    background-color: #3a3172;
-}
 
 .quiz-container::before {
     content: '';

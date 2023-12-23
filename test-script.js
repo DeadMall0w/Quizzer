@@ -32,7 +32,6 @@ async function LoadFiles(filePath){
     } catch (error) {
       console.error('Erreur :', error);
     }
-
 }
 
 
