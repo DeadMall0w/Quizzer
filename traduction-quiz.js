@@ -1,8 +1,15 @@
 let questions = {};
 let questionIndex = 0;
+let inputSubmited = false;
+let randomMode = true;
+
 const questionText = document.getElementById("question-text");
 const questionCountText = document.getElementById("question-count");
 const inputText = document.getElementById('input-text');
+const responseText = document.getElementById('response-text');
+const randomButton = document.getElementById('random-button');
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
   inputText.addEventListener('keydown', function(event) {
@@ -37,16 +44,46 @@ function LoadQuestion(){
 }
 
 function SubmitAnswer(){
-  let nbError = CheckAnswer(inputText.value, questions[questionIndex].langue2);
-  if (nbError == 0){
-    inputText.style.backgroundColor = '#2d7a4d'
-  }else if(nbError < 3){
-    inputText.style.backgroundColor = '#5d4102'
+  if (inputSubmited == false){
+    let nbError = CheckAnswer(questions[questionIndex].langue2, inputText.value);
+    if (nbError == 0){
+      responseText.innerHTML  = "Bonne réponse !";
+      inputText.style.backgroundColor = '#2d7a4d';
+      responseText.style.color = '#2d7a4d';
+    }else if(nbError < 3){
+      responseText.innerHTML  = questions[questionIndex].langue2;
+      inputText.style.backgroundColor = '#5d4102';
+      responseText.style.color = '#5d4102';
+    }else{
+      responseText.innerHTML  = questions[questionIndex].langue2;
+      inputText.style.backgroundColor = '#5d0202';
+      responseText.style.color = '#5d0202';
+    }
+    inputSubmited = true;
   }else{
-    inputText.style.backgroundColor = '#5d0202'
+      responseText.innerHTML  = "";
+      inputText.style.backgroundColor = '#555';
+      inputText.value = "";
+      if (randomMode){
+        questionIndex = RandomNumber(0,questions.length-1);
+      }else{
+        questionIndex++;
+      }
+      inputSubmited = false;
+      LoadQuestion();
   }
 }
 
+function RandomMode(){
+  randomMode = !randomMode;
+  if (randomMode == true){
+    randomButton.innerText = "Mode séquentiel";
+    randomButton.style.backgroundColor = '#53417a';
+  }else{
+    randomButton.innerText = "Mode aléatoire";
+    randomButton.style.backgroundColor = '#3d6d8b';
+  }
+}
 
 function RandomNumber(min = 1, max = 10) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -90,4 +127,5 @@ function CheckAnswer(correctAnswer, userAnswer) {
   }
 }
 
+RandomMode();
 LoadQuiz();
