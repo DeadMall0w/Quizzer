@@ -95,6 +95,24 @@ a {
     border-radius: 10px;
 }
 
+
+input[type="file"] {
+    padding: 15px;
+    margin: 20px 0;
+    width: 70%;
+    box-sizing: border-box;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"]:hover {
+    background-color: #3a3172;
+}
+
+
 body::before {
     content: '';
     position: fixed;
