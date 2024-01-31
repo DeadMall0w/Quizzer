@@ -1,0 +1,238 @@
+{
+    "type": "traduction",
+    "quizName": "Anglais2",
+    "vocabulaire": [
+        {
+            "langue1": "traditional jobs",
+            "langue2": " emploi traditionnel"
+        },
+        {
+            "langue1": "career prospect",
+            "langue2": " perspective de carrière"
+        },
+        {
+            "langue1": "expectation : projection",
+            "langue2": " attentes"
+        },
+        {
+            "langue1": "hardship : difficulty",
+            "langue2": " difficulté"
+        },
+        {
+            "langue1": "headhunter : recruiter",
+            "langue2": " chasseur de tête : recruteur"
+        },
+        {
+            "langue1": "hierarchy",
+            "langue2": " hiérarchie"
+        },
+        {
+            "langue1": "job interview",
+            "langue2": " entretient d'embauche"
+        },
+        {
+            "langue1": "potential progression",
+            "langue2": " progression potentielle"
+        },
+        {
+            "langue1": "workaholic : addicted to work",
+            "langue2": " bourreau de travail"
+        },
+        {
+            "langue1": "gig jobs",
+            "langue2": " petit boulot payé a la tache"
+        },
+        {
+            "langue1": "vicious cycle",
+            "langue2": " cycle vicieux"
+        },
+        {
+            "langue1": "zero-hours contract",
+            "langue2": " contrat 0 heure"
+        },
+        {
+            "langue1": "enthusiastic",
+            "langue2": " enthousiaste"
+        },
+        {
+            "langue1": "reluctant",
+            "langue2": " réticent"
+        },
+        {
+            "langue1": "exhausting : tiring",
+            "langue2": " épuisant : fatiguant"
+        },
+        {
+            "langue1": "precarious",
+            "langue2": " précaire"
+        },
+        {
+            "langue1": "self sufficient : independent",
+            "langue2": " indépendant"
+        },
+        {
+            "langue1": "swallowed : absorbed",
+            "langue2": " aborder : avaler"
+        },
+        {
+            "langue1": "dread",
+            "langue2": " redouter"
+        },
+        {
+            "langue1": "look forward to",
+            "langue2": " impatient de"
+        },
+        {
+            "langue1": "praise : glorify",
+            "langue2": " faire l'éloge de : glorifier"
+        },
+        {
+            "langue1": "workspace revolution",
+            "langue2": " révolution d'espace de travail"
+        },
+        {
+            "langue1": "breakdown",
+            "langue2": " panne : rupture : dégradation"
+        },
+        {
+            "langue1": "coworking space",
+            "langue2": " espace de travail partagé"
+        },
+        {
+            "langue1": "delusion : fantasy",
+            "langue2": " désillusion : fantaisie"
+        },
+        {
+            "langue1": "positive impact",
+            "langue2": " impacte positif"
+        },
+        {
+            "langue1": "work environment",
+            "langue2": " environnement de travail"
+        },
+        {
+            "langue1": "collaborative",
+            "langue2": " collaboratif"
+        },
+        {
+            "langue1": "inevitable : bound to happen",
+            "langue2": " inévitable : doit arriver"
+        },
+        {
+            "langue1": "network : make connections",
+            "langue2": " mettre en réseau"
+        },
+        {
+            "langue1": "virtual citizenship",
+            "langue2": " citoyenneté virtuelle"
+        },
+        {
+            "langue1": "borders",
+            "langue2": " frontières"
+        },
+        {
+            "langue1": "geographical restrictions",
+            "langue2": " restriction géographique"
+        },
+        {
+            "langue1": "mobility",
+            "langue2": " mobilité"
+        },
+        {
+            "langue1": "pressure",
+            "langue2": " pression"
+        },
+        {
+            "langue1": "cooperate",
+            "langue2": " coopérer"
+        },
+        {
+            "langue1": "endeavor : attempt",
+            "langue2": " essayer : tenter"
+        },
+        {
+            "langue1": "gain momentum",
+            "langue2": " prendre de la vitesse"
+        },
+        {
+            "langue1": "keep developing",
+            "langue2": " continuer de développer"
+        },
+        {
+            "langue1": "sort out : solve",
+            "langue2": " résoudre"
+        },
+        {
+            "langue1": "digital nomadisme",
+            "langue2": " nomadisme digitale"
+        },
+        {
+            "langue1": "experiences",
+            "langue2": " experiences"
+        },
+        {
+            "langue1": "flexibility",
+            "langue2": " flexibilité"
+        },
+        {
+            "langue1": "freelance work",
+            "langue2": " travail indépendant"
+        },
+        {
+            "langue1": "home base",
+            "langue2": " basé à la maison"
+        },
+        {
+            "langue1": "millennials",
+            "langue2": " millénaires"
+        },
+        {
+            "langue1": "possessions",
+            "langue2": " possession"
+        },
+        {
+            "langue1": "project-based economy",
+            "langue2": " économie de projet"
+        },
+        {
+            "langue1": "remote workers",
+            "langue2": " travailleur à distance"
+        },
+        {
+            "langue1": "work life balance",
+            "langue2": " équilibre entre travail et vie personnelle"
+        },
+        {
+            "langue1": "fixed",
+            "langue2": " fixé : réparé"
+        },
+        {
+            "langue1": "be wary : to be careful",
+            "langue2": " être prudent"
+        },
+        {
+            "langue1": "talk someone into doing something",
+            "langue2": " inciter quelqu'un à faire quelque chose"
+        },
+        {
+            "langue1": "talk someone ouf of doing something",
+            "langue2": " inciter quelqu'un à ne pas faire quelque chose"
+        },
+        {
+            "langue1": "easy money",
+            "langue2": " argent facile"
+        },
+        {
+            "langue1": "to look for a job",
+            "langue2": " postuler/chercher un travail"
+        },
+        {
+            "langue1": "a CV (GB)",
+            "langue2": " un CV (GB)"
+        },
+        {
+            "langue1": "a resume (US)",
+            "langue2": " un CV (US)"
+        }
+    ]
+}
