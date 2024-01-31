@@ -5,13 +5,9 @@ async function ShowFile() {
     try {
       const response = await fetch("Quizs/quiz" + index.toString() + ".json");
       list.push("Quizs" + index.toString());
-      // Vérifiez si la réponse indique un succès (status 200)
       if (response.ok) {
         const data = await response.json();
 
-        // Vous pouvez faire quelque chose avec 'data' ici si nécessaire
-
-        // Créez des liens pour chaque fichier
         const listItem = document.createElement("li");
         const link = document.createElement("a");
         link.href = `quiz.html?quiz=${index}`;
@@ -20,7 +16,7 @@ async function ShowFile() {
         quizList.appendChild(listItem);
 
       } else {
-        // Arrêtez la boucle si le fichier n'existe pas
+
         break;
       }
  
@@ -30,9 +26,27 @@ async function ShowFile() {
   }
 }
 
-// Appelez la fonction pour l'exécuter
+
 ShowFile();
 
 function NewQuiz() {
-  // Ajoutez le code pour créer un nouveau quiz ici
+  // TODO 
 }
+
+
+function loadFile() {
+  const fileInput = document.getElementById('myFile');
+  const file = fileInput.files[0];
+  if (file) {
+      const reader = new FileReader();
+      reader.onload = function(event) {
+          const quizData = JSON.parse(event.target.result);
+          localStorage.setItem('customQuizData', JSON.stringify(quizData));
+          window.location.href = `quiz.html?quiz=${-1}`;
+      };
+      reader.readAsText(file);
+  } else {
+      alert('No file selected!');
+  }
+}
+

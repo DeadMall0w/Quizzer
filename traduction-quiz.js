@@ -23,6 +23,21 @@ document.addEventListener('DOMContentLoaded', function() {
 async function LoadQuiz(){
   const urlParams = new URLSearchParams(window.location.search);
   const quizIndex = urlParams.get('quiz');
+  if(quizIndex == -1){
+    alert("load quiz");
+    const quizData = localStorage.getItem('customQuizData');
+    if (quizData) {
+        try {
+            questions = JSON.parse(quizData).vocabulaire;
+            questionIndex = 0;
+            LoadQuestion();
+        } catch (error) {
+            console.error("Erreur lors du chargement du quiz : ", error);
+        }
+    } else {
+        console.error("Aucun quiz n'a été sélectionné.");
+    }
+  }else{
     try {
       const response = await fetch("Quizs/quiz"+ quizIndex.toString()+".json");
       const data = await response.json();
@@ -30,12 +45,13 @@ async function LoadQuiz(){
       questionIndex = 0;
       LoadQuestion();
     } catch (error) {
-
+      console.error("Erreur lors du chargement du quiz : ", error);
     }
+  }
 }
 
 function Quit(){
-  window.location.href = "Quizzer/index.html";
+  window.location.href = "index.html";
 }
 
 function LoadQuestion(){
