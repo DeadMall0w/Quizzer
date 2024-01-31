@@ -24,7 +24,6 @@ async function LoadQuiz(){
   const urlParams = new URLSearchParams(window.location.search);
   const quizIndex = urlParams.get('quiz');
   if(quizIndex == -1){
-    alert("load quiz");
     const quizData = localStorage.getItem('customQuizData');
     if (quizData) {
         try {
