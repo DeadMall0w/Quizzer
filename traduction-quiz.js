@@ -71,8 +71,8 @@ function SubmitAnswer(){
       responseText.style.color = '#5d4102';
     }else{
       responseText.innerHTML  = questions[questionIndex].langue2;
-      inputText.style.backgroundColor = '#5d0202';
-      responseText.style.color = '#5d0202';
+      inputText.style.backgroundColor = '#680000';
+      responseText.style.color = '#A50000';
     }
     inputSubmited = true;
   }else{
