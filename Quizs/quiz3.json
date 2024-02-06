@@ -76,7 +76,7 @@
         },
         {
             "langue1": " redouter",
-            "langue2": "dread"
+            "langue2": "dread : fear"
         },
         {
             "langue1": " impatient de",
@@ -155,6 +155,14 @@
             "langue2": "gain momentum"
         },
         {
+            "langue1": "Embaucher",
+            "langue2": "hire : employ"
+        },
+        {
+            "langue1": "porter à la conscience de",
+            "langue2": "raise awaireness : bring to public attention"
+        },
+        {
             "langue1": " continuer de développer",
             "langue2": "keep developing"
         },
@@ -187,7 +195,7 @@
             "langue2": "millennials"
         },
         {
-            "langue1": " possession",
+            "langue1": " posséssions",
             "langue2": "possessions"
         },
         {

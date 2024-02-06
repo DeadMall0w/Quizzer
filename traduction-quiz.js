@@ -76,9 +76,7 @@ function SubmitAnswer(){
     }
     inputSubmited = true;
   }else{
-      responseText.innerHTML  = "";
-      inputText.style.backgroundColor = '#555';
-      inputText.value = "";
+      ResetInputsTexts();
       if (randomMode){
         questionIndex = RandomNumber(0,questions.length-1);
       }else{
@@ -104,6 +102,22 @@ function RandomNumber(min = 1, max = 10) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+function SkipQuestion(){
+  inputSubmited = false;
+  if(randomMode){
+    questionIndex = RandomNumber(0,questions.length-1);
+  }else{
+    questionIndex += 1;
+  }
+  ResetInputsTexts();
+  LoadQuestion();
+}
+
+function ResetInputsTexts(){
+  responseText.innerHTML  = "";
+  inputText.style.backgroundColor = '#555';
+  inputText.value = "";
+}
 
 function LevenshteinDistance(s1, s2) {
   if (s1.length < s2.length) {
@@ -133,7 +147,11 @@ function CheckAnswer(correctAnswer, userAnswer) {
       return 0;
   }
   if (correctAnswer.trim() == userAnswer.trim()) {
+    if(userAnswer[userAnswer.length - 1] == " "){
+      return 0;
+    }else{
       return 1;
+    }
   }
   if (userAnswer.includes(correctAnswer)) {
       return 1;
