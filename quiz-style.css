@@ -9,6 +9,7 @@ body {
     margin: 0;
 }
 
+
 #question-count {
     font-size: 18px;
     text-align: right;
@@ -74,10 +75,29 @@ body {
 #answer:focus {
     outline: none;
 }
+@media (max-width: 900px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .buttons button {
+        padding: 15px;
+        margin: 10px 10px;
+        font-size: 16px;
+        background-color: #483D8B;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 900px) {
 .buttons button {
     padding: 15px;
-    margin: 0 10px;
+    margin: 30 10px;
     font-size: 16px;
     background-color: #483D8B;
     color: #fff;
@@ -85,11 +105,11 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+}
 
 .buttons button:hover {
     background-color: #3a3172;
     font-style: italic;
-
 }
 
 
@@ -114,3 +134,5 @@ body::before {
     background: repeating-linear-gradient(45deg, transparent, transparent 10px, #000000 10px, #000000 20px);
     z-index: -2;
 }
+
+

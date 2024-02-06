@@ -1,29 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz sur les Technologies</title>
+
     <link rel="stylesheet" href="style-quiz.css" />
   </head>
   <body>
-    <div class="quiz-container">
-      <p id="nb-question">10/25</p>
-      <h1 id="question-text">test</h1>
-      <div class="answers" id="answers">
-        <!-- Elements will be automaticaly add  -->
-      </div>
-      <div class="bottom-buttons">
-        <button id="restart-btn" class="bottom-button" onclick="Restart()">
-          Recommencer
-        </button>
-        <button id="valid-btn" class="bottom-button" onclick="Valid()">
-          Valider
-        </button>
-        <button id="skip-btn" class="bottom-button" onclick="Skip()">
-          Skip
-        </button>
-      </div>
+    <div class="buttons">
+      <button onclick="SkipQuestion()">Passer la question</button>
+      <button id="random-button" onclick="RandomMode()">Mode aléatoire</button>
+      <button onclick="ShowQuestions()">Voir les questions</button>
+      <button id="quit-button" onclick="Quit()">Quitter</button>
     </div>
 
     <script src="test-script.js"></script>
