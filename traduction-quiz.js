@@ -119,6 +119,9 @@ function ResetInputsTexts(){
   inputText.value = "";
 }
 
+function ShowQuestions(){
+  alert("Pas encore disponible :[");
+}
 function LevenshteinDistance(s1, s2) {
   if (s1.length < s2.length) {
       return LevenshteinDistance(s2, s1);

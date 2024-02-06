@@ -33,7 +33,9 @@ function NewQuiz() {
   // TODO 
 }
 
-
+function NewQuiz(){
+  alert("Pas encore disponible :[");
+}
 function loadFile() {
   const fileInput = document.getElementById('myFile');
   const file = fileInput.files[0];
