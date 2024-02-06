@@ -71,7 +71,7 @@
             "langue2": "self sufficient : independent"
         },
         {
-            "langue1": " aborder : avaler",
+            "langue1": " absorber : avaler",
             "langue2": "swallowed : absorbed"
         },
         {
@@ -103,7 +103,7 @@
             "langue2": "delusion : fantasy"
         },
         {
-            "langue1": " impacte positif",
+            "langue1": " impact positif",
             "langue2": "positive impact"
         },
         {
@@ -171,7 +171,7 @@
             "langue2": "sort out : solve"
         },
         {
-            "langue1": " nomadisme digitale",
+            "langue1": " nomadisme digital",
             "langue2": "digital nomadism"
         },
         {
@@ -195,7 +195,7 @@
             "langue2": "millennials"
         },
         {
-            "langue1": " posséssions",
+            "langue1": " possessions",
             "langue2": "possessions"
         },
         {
@@ -235,12 +235,12 @@
             "langue2": "to look for a job"
         },
         {
-            "langue1": " un CV (GB)",
-            "langue2": "a CV (GB)"
+            "langue1": "un CV (GB)",
+            "langue2": "a CV"
         },
         {
-            "langue1": " un CV (US)",
-            "langue2": "a resume (US)"
+            "langue1": "un CV (US)",
+            "langue2": "a resume"
         }
     ]
 }
