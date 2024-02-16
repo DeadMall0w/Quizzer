@@ -1,0 +1,3430 @@
+{
+    "type": "traduction",
+    "quizName": "Cambridge",
+    "vocabulaire": [
+        {
+            "langue1": " Une plage",
+            "langue2": "A beach "
+        },
+        {
+            "langue1": " Un porteur, groom, chasseur",
+            "langue2": "A bellboy "
+        },
+        {
+            "langue1": " Une réservation",
+            "langue2": "A booking "
+        },
+        {
+            "langue1": " Une entreprise de location de voiture",
+            "langue2": "A car rental company "
+        },
+        {
+            "langue1": " Un concierge (hôtel)",
+            "langue2": "A concierge "
+        },
+        {
+            "langue1": " Une correspondance",
+            "langue2": "A connecting flight "
+        },
+        {
+            "langue1": " Un 4×4",
+            "langue2": "A four-wheel drive "
+        },
+        {
+            "langue1": " Une gouvernante/ femme de chambre",
+            "langue2": "A housekeeper "
+        },
+        {
+            "langue1": " Un voyage",
+            "langue2": "A journey "
+        },
+        {
+            "langue1": " Une berline (voiture)",
+            "langue2": "A sedan "
+        },
+        {
+            "langue1": " Un rivage",
+            "langue2": "A shore "
+        },
+        {
+            "langue1": " Une navette",
+            "langue2": "A shuttle "
+        },
+        {
+            "langue1": " Une escale",
+            "langue2": "A stopover "
+        },
+        {
+            "langue1": " Un tout petit, un bambin",
+            "langue2": "A toddler "
+        },
+        {
+            "langue1": " Une agence de tourisme",
+            "langue2": "A tourist agency "
+        },
+        {
+            "langue1": " Un passager en correspondance",
+            "langue2": "A transfer passenger "
+        },
+        {
+            "langue1": " Une agence de voyage",
+            "langue2": "A travel agency "
+        },
+        {
+            "langue1": " Un voyage, une traversée",
+            "langue2": "A voyage "
+        },
+        {
+            "langue1": " Un logement/hébergement",
+            "langue2": "Accommodation "
+        },
+        {
+            "langue1": " Un séjour tout inclus",
+            "langue2": "An all inclusive holiday package "
+        },
+        {
+            "langue1": " Une attraction",
+            "langue2": "An attraction "
+        },
+        {
+            "langue1": " Un parasol/ un parapluie",
+            "langue2": "An umbrella "
+        },
+        {
+            "langue1": " Devise",
+            "langue2": "A currency "
+        },
+        {
+            "langue1": " En (centre) ville",
+            "langue2": "Downtown "
+        },
+        {
+            "langue1": " Un tarif (transport)",
+            "langue2": "A fare "
+        },
+        {
+            "langue1": " Les sites principaux",
+            "langue2": "Main sights "
+        },
+        {
+            "langue1": " Une attraction numéro 1",
+            "langue2": "A Premier tourist attraction "
+        },
+        {
+            "langue1": " Sable",
+            "langue2": "Sand "
+        },
+        {
+            "langue1": " Construire un château de sable",
+            "langue2": "To build a sandcastle "
+        },
+        {
+            "langue1": " Annuler des vacances",
+            "langue2": "To cancel a holiday "
+        },
+        {
+            "langue1": " Retarder un départ",
+            "langue2": "To delay a departure "
+        },
+        {
+            "langue1": " Changer l’itinéraire",
+            "langue2": "To divert "
+        },
+        {
+            "langue1": " Faire du tourisme",
+            "langue2": "To do (some)sightseeing "
+        },
+        {
+            "langue1": " Faire une croisière",
+            "langue2": "To go on a cruise "
+        },
+        {
+            "langue1": " Prendre un café",
+            "langue2": "To have a coffee "
+        },
+        {
+            "langue1": " Faire un pique-nique",
+            "langue2": "To have a picnic "
+        },
+        {
+            "langue1": " Louer une voiture",
+            "langue2": "To hire a car "
+        },
+        {
+            "langue1": " Laisser un pourboire",
+            "langue2": "To leave a tip "
+        },
+        {
+            "langue1": " Regarder sur une carte",
+            "langue2": "To look at a map "
+        },
+        {
+            "langue1": " Négocier une offre",
+            "langue2": "To negotiate a deal "
+        },
+        {
+            "langue1": " Faire ses bagages",
+            "langue2": "To pack a bag/suitcase/luggage/ baggage "
+        },
+        {
+            "langue1": " Poser pour une photo",
+            "langue2": "To pose for a picture "
+        },
+        {
+            "langue1": " Prendre les vagues",
+            "langue2": "To ride waves "
+        },
+        {
+            "langue1": " S’asseoir sur un banc",
+            "langue2": "To sit on a bench "
+        },
+        {
+            "langue1": " Prendre des photos",
+            "langue2": "To take snapshots "
+        },
+        {
+            "langue1": " Voyager",
+            "langue2": "To travel "
+        },
+        {
+            "langue1": " Des chèques pré-remplis à signer et à  échanger contre du liquide",
+            "langue2": "Traveler’s checks "
+        },
+        {
+            "langue1": " Un terrain de baseball/rugby",
+            "langue2": "A baseball/ rugby field "
+        },
+        {
+            "langue1": " Une pom-pom girl",
+            "langue2": "A cheerleader "
+        },
+        {
+            "langue1": " Un plongeur",
+            "langue2": "A diver "
+        },
+        {
+            "langue1": " Un terrain de football américain/ football",
+            "langue2": "A football/ soccer pitch "
+        },
+        {
+            "langue1": " Une balle de golf",
+            "langue2": "A golf ball "
+        },
+        {
+            "langue1": " Un terrain de golf",
+            "langue2": "A golf course "
+        },
+        {
+            "langue1": " Un arbitre",
+            "langue2": "A referee "
+        },
+        {
+            "langue1": " Un match de rugby",
+            "langue2": "A rugby match "
+        },
+        {
+            "langue1": " Un fan (qui soutient son équipe)",
+            "langue2": "A supporter "
+        },
+        {
+            "langue1": " Une balle de tennis",
+            "langue2": "A tennis ball "
+        },
+        {
+            "langue1": " Un court de tennis",
+            "langue2": "A tennis court "
+        },
+        {
+            "langue1": " Un tapis de course",
+            "langue2": "A treadmill "
+        },
+        {
+            "langue1": " Un but extraordinaire",
+            "langue2": "An amazing goal "
+        },
+        {
+            "langue1": " Un opposant",
+            "langue2": "An opponent "
+        },
+        {
+            "langue1": " Patinage artistique",
+            "langue2": "Figure-skating "
+        },
+        {
+            "langue1": " Escalade",
+            "langue2": "Rock-climbing "
+        },
+        {
+            "langue1": " Respirer",
+            "langue2": "To breathe "
+        },
+        {
+            "langue1": " Faire de la plongée sous-marine avec un masque et un tuba",
+            "langue2": "To do scuba-diving/snorkeling "
+        },
+        {
+            "langue1": " Faire de l’équitation",
+            "langue2": "To do some horseriding "
+        },
+        {
+            "langue1": " Expirer",
+            "langue2": "To exhale "
+        },
+        {
+            "langue1": " Faire du galop, galoper",
+            "langue2": "To gallop "
+        },
+        {
+            "langue1": " Faire accélérer les battements de son cœur",
+            "langue2": "To get one’s heart rate beat up "
+        },
+        {
+            "langue1": " Glisser sur la neige",
+            "langue2": "To glide on the snow "
+        },
+        {
+            "langue1": " Inspirer",
+            "langue2": "To inhale "
+        },
+        {
+            "langue1": " Bien jouer",
+            "langue2": "To play well "
+        },
+        {
+            "langue1": " Faire du vélo",
+            "langue2": "To ride a bike "
+        },
+        {
+            "langue1": " Monter à cheval",
+            "langue2": "To ride a horse "
+        },
+        {
+            "langue1": " Courir une course de relais",
+            "langue2": "To run a relay race "
+        },
+        {
+            "langue1": " Naviguer",
+            "langue2": "To sail "
+        },
+        {
+            "langue1": " S’entrainer pour un marathon",
+            "langue2": "To train for a marathon "
+        },
+        {
+            "langue1": " Un groupe",
+            "langue2": "A band "
+        },
+        {
+            "langue1": " Un chanteur principal/meneur",
+            "langue2": "A lead singer "
+        },
+        {
+            "langue1": " Un musicien",
+            "langue2": "A musician "
+        },
+        {
+            "langue1": " Un acteur, un chanteur, un artiste",
+            "langue2": "A performer "
+        },
+        {
+            "langue1": " Une chanson",
+            "langue2": "A track "
+        },
+        {
+            "langue1": " Acclamer, applaudir",
+            "langue2": "To cheer "
+        },
+        {
+            "langue1": " Danser sur la musique",
+            "langue2": "To dance to the music "
+        },
+        {
+            "langue1": " Jouer de la guitare/basse",
+            "langue2": "To play the guitar/bass "
+        },
+        {
+            "langue1": " Suivre le rythme",
+            "langue2": "To tap one’s hand to the beat "
+        },
+        {
+            "langue1": " Une biographie",
+            "langue2": "A biography "
+        },
+        {
+            "langue1": " Un rideau",
+            "langue2": "A curtain "
+        },
+        {
+            "langue1": " Un documentaire",
+            "langue2": "A documentary "
+        },
+        {
+            "langue1": " Une fiction",
+            "langue2": "A fiction (film) "
+        },
+        {
+            "langue1": " Une séance en matinée",
+            "langue2": "A matinee "
+        },
+        {
+            "langue1": " Un remake d’un film",
+            "langue2": "A remake of a movie "
+        },
+        {
+            "langue1": " Une critique",
+            "langue2": "A review "
+        },
+        {
+            "langue1": " Un décor",
+            "langue2": "A scenery "
+        },
+        {
+            "langue1": " Un écran",
+            "langue2": "A screen "
+        },
+        {
+            "langue1": " Une bande son(ore)",
+            "langue2": "A soundtrack "
+        },
+        {
+            "langue1": " Un projecteur",
+            "langue2": "A spotlight "
+        },
+        {
+            "langue1": " Une scène",
+            "langue2": "A stage "
+        },
+        {
+            "langue1": " Un machiniste",
+            "langue2": "A stagehand "
+        },
+        {
+            "langue1": " Un thriller",
+            "langue2": "A thriller "
+        },
+        {
+            "langue1": " Une autobiographie",
+            "langue2": "An autobiography "
+        },
+        {
+            "langue1": " Un artiste",
+            "langue2": "An entertainer "
+        },
+        {
+            "langue1": " Un divertissement",
+            "langue2": "An entertainment "
+        },
+        {
+            "langue1": " Une exposition",
+            "langue2": "An exhibition "
+        },
+        {
+            "langue1": " Une histoire originale/ d’origine",
+            "langue2": "An original story "
+        },
+        {
+            "langue1": " Des critiques (personnes)",
+            "langue2": "Critics "
+        },
+        {
+            "langue1": " Des critiques mitigées",
+            "langue2": "Mixed reviews "
+        },
+        {
+            "langue1": " Des scènes qui rendent malade",
+            "langue2": "Sickening scenes "
+        },
+        {
+            "langue1": " Jouer sur scène",
+            "langue2": "To perform "
+        },
+        {
+            "langue1": " Jouer aux cartes",
+            "langue2": "To play cards "
+        },
+        {
+            "langue1": " Jouer au billard",
+            "langue2": "To play pool "
+        },
+        {
+            "langue1": " Répéter (artiste)",
+            "langue2": "To rehearse "
+        },
+        {
+            "langue1": " Sortir un livre/film/ magazine…",
+            "langue2": "To release a book/film/ magazine… "
+        },
+        {
+            "langue1": " Un jeu de société",
+            "langue2": "A boardgame "
+        },
+        {
+            "langue1": " Un pion",
+            "langue2": "A pawn "
+        },
+        {
+            "langue1": " Les échecs",
+            "langue2": "Chess "
+        },
+        {
+            "langue1": " Les dames",
+            "langue2": "Draughts "
+        },
+        {
+            "langue1": " Un chameau",
+            "langue2": "A camel "
+        },
+        {
+            "langue1": " Une laisse",
+            "langue2": "A leash "
+        },
+        {
+            "langue1": " Aller chez le véto (vétérinaire)",
+            "langue2": "To go to the vet(erinary) "
+        },
+        {
+            "langue1": " Caresser un cheval",
+            "langue2": "To pet a horse "
+        },
+        {
+            "langue1": " Prendre soin d’un chameau",
+            "langue2": "To take care of a camel "
+        },
+        {
+            "langue1": " Promener un chien",
+            "langue2": "To walk a dog "
+        },
+        {
+            "langue1": " Promener un cheval",
+            "langue2": "To walk a horse "
+        },
+        {
+            "langue1": " Bricolage",
+            "langue2": "Do-it-yourself/DIY "
+        },
+        {
+            "langue1": " Une cuisinière/gazinière",
+            "langue2": "A cooker "
+        },
+        {
+            "langue1": " Un marteau",
+            "langue2": "A hammer "
+        },
+        {
+            "langue1": " Une échelle",
+            "langue2": "A ladder "
+        },
+        {
+            "langue1": " Un clou",
+            "langue2": "A nail "
+        },
+        {
+            "langue1": " Un pinceau à brosse",
+            "langue2": "A paintbrush "
+        },
+        {
+            "langue1": " Un tuyau",
+            "langue2": "A pipe "
+        },
+        {
+            "langue1": " Une prise",
+            "langue2": "A plug "
+        },
+        {
+            "langue1": " Une scie",
+            "langue2": "A saw "
+        },
+        {
+            "langue1": " Un tournevis",
+            "langue2": "A screwdriver "
+        },
+        {
+            "langue1": " Une forme",
+            "langue2": "A shape "
+        },
+        {
+            "langue1": " Un carreau (carrelage)",
+            "langue2": "A tile "
+        },
+        {
+            "langue1": " Un outil",
+            "langue2": "A tool "
+        },
+        {
+            "langue1": " L’artisanat",
+            "langue2": "Craft "
+        },
+        {
+            "langue1": " Une couche de neige",
+            "langue2": "A blanket of snow "
+        },
+        {
+            "langue1": " Une tempête de neige",
+            "langue2": "A blizzard "
+        },
+        {
+            "langue1": " Un nuage/nuagueux",
+            "langue2": "A cloud/cloudy "
+        },
+        {
+            "langue1": " Une vague de froid",
+            "langue2": "A cold spell "
+        },
+        {
+            "langue1": " Une brise fraîche",
+            "langue2": "A cool breeze "
+        },
+        {
+            "langue1": " Un manque",
+            "langue2": "A dearth "
+        },
+        {
+            "langue1": " Un déluge, une averse",
+            "langue2": "A downpour "
+        },
+        {
+            "langue1": " La bruine/il bruine",
+            "langue2": "A drizzle/ it’s drizzling "
+        },
+        {
+            "langue1": " Une goutte de pluie",
+            "langue2": "A drop of rain "
+        },
+        {
+            "langue1": " Une sécheresse",
+            "langue2": "A drought "
+        },
+        {
+            "langue1": " Une crue subite",
+            "langue2": "A flash flood "
+        },
+        {
+            "langue1": " Une inondation",
+            "langue2": "A flood "
+        },
+        {
+            "langue1": " Un brouillard",
+            "langue2": "A fog/foggy "
+        },
+        {
+            "langue1": " Une engelure",
+            "langue2": "A frost bite "
+        },
+        {
+            "langue1": " Un coup de vent, une tempête",
+            "langue2": "A gale "
+        },
+        {
+            "langue1": " Un grêlon",
+            "langue2": "A hailstone "
+        },
+        {
+            "langue1": " Une insolation",
+            "langue2": "A heatstroke "
+        },
+        {
+            "langue1": " Une vague de chaleur",
+            "langue2": "A heatwave "
+        },
+        {
+            "langue1": " Une forte pluie",
+            "langue2": "A heavy rain "
+        },
+        {
+            "langue1": " Un ouragan",
+            "langue2": "A hurricane "
+        },
+        {
+            "langue1": " Un éclair",
+            "langue2": "A lightening "
+        },
+        {
+            "langue1": " Un climat tempéré",
+            "langue2": "A mild climate "
+        },
+        {
+            "langue1": " Une brume/brumeux",
+            "langue2": "A mist/misty "
+        },
+        {
+            "langue1": " Un marécage boueux",
+            "langue2": "A muddy swamp "
+        },
+        {
+            "langue1": " Une flaque",
+            "langue2": "A puddle "
+        },
+        {
+            "langue1": " Un arc-en-ciel",
+            "langue2": "A rainbow "
+        },
+        {
+            "langue1": " Une tempête ravageuse",
+            "langue2": "A shattering storm "
+        },
+        {
+            "langue1": " Une averse",
+            "langue2": "A shower "
+        },
+        {
+            "langue1": " La neige fondue",
+            "langue2": "A sleet/to sleet "
+        },
+        {
+            "langue1": " Un nuage de pollution",
+            "langue2": "A smog "
+        },
+        {
+            "langue1": " Un solarium (espace pour bronzer)",
+            "langue2": "A solarium "
+        },
+        {
+            "langue1": " Un rayon de soleil",
+            "langue2": "A sunray "
+        },
+        {
+            "langue1": " Un coucher de soleil/le soleil se couche",
+            "langue2": "A sunset/the sun is setting "
+        },
+        {
+            "langue1": " Un brouillard épais",
+            "langue2": "A thick fog "
+        },
+        {
+            "langue1": " Une tornade",
+            "langue2": "A tornado "
+        },
+        {
+            "langue1": " Une tempête tropicale",
+            "langue2": "A tropical storm "
+        },
+        {
+            "langue1": " L’air conditionné",
+            "langue2": "Air conditioning "
+        },
+        {
+            "langue1": " Une vague de froid",
+            "langue2": "Bitter/ bitterly cold "
+        },
+        {
+            "langue1": " Bouillir de chaleur",
+            "langue2": "Boiling hot "
+        },
+        {
+            "langue1": " Froid, glacial",
+            "langue2": "Chilly "
+        },
+        {
+            "langue1": " Aube",
+            "langue2": "Dawn "
+        },
+        {
+            "langue1": " Crépuscule",
+            "langue2": "Dusk "
+        },
+        {
+            "langue1": " Gel",
+            "langue2": "Frost "
+        },
+        {
+            "langue1": " Temps déprimant",
+            "langue2": "Gloomy weather "
+        },
+        {
+            "langue1": " Grêle",
+            "langue2": "Hail/to hail "
+        },
+        {
+            "langue1": " On se gêle, il fait extrêmement froid.",
+            "langue2": "It’s freezing (cold) "
+        },
+        {
+            "langue1": " Il pleut des cordes",
+            "langue2": "It’s raining cats and dogs "
+        },
+        {
+            "langue1": " La météo",
+            "langue2": "Long-range forecast "
+        },
+        {
+            "langue1": " Sombre",
+            "langue2": "Overcast "
+        },
+        {
+            "langue1": " Pluie/pluvieux/il pleut",
+            "langue2": "Rain/Rainy/It’s raining "
+        },
+        {
+            "langue1": " Torride, caniculaire",
+            "langue2": "Scorching "
+        },
+        {
+            "langue1": " Neige/neigeux/il neige",
+            "langue2": "Snow/snowy/it’s snowing "
+        },
+        {
+            "langue1": " Ensoleillé",
+            "langue2": "Sunny "
+        },
+        {
+            "langue1": " Une vague de chaleur",
+            "langue2": "Sunny spells "
+        },
+        {
+            "langue1": " La rosée",
+            "langue2": "The dew "
+        },
+        {
+            "langue1": " La mousson",
+            "langue2": "The monsoon "
+        },
+        {
+            "langue1": " Le soleil sort",
+            "langue2": "The sun comes out "
+        },
+        {
+            "langue1": " Le bulletin météorologique",
+            "langue2": "The weather forecast "
+        },
+        {
+            "langue1": " Tonnerre",
+            "langue2": "Thunder "
+        },
+        {
+            "langue1": " Etre annulé pour cause de pluie",
+            "langue2": "To be rained off "
+        },
+        {
+            "langue1": " Nettoyer, faire le vide",
+            "langue2": "To clear up "
+        },
+        {
+            "langue1": " S’habiller chaudement",
+            "langue2": "To dress up warm "
+        },
+        {
+            "langue1": " Etre pris sous la pluie",
+            "langue2": "To get caught in the rain "
+        },
+        {
+            "langue1": " Etre trempé",
+            "langue2": "To get drenched "
+        },
+        {
+            "langue1": " Descendre sous zéro",
+            "langue2": "To go below zero "
+        },
+        {
+            "langue1": " Pleuvoir à verse",
+            "langue2": "To pour down "
+        },
+        {
+            "langue1": " Retenir la chaleur",
+            "langue2": "To retain heat "
+        },
+        {
+            "langue1": " La pluie torrentielle",
+            "langue2": "Torrential rain "
+        },
+        {
+            "langue1": " Le vent",
+            "langue2": "Wind is blowing "
+        },
+        {
+            "langue1": " Un 4×4",
+            "langue2": "A 4-wheel drive "
+        },
+        {
+            "langue1": " Un bagagiste",
+            "langue2": "A baggage handler "
+        },
+        {
+            "langue1": " Une péniche",
+            "langue2": "A barge "
+        },
+        {
+            "langue1": " Un périphérique/une rocade",
+            "langue2": "A beltway/bypass/ringroad "
+        },
+        {
+            "langue1": " Un capot",
+            "langue2": "A bonnet/hood (GB) "
+        },
+        {
+            "langue1": " Un pare-chocs",
+            "langue2": "A bumper "
+        },
+        {
+            "langue1": " Un voyage en bus",
+            "langue2": "A bus ride "
+        },
+        {
+            "langue1": " Un abris bus",
+            "langue2": "A bus shelter "
+        },
+        {
+            "langue1": " Un taxi",
+            "langue2": "A cab "
+        },
+        {
+            "langue1": " Un membre d’équipage",
+            "langue2": "A cabin attendant "
+        },
+        {
+            "langue1": " Une annulation/annuler",
+            "langue2": "A cancellation/to cancel "
+        },
+        {
+            "langue1": " Un concessionnaire  (voitures)",
+            "langue2": "A car retailer "
+        },
+        {
+            "langue1": " Un service de voiturage",
+            "langue2": "A car service "
+        },
+        {
+            "langue1": " Un programme de co-voiturage",
+            "langue2": "A car share scheme / incentive "
+        },
+        {
+            "langue1": " Un navire de marchandises",
+            "langue2": "A cargo ship "
+        },
+        {
+            "langue1": " Un transporteur",
+            "langue2": "A carrier "
+        },
+        {
+            "langue1": " Un car",
+            "langue2": "A coach "
+        },
+        {
+            "langue1": " Un vol de/en correspondance",
+            "langue2": "A connecting flight "
+        },
+        {
+            "langue1": " Un tapis roulant",
+            "langue2": "A conveyor belt "
+        },
+        {
+            "langue1": " Un équipage",
+            "langue2": "A crew "
+        },
+        {
+            "langue1": " Un bâteau de croisière",
+            "langue2": "A cruise ship "
+        },
+        {
+            "langue1": " Un retard/retarder",
+            "langue2": "A delay/ to delay "
+        },
+        {
+            "langue1": " Une allée privée",
+            "langue2": "A driveway "
+        },
+        {
+            "langue1": " Un prix (transports)",
+            "langue2": "A fare "
+        },
+        {
+            "langue1": " Un transbordeur/bac",
+            "langue2": "A ferry "
+        },
+        {
+            "langue1": " Une amende/un PV",
+            "langue2": "A fine/ticket "
+        },
+        {
+            "langue1": " Un vol",
+            "langue2": "A flight "
+        },
+        {
+            "langue1": " Une location gratuite de vélos de ville",
+            "langue2": "A free rental of city bikes "
+        },
+        {
+            "langue1": " Un fret, une marchandise",
+            "langue2": "A freight "
+        },
+        {
+            "langue1": " Une passerelle",
+            "langue2": "A gangway "
+        },
+        {
+            "langue1": " Un levier de vitesse",
+            "langue2": "A gear shift (US)/gear stick (GB) "
+        },
+        {
+            "langue1": " Un port",
+            "langue2": "A harbor "
+        },
+        {
+            "langue1": " Un Train à Grande Vitesse (TGV)",
+            "langue2": "A high speed train "
+        },
+        {
+            "langue1": " Une autoroute",
+            "langue2": "A highway (US)/motorway (GB) "
+        },
+        {
+            "langue1": " Un voyage",
+            "langue2": "A journey "
+        },
+        {
+            "langue1": " Une voie",
+            "langue2": "A lane "
+        },
+        {
+            "langue1": " Un paquebot",
+            "langue2": "A liner "
+        },
+        {
+            "langue1": " Un moyen de transport",
+            "langue2": "A means of transportation "
+        },
+        {
+            "langue1": " Une motocyclette/moto",
+            "langue2": "A motorbike/bike "
+        },
+        {
+            "langue1": " Un parking de relais",
+            "langue2": "A park-and-ride scheme "
+        },
+        {
+            "langue1": " Un chemin",
+            "langue2": "A path "
+        },
+        {
+            "langue1": " Une rue piétonne",
+            "langue2": "A pedestrianized street "
+        },
+        {
+            "langue1": " Une jauge à essence",
+            "langue2": "A petrol gauge "
+        },
+        {
+            "langue1": " Une jetée",
+            "langue2": "A pier "
+        },
+        {
+            "langue1": " Un accident d’avion",
+            "langue2": "A plane crash "
+        },
+        {
+            "langue1": " Un quai (train)",
+            "langue2": "A platform "
+        },
+        {
+            "langue1": " Un pique-pocket",
+            "langue2": "A pocket thief (thieves) "
+        },
+        {
+            "langue1": " Un transport public",
+            "langue2": "A public transport "
+        },
+        {
+            "langue1": " Un quai (bateau)",
+            "langue2": "A quay "
+        },
+        {
+            "langue1": " Un conducteur de voiture de course",
+            "langue2": "A racecar driver "
+        },
+        {
+            "langue1": " Une voie ferrée",
+            "langue2": "A railroad/railway tracks "
+        },
+        {
+            "langue1": " Un chemin de fer",
+            "langue2": "A railway "
+        },
+        {
+            "langue1": " Un bateau (pour le transport fluvial)",
+            "langue2": "A riverboat "
+        },
+        {
+            "langue1": " Une route",
+            "langue2": "A road "
+        },
+        {
+            "langue1": " Une fusée spatiale",
+            "langue2": "A rocketship "
+        },
+        {
+            "langue1": " Une rangée",
+            "langue2": "A row "
+        },
+        {
+            "langue1": " Une piste (d’aéroport)",
+            "langue2": "A runway "
+        },
+        {
+            "langue1": " Une ceinture de sécurité",
+            "langue2": "A seat belt "
+        },
+        {
+            "langue1": " Une berline",
+            "langue2": "A sedan "
+        },
+        {
+            "langue1": " Un raccourci",
+            "langue2": "A shortcut "
+        },
+        {
+            "langue1": " Une navette",
+            "langue2": "A shuttle "
+        },
+        {
+            "langue1": " Une limite de vitesse",
+            "langue2": "A speed limit "
+        },
+        {
+            "langue1": " Un break",
+            "langue2": "A station wagon "
+        },
+        {
+            "langue1": " Un volant",
+            "langue2": "A steering wheel "
+        },
+        {
+            "langue1": " Un métro",
+            "langue2": "A subway (US)/ an underground (GB//tube (GB)/ metro "
+        },
+        {
+            "langue1": " Un tarmac (où les avions se garent)",
+            "langue2": "A tarmac "
+        },
+        {
+            "langue1": " Un terminal",
+            "langue2": "A terminal "
+        },
+        {
+            "langue1": " Un pneu",
+            "langue2": "A tire (US)/tyre (GB) "
+        },
+        {
+            "langue1": " Un embouteillage",
+            "langue2": "A traffic jam "
+        },
+        {
+            "langue1": " Un feu de signalisation",
+            "langue2": "A traffic light "
+        },
+        {
+            "langue1": " Un tramway",
+            "langue2": "A tramway/a tram "
+        },
+        {
+            "langue1": " Un voyage (fait de voyager)",
+            "langue2": "A travel "
+        },
+        {
+            "langue1": " Un voyage",
+            "langue2": "A trip "
+        },
+        {
+            "langue1": " Un chariot",
+            "langue2": "A trolley "
+        },
+        {
+            "langue1": " Un camion",
+            "langue2": "A truck (US)/lorry (GB) "
+        },
+        {
+            "langue1": " Un coffre",
+            "langue2": "A trunk (US) /a boot (GB) "
+        },
+        {
+            "langue1": " Un van",
+            "langue2": "A van "
+        },
+        {
+            "langue1": " Un passionné de véhicules",
+            "langue2": "A vehicle enthusiast "
+        },
+        {
+            "langue1": " Un voyage",
+            "langue2": "A voyage "
+        },
+        {
+            "langue1": " Une roue",
+            "langue2": "A wheel "
+        },
+        {
+            "langue1": " Un pare-brise",
+            "langue2": "A windshield "
+        },
+        {
+            "langue1": " Précision",
+            "langue2": "Accuracy "
+        },
+        {
+            "langue1": " Un avion",
+            "langue2": "An aircraft/airplane "
+        },
+        {
+            "langue1": " Une compagnie aérienne",
+            "langue2": "An airline "
+        },
+        {
+            "langue1": " Un avion de ligne",
+            "langue2": "An airliner "
+        },
+        {
+            "langue1": " Un couloir/une allée",
+            "langue2": "An aisle "
+        },
+        {
+            "langue1": " Un ascenseur",
+            "langue2": "An elevator (US)/A lift (GB) "
+        },
+        {
+            "langue1": " Un pot d’échappement",
+            "langue2": "An exhaust pipe "
+        },
+        {
+            "langue1": " Un service à bord",
+            "langue2": "An on-board service "
+        },
+        {
+            "langue1": " Un enregistrement en ligne",
+            "langue2": "An online check-in "
+        },
+        {
+            "langue1": " Course sur l’autoroute",
+            "langue2": "Autobahn racing "
+        },
+        {
+            "langue1": " Co-voiturage",
+            "langue2": "Car pool "
+        },
+        {
+            "langue1": " Biens commerciaux",
+            "langue2": "Commercial goods "
+        },
+        {
+            "langue1": " Gratuit",
+            "langue2": "Complimentary "
+        },
+        {
+            "langue1": " Embouteillage",
+            "langue2": "Congestion "
+        },
+        {
+            "langue1": " Cohérent",
+            "langue2": "Consistent "
+        },
+        {
+            "langue1": " Pratique",
+            "langue2": "Convenient "
+        },
+        {
+            "langue1": " Rentable",
+            "langue2": "Cost effective "
+        },
+        {
+            "langue1": " Plein à craquer",
+            "langue2": "Crammed "
+        },
+        {
+            "langue1": " Gaz d’échappement",
+            "langue2": "Exhaust fumes "
+        },
+        {
+            "langue1": " Devant",
+            "langue2": "Front "
+        },
+        {
+            "langue1": " Gaz à effet de serre",
+            "langue2": "Greenhouse gas emissions "
+        },
+        {
+            "langue1": " Transport terrestre",
+            "langue2": "Ground/land transportation "
+        },
+        {
+            "langue1": " Bondé",
+            "langue2": "Overcrowded "
+        },
+        {
+            "langue1": " Heure de pointe",
+            "langue2": "Peak hours/rush hours "
+        },
+        {
+            "langue1": " Arrière",
+            "langue2": "Rear "
+        },
+        {
+            "langue1": " Fiable",
+            "langue2": "Reliable "
+        },
+        {
+            "langue1": " La douane",
+            "langue2": "The customs "
+        },
+        {
+            "langue1": " Etre en retard (par rapport à ce qui était prévu)",
+            "langue2": "To be behind time "
+        },
+        {
+            "langue1": " Etre embouteillé",
+            "langue2": "To be congested "
+        },
+        {
+            "langue1": " Etre coincé par les travaux, diversions, accidents",
+            "langue2": "To be held up by roadworks/diversions/ accidents "
+        },
+        {
+            "langue1": " Souffrir du décalage horaire",
+            "langue2": "To be jet lagged "
+        },
+        {
+            "langue1": " Etre coincé dans les embouteillages",
+            "langue2": "To be stuck in traffic jam/congestion "
+        },
+        {
+            "langue1": " Etre remorqué",
+            "langue2": "To be towed "
+        },
+        {
+            "langue1": " Faire une réservation de location",
+            "langue2": "To book a rental "
+        },
+        {
+            "langue1": " Tomber en panne",
+            "langue2": "To break down (vehicle) "
+        },
+        {
+            "langue1": " Chavirer",
+            "langue2": "To capsize "
+        },
+        {
+            "langue1": " S’accrocher à un mur",
+            "langue2": "To cling to a wall "
+        },
+        {
+            "langue1": " Faire des allers retours entre le travail et chez soi",
+            "langue2": "To commute "
+        },
+        {
+            "langue1": " Réduire ses dépenses",
+            "langue2": "To cut down on expenses "
+        },
+        {
+            "langue1": " Débarquer",
+            "langue2": "To disembark "
+        },
+        {
+            "langue1": " Visiter les villages sur la route",
+            "langue2": "To do village-skirting "
+        },
+        {
+            "langue1": " S’éloigner",
+            "langue2": "To drive off "
+        },
+        {
+            "langue1": " Conduire à travers (une forêt)",
+            "langue2": "To drive through (a forest) "
+        },
+        {
+            "langue1": " Déposer quelqu’un",
+            "langue2": "To drop someone off "
+        },
+        {
+            "langue1": " Remplir, faire le plein",
+            "langue2": "To fill up "
+        },
+        {
+            "langue1": " Bouger, voyager",
+            "langue2": "To get around "
+        },
+        {
+            "langue1": " Monter/descendre",
+            "langue2": "To get on/off "
+        },
+        {
+            "langue1": " Aller par bus/voiture/avion",
+            "langue2": "To go by bus/car/plane… "
+        },
+        {
+            "langue1": " Faire une croisière",
+            "langue2": "To go on a cruise "
+        },
+        {
+            "langue1": " Aller à pied",
+            "langue2": "To go on foot "
+        },
+        {
+            "langue1": " Louer un véhicule",
+            "langue2": "To hire a vehicle "
+        },
+        {
+            "langue1": " Atterrir",
+            "langue2": "To land "
+        },
+        {
+            "langue1": " Soulever une voiture",
+            "langue2": "To lift a car "
+        },
+        {
+            "langue1": " Charger/décharger",
+            "langue2": "To load/unload "
+        },
+        {
+            "langue1": " Rater un vol",
+            "langue2": "To miss a flight "
+        },
+        {
+            "langue1": " Rater une correspondance",
+            "langue2": "To miss one’s connection "
+        },
+        {
+            "langue1": " Dépasser",
+            "langue2": "To outweigh "
+        },
+        {
+            "langue1": " Aller chercher quelqu’un",
+            "langue2": "To pick someone up "
+        },
+        {
+            "langue1": " Aller chercher une voiture",
+            "langue2": "To pick up a car "
+        },
+        {
+            "langue1": " Composter (un billet)",
+            "langue2": "To punch ( a ticket) "
+        },
+        {
+            "langue1": " Traîner",
+            "langue2": "To roam "
+        },
+        {
+            "langue1": " Ramer",
+            "langue2": "To row "
+        },
+        {
+            "langue1": " Faire de la voile",
+            "langue2": "To sail "
+        },
+        {
+            "langue1": " Couler",
+            "langue2": "To sink "
+        },
+        {
+            "langue1": " Ralentir",
+            "langue2": "To slow down "
+        },
+        {
+            "langue1": " Tourner autour",
+            "langue2": "To spin across "
+        },
+        {
+            "langue1": " Décoller",
+            "langue2": "To take off "
+        },
+        {
+            "langue1": " Prendre l’initiative, les commandes",
+            "langue2": "To take the lead "
+        },
+        {
+            "langue1": " Comptabilité",
+            "langue2": "Accounting department "
+        },
+        {
+            "langue1": " Un compte",
+            "langue2": "An account "
+        },
+        {
+            "langue1": " Précis",
+            "langue2": "Accurate "
+        },
+        {
+            "langue1": " Se permettre (financièrement)/ je peux me le permettre/ je ne peux pas me le permettre",
+            "langue2": "To afford/ I can afford it/ I can’t afford it "
+        },
+        {
+            "langue1": " Allouer",
+            "langue2": "To allocate "
+        },
+        {
+            "langue1": " Un accord, une acceptation, une approbation",
+            "langue2": "An approval "
+        },
+        {
+            "langue1": " Crédits / atouts (personne)",
+            "langue2": "Assets "
+        },
+        {
+            "langue1": " L’actif et le passif",
+            "langue2": "Assets and liabilities "
+        },
+        {
+            "langue1": " Un courtier",
+            "langue2": "A broker "
+        },
+        {
+            "langue1": " Le solde",
+            "langue2": "The balance "
+        },
+        {
+            "langue1": " Déposer un chèque",
+            "langue2": "To bank a check "
+        },
+        {
+            "langue1": " Un relevé bancaire",
+            "langue2": "A bank statement "
+        },
+        {
+            "langue1": " Faillite",
+            "langue2": "To go bankrupt / to go bust (US) "
+        },
+        {
+            "langue1": " Annuler un chèque",
+            "langue2": "To cancel a check "
+        },
+        {
+            "langue1": " Fermer définitivement  (entreprise)",
+            "langue2": "To close down "
+        },
+        {
+            "langue1": " Situation financière en terme de crédit",
+            "langue2": "Credit status "
+        },
+        {
+            "langue1": " Modifier un chèque",
+            "langue2": "To edit a check "
+        },
+        {
+            "langue1": " Déposer le bilan",
+            "langue2": "To file for bankruptcy "
+        },
+        {
+            "langue1": " Actifs et passifs",
+            "langue2": "Assets and liabilities "
+        },
+        {
+            "langue1": " Un avantage",
+            "langue2": "A benefit "
+        },
+        {
+            "langue1": " Une offre",
+            "langue2": "A bid "
+        },
+        {
+            "langue1": " Le résultat financier",
+            "langue2": "The bottom line "
+        },
+        {
+            "langue1": " Les organisations caritatives",
+            "langue2": "Charity / charities (plural) "
+        },
+        {
+            "langue1": " Le marché principal",
+            "langue2": "The core market "
+        },
+        {
+            "langue1": " Système de franchise / accord de franchise",
+            "langue2": "Franchising agreement "
+        },
+        {
+            "langue1": " La monnaie / l’appoint",
+            "langue2": "Change "
+        },
+        {
+            "langue1": " Facturer",
+            "langue2": "To charge "
+        },
+        {
+            "langue1": " Rentable / bon rapport rendement-prix",
+            "langue2": "Cost effective "
+        },
+        {
+            "langue1": " Une devise monétaire",
+            "langue2": "A currency "
+        },
+        {
+            "langue1": " Un acompte / une caution",
+            "langue2": "A deposit "
+        },
+        {
+            "langue1": " Faire un don",
+            "langue2": "To donate "
+        },
+        {
+            "langue1": " Dissoudre une société",
+            "langue2": "To dissolve a company "
+        },
+        {
+            "langue1": " Un devis",
+            "langue2": "An estimate "
+        },
+        {
+            "langue1": " Un chiffre",
+            "langue2": "A figure "
+        },
+        {
+            "langue1": " Les fonds monétaires",
+            "langue2": "Funds "
+        },
+        {
+            "langue1": " La croissance économique",
+            "langue2": "Growth "
+        },
+        {
+            "langue1": " Imprécis",
+            "langue2": "Inaccurate "
+        },
+        {
+            "langue1": " Revenu",
+            "langue2": "Income "
+        },
+        {
+            "langue1": " Un versement (bancaire)",
+            "langue2": "An instalment "
+        },
+        {
+            "langue1": " Un investissement",
+            "langue2": "An investment "
+        },
+        {
+            "langue1": " Un investisseur",
+            "langue2": "An investor "
+        },
+        {
+            "langue1": " Un trimestre",
+            "langue2": "A quarter "
+        },
+        {
+            "langue1": " Une remise / un versement",
+            "langue2": "A remittance "
+        },
+        {
+            "langue1": " Un prêt (bancaire)",
+            "langue2": "A loan "
+        },
+        {
+            "langue1": " Une fusion entre des entreprise",
+            "langue2": "A merger "
+        },
+        {
+            "langue1": " Un découvert bancaire",
+            "langue2": "An overdraft "
+        },
+        {
+            "langue1": " Être à découvert",
+            "langue2": "To be overdrawn "
+        },
+        {
+            "langue1": " Être dans le rouge",
+            "langue2": "To be in the red "
+        },
+        {
+            "langue1": " Négliger",
+            "langue2": "To overlook "
+        },
+        {
+            "langue1": " Frais généraux",
+            "langue2": "Overhead (costs) (GB) / overheads (US) "
+        },
+        {
+            "langue1": " Exagéré",
+            "langue2": "Overstated "
+        },
+        {
+            "langue1": " Fournir des fonds (subventionner)",
+            "langue2": "To provide funds "
+        },
+        {
+            "langue1": " Produit de prestige",
+            "langue2": "Premium products "
+        },
+        {
+            "langue1": " Rentable",
+            "langue2": "Profitable "
+        },
+        {
+            "langue1": " Coté en bourse",
+            "langue2": "Quoted "
+        },
+        {
+            "langue1": " Une cote (bourse)",
+            "langue2": "A quote "
+        },
+        {
+            "langue1": " Coter (en bourse)",
+            "langue2": "To quote "
+        },
+        {
+            "langue1": "  Les recettes",
+            "langue2": "Revenue "
+        },
+        {
+            "langue1": " Compte épargne",
+            "langue2": "Savings account "
+        },
+        {
+            "langue1": " Un part / une action boursière",
+            "langue2": "A share / a stock option "
+        },
+        {
+            "langue1": " Un actionnaire",
+            "langue2": "A shareholder / a stockholder "
+        },
+        {
+            "langue1": " Monter en flèche",
+            "langue2": "To skyrocket "
+        },
+        {
+            "langue1": " La Bourse",
+            "langue2": "The Stock Exchange "
+        },
+        {
+            "langue1": " Subventionner",
+            "langue2": "To subsidize "
+        },
+        {
+            "langue1": " Développement durable",
+            "langue2": "Sustainable development "
+        },
+        {
+            "langue1": " Rationaliser",
+            "langue2": "To streamline "
+        },
+        {
+            "langue1": " Subventionner",
+            "langue2": "To subsidize "
+        },
+        {
+            "langue1": " Racheter / reprendre une entreprise",
+            "langue2": "To take over "
+        },
+        {
+            "langue1": " Le chiffre d’affaire",
+            "langue2": "The turnover "
+        },
+        {
+            "langue1": " Prendre le contrôle d’une société",
+            "langue2": "To take over a company "
+        },
+        {
+            "langue1": " Un trésorier",
+            "langue2": "A treasurer "
+        },
+        {
+            "langue1": " Objets de valeur",
+            "langue2": "Valuables "
+        },
+        {
+            "langue1": " Retirer de l’argent",
+            "langue2": "To withdraw money "
+        },
+        {
+            "langue1": " Liquidation d’une société",
+            "langue2": "Winding up "
+        },
+        {
+            "langue1": " Gains",
+            "langue2": "Winnings "
+        },
+        {
+            "langue1": " De la monnaie",
+            "langue2": "(Some) Change "
+        },
+        {
+            "langue1": " Un billet",
+            "langue2": "A banknote/a note/a bill "
+        },
+        {
+            "langue1": " Une bonne affaire",
+            "langue2": "A bargain "
+        },
+        {
+            "langue1": " Une enchère",
+            "langue2": "A bid "
+        },
+        {
+            "langue1": " Une facture, un reçu, un billet",
+            "langue2": "A bill "
+        },
+        {
+            "langue1": " Un panneau d’affichage",
+            "langue2": "A billboard "
+        },
+        {
+            "langue1": " Une marque",
+            "langue2": "A brand "
+        },
+        {
+            "langue1": " Un sac de course",
+            "langue2": "A carrier bag "
+        },
+        {
+            "langue1": " Un caissier, une caissière",
+            "langue2": "A cashier "
+        },
+        {
+            "langue1": " Un slogan",
+            "langue2": "A catchphrase/a motto "
+        },
+        {
+            "langue1": " Une chaîne (de magasins)",
+            "langue2": "A chain "
+        },
+        {
+            "langue1": " Un vestiaire",
+            "langue2": "A changing room/cloakroom//fitting room "
+        },
+        {
+            "langue1": " Des frais/facturer",
+            "langue2": "A charge/to charge "
+        },
+        {
+            "langue1": " Un chèque",
+            "langue2": "A check/cheque "
+        },
+        {
+            "langue1": " Un client",
+            "langue2": "A client/customer "
+        },
+        {
+            "langue1": " Une pièce",
+            "langue2": "A coin "
+        },
+        {
+            "langue1": " Un consommateur",
+            "langue2": "A consumer "
+        },
+        {
+            "langue1": " L’épicerie du coin",
+            "langue2": "A corner shop "
+        },
+        {
+            "langue1": " Un coût/coûter",
+            "langue2": "A cost/to cost "
+        },
+        {
+            "langue1": " Un comptoir",
+            "langue2": "A counter "
+        },
+        {
+            "langue1": " Un coupon",
+            "langue2": "A coupon "
+        },
+        {
+            "langue1": " Un accord",
+            "langue2": "A deal "
+        },
+        {
+            "langue1": " Une livraison/livrer",
+            "langue2": "A delivery/to deliver "
+        },
+        {
+            "langue1": " Un service",
+            "langue2": "A department "
+        },
+        {
+            "langue1": " Un grand magasin",
+            "langue2": "A department store "
+        },
+        {
+            "langue1": " Un design, dessin",
+            "langue2": "A design "
+        },
+        {
+            "langue1": " Un magasin discount",
+            "langue2": "A discount store/pound shop "
+        },
+        {
+            "langue1": " Une réduction/réduire le prix",
+            "langue2": "A discount/to discount "
+        },
+        {
+            "langue1": " Un marché aux puces",
+            "langue2": "A flea market "
+        },
+        {
+            "langue1": " Une franchise",
+            "langue2": "A franchise "
+        },
+        {
+            "langue1": " Un fourreur",
+            "langue2": "A fur trader "
+        },
+        {
+            "langue1": " Un cadeau",
+            "langue2": "A gift/present "
+        },
+        {
+            "langue1": " Une garantie",
+            "langue2": "A guarantee "
+        },
+        {
+            "langue1": " Un prospectus",
+            "langue2": "A leaflet "
+        },
+        {
+            "langue1": " Une carte de fidélité",
+            "langue2": "A loyalty card "
+        },
+        {
+            "langue1": " Un centre commercial",
+            "langue2": "A mall (US)/shopping centre (GB) "
+        },
+        {
+            "langue1": " Une étude de marché",
+            "langue2": "A market study "
+        },
+        {
+            "langue1": " Un must-have",
+            "langue2": "A must-have product "
+        },
+        {
+            "langue1": " Un sondage",
+            "langue2": "A poll "
+        },
+        {
+            "langue1": " Un achat/acheter",
+            "langue2": "A purchase/To purchase "
+        },
+        {
+            "langue1": " Un reçu",
+            "langue2": "A receipt "
+        },
+        {
+            "langue1": " Un centre commercial avec des outlets, magasins avec d’anciennes collections à prix réduit.",
+            "langue2": "A retail park "
+        },
+        {
+            "langue1": " Un détaillant",
+            "langue2": "A retailer "
+        },
+        {
+            "langue1": " Une escroquerie",
+            "langue2": "A rip-off "
+        },
+        {
+            "langue1": " Un échantillon",
+            "langue2": "A sample "
+        },
+        {
+            "langue1": " Une étagère",
+            "langue2": "A shelf "
+        },
+        {
+            "langue1": " Un vendeur, une vendeuse",
+            "langue2": "A shop assistant "
+        },
+        {
+            "langue1": " Un panier",
+            "langue2": "A shopping basket "
+        },
+        {
+            "langue1": " Une chaîne télévision de téléachat",
+            "langue2": "A shopping channel "
+        },
+        {
+            "langue1": " Un stock",
+            "langue2": "A stock "
+        },
+        {
+            "langue1": " Une pièce de rangement",
+            "langue2": "A storage room "
+        },
+        {
+            "langue1": " Ravitaillement/fournir",
+            "langue2": "A supply/to supply "
+        },
+        {
+            "langue1": " Une cible/cibler",
+            "langue2": "A target/to target "
+        },
+        {
+            "langue1": " Une caisse",
+            "langue2": "A till "
+        },
+        {
+            "langue1": " Un chiffre d’affaires",
+            "langue2": "A turnover "
+        },
+        {
+            "langue1": " Une cale",
+            "langue2": "A wedge "
+        },
+        {
+            "langue1": " Un grossiste",
+            "langue2": "A wholesaler "
+        },
+        {
+            "langue1": " Abordable",
+            "langue2": "Affordable "
+        },
+        {
+            "langue1": " Une quantité",
+            "langue2": "An amount "
+        },
+        {
+            "langue1": " Une machine",
+            "langue2": "An appliance "
+        },
+        {
+            "langue1": " Une vente aux enchères",
+            "langue2": "An auction "
+        },
+        {
+            "langue1": " Un article (produit)",
+            "langue2": "An item "
+        },
+        {
+            "langue1": " Une offre/offrir",
+            "langue2": "An offer/to offer "
+        },
+        {
+            "langue1": " Des grandes marques",
+            "langue2": "Big brand names "
+        },
+        {
+            "langue1": " Inonder le marché",
+            "langue2": "Flooding the market "
+        },
+        {
+            "langue1": " Les grands magasins",
+            "langue2": "High street names "
+        },
+        {
+            "langue1": " Fourrure de vison",
+            "langue2": "Mink fur "
+        },
+        {
+            "langue1": " Les heures d’ouverture",
+            "langue2": "Opening hours "
+        },
+        {
+            "langue1": " Cher",
+            "langue2": "Pricey "
+        },
+        {
+            "langue1": " D’occasion",
+            "langue2": "Second-hand "
+        },
+        {
+            "langue1": " Etre dépendant, drogué du shopping",
+            "langue2": "To be a shopaholic "
+        },
+        {
+            "langue1": " Avoir un budget serré",
+            "langue2": "To be on a tight budget "
+        },
+        {
+            "langue1": " Jeter un œil",
+            "langue2": "To browse "
+        },
+        {
+            "langue1": " Attirer le regard",
+            "langue2": "To catch the eye "
+        },
+        {
+            "langue1": " Coûter un bras",
+            "langue2": "To cost an arm and a leg "
+        },
+        {
+            "langue1": " Décevoir",
+            "langue2": "To deceive "
+        },
+        {
+            "langue1": " Faire les courses (alimentaires)",
+            "langue2": "To do the grocery shopping "
+        },
+        {
+            "langue1": " S’endetter",
+            "langue2": "To get into debt "
+        },
+        {
+            "langue1": " Essayer de forcer qn à acheter",
+            "langue2": "To give someone the hard sell "
+        },
+        {
+            "langue1": " Se lancer dans une frénésie d’achat",
+            "langue2": "To go on a shopping spree "
+        },
+        {
+            "langue1": " Se faire plaisir en faisant les magasins",
+            "langue2": "To indulge in some retail therapy "
+        },
+        {
+            "langue1": " Passer en vitesse",
+            "langue2": "To nip to "
+        },
+        {
+            "langue1": " Faire des affaires",
+            "langue2": "To pick up a bargain "
+        },
+        {
+            "langue1": " Rembourser",
+            "langue2": "To refund "
+        },
+        {
+            "langue1": " Retourner, rendre",
+            "langue2": "To return "
+        },
+        {
+            "langue1": " Utiliser le crédit de sa carte de crédit",
+            "langue2": "To run up a credit card bill "
+        },
+        {
+            "langue1": " Faire un tour dans les magasins",
+            "langue2": "To shop around "
+        },
+        {
+            "langue1": " Courir les boutiques jusqu’à épuisement",
+            "langue2": "To shop until you drop "
+        },
+        {
+            "langue1": " Casser les prix",
+            "langue2": "To slash prices "
+        },
+        {
+            "langue1": " Profiter des réductions attrayantes",
+            "langue2": "To snap up a bargain "
+        },
+        {
+            "langue1": " Dépenser",
+            "langue2": "To spend "
+        },
+        {
+            "langue1": " Bien aller",
+            "langue2": "To suit "
+        },
+        {
+            "langue1": " Escroquer",
+            "langue2": "To swindle "
+        },
+        {
+            "langue1": " Haut de gamme",
+            "langue2": "Up-market "
+        },
+        {
+            "langue1": " Lèche-vitrine",
+            "langue2": "Window shopping "
+        },
+        {
+            "langue1": " Composer un numéro de téléphone",
+            "langue2": "To dial a number "
+        },
+        {
+            "langue1": " Le cadran",
+            "langue2": "The dial "
+        },
+        {
+            "langue1": " Le poste téléphonique d'un correspondant",
+            "langue2": "The extension "
+        },
+        {
+            "langue1": " Être au téléphone",
+            "langue2": "To be on the phone "
+        },
+        {
+            "langue1": " Un mobile / téléphone portable",
+            "langue2": "A cell / self / mobile phone "
+        },
+        {
+            "langue1": " La tonalité",
+            "langue2": "The dial (tone) "
+        },
+        {
+            "langue1": " La boîte vocale",
+            "langue2": "The voice mail "
+        },
+        {
+            "langue1": " Le fil du téléphone",
+            "langue2": "The cord "
+        },
+        {
+            "langue1": " Combiné téléphonique",
+            "langue2": "The receiver "
+        },
+        {
+            "langue1": " Panneau, tableau de distribution, standard",
+            "langue2": "A switchboard "
+        },
+        {
+            "langue1": " Une usine / une fabrique",
+            "langue2": "A factory "
+        },
+        {
+            "langue1": " Un fabricant",
+            "langue2": "A manufacturer "
+        },
+        {
+            "langue1": " Un industriel",
+            "langue2": "An industrialist "
+        },
+        {
+            "langue1": " Automatisation",
+            "langue2": "Automation "
+        },
+        {
+            "langue1": " Une société",
+            "langue2": "A company "
+        },
+        {
+            "langue1": " La vie d'entreprise",
+            "langue2": "Corporate life "
+        },
+        {
+            "langue1": " Biens de consommation",
+            "langue2": "Consumer goods "
+        },
+        {
+            "langue1": " Rendement (machine)",
+            "langue2": "Efficiency "
+        },
+        {
+            "langue1": " Le rendement / production (machine, travailleur)",
+            "langue2": "the output "
+        },
+        {
+            "langue1": " Industrie lourde",
+            "langue2": "Smokestack industry "
+        },
+        {
+            "langue1": " Une cheminée",
+            "langue2": "A smokestack "
+        },
+        {
+            "langue1": " La manutention",
+            "langue2": "Handling "
+        },
+        {
+            "langue1": " L'outillage",
+            "langue2": "tooling "
+        },
+        {
+            "langue1": " Maintenance",
+            "langue2": "Maintenance "
+        },
+        {
+            "langue1": " Une usine (nucléaire)",
+            "langue2": "A  (nuclear) plant "
+        },
+        {
+            "langue1": " Matières premières",
+            "langue2": "Raw material "
+        },
+        {
+            "langue1": " Un lancement / sortie d'un produit",
+            "langue2": "A release "
+        },
+        {
+            "langue1": " Un ouvrier qualifié",
+            "langue2": "A skilled worker "
+        },
+        {
+            "langue1": " Pièces de rechange",
+            "langue2": "Spare parts "
+        },
+        {
+            "langue1": " Un atelier",
+            "langue2": "A store  floor "
+        },
+        {
+            "langue1": " Un fournisseur",
+            "langue2": "A supplier "
+        },
+        {
+            "langue1": " Le secteur de la construction",
+            "langue2": "The construction industry "
+        },
+        {
+            "langue1": " L'industrie automobile",
+            "langue2": "The motor industry "
+        },
+        {
+            "langue1": " Le secteur pétrolier",
+            "langue2": "The oil industry "
+        },
+        {
+            "langue1": " L'industrie maritime",
+            "langue2": "The shipping industry "
+        },
+        {
+            "langue1": " Un grand livre de frais (comptabilité)",
+            "langue2": "A general ledger "
+        },
+        {
+            "langue1": " La direction / la gestion d’une entreprise / l’administration / les cadres supérieurs / les dirigeants",
+            "langue2": "The management "
+        },
+        {
+            "langue1": " Se réunir / convoquer / organiser une réunion",
+            "langue2": "To convene "
+        },
+        {
+            "langue1": " Annuler une réunion, un rendez-vous",
+            "langue2": "To cancel "
+        },
+        {
+            "langue1": " Fixer un rendez-vous",
+            "langue2": "To schedule an appointment "
+        },
+        {
+            "langue1": " La charge / quantité de travail",
+            "langue2": "The workload "
+        },
+        {
+            "langue1": " Le retard dans le travail",
+            "langue2": "The backlog "
+        },
+        {
+            "langue1": " Facture",
+            "langue2": "An invoice "
+        },
+        {
+            "langue1": " Un client",
+            "langue2": "A customer "
+        },
+        {
+            "langue1": " La clientèle / les clients",
+            "langue2": "The patrons "
+        },
+        {
+            "langue1": " Faire du profit",
+            "langue2": "To make benefits / profits / money "
+        },
+        {
+            "langue1": " Un service / rayon (magasin)",
+            "langue2": "A department / a division (US) "
+        },
+        {
+            "langue1": " Petites et moyennes entreprises",
+            "langue2": "Small and medium companies "
+        },
+        {
+            "langue1": " Diriger une société",
+            "langue2": "To run a business "
+        },
+        {
+            "langue1": " Membres du conseil d’administration",
+            "langue2": "Board members "
+        },
+        {
+            "langue1": " Un compte-rendu / un procès-verbal d’une réunion",
+            "langue2": "A minutes of a meeting "
+        },
+        {
+            "langue1": " Un compte-rendu de la réunion du Conseil d’administration",
+            "langue2": "A board minutes "
+        },
+        {
+            "langue1": " Un procès-verbal / un relevé de compte",
+            "langue2": "A statement (of account) "
+        },
+        {
+            "langue1": "  Tenir un congrès; une conférence",
+            "langue2": "To hold a conference "
+        },
+        {
+            "langue1": " Assister à un atelier",
+            "langue2": "To attend a workshop "
+        },
+        {
+            "langue1": " Crédit et débit",
+            "langue2": "Assets and liabilities "
+        },
+        {
+            "langue1": " Une note interne de service",
+            "langue2": "A memorandum / a memo "
+        },
+        {
+            "langue1": " Tâches de bureau",
+            "langue2": "Office chores "
+        },
+        {
+            "langue1": " Fournitures de bureau",
+            "langue2": "Office supplies "
+        },
+        {
+            "langue1": " Fournitures de bureau / papier à lettres / la papeterie",
+            "langue2": "Stationery "
+        },
+        {
+            "langue1": " L’en-tête (d’une lettre)",
+            "langue2": "The letterhead "
+        },
+        {
+            "langue1": " Papier à lettre",
+            "langue2": "Letter paper "
+        },
+        {
+            "langue1": " Un dossier / classer les dossiers",
+            "langue2": "A file / to file "
+        },
+        {
+            "langue1": " Un classeur / chemise (folder)",
+            "langue2": "A binder / folder "
+        },
+        {
+            "langue1": " Une chemise transparente",
+            "langue2": "A sheet protector "
+        },
+        {
+            "langue1": " Une boîte de classement",
+            "langue2": "A file box "
+        },
+        {
+            "langue1": " Un dossier client",
+            "langue2": "A customer file "
+        },
+        {
+            "langue1": " Trier",
+            "langue2": "To sort out "
+        },
+        {
+            "langue1": " Trier le courrier",
+            "langue2": "To sort  the mail "
+        },
+        {
+            "langue1": " Ranger / mettre en ordre / mettre de l’ordre",
+            "langue2": "To tidy (up) "
+        },
+        {
+            "langue1": " Joindre",
+            "langue2": "To enclose "
+        },
+        {
+            "langue1": " Un tableau d’affichage",
+            "langue2": "A bulletin board "
+        },
+        {
+            "langue1": " Un tableau / un graphique",
+            "langue2": "A chart / a graph "
+        },
+        {
+            "langue1": " Une agrafeuse",
+            "langue2": "A stapler "
+        },
+        {
+            "langue1": " Une agrafe",
+            "langue2": "A staple "
+        },
+        {
+            "langue1": " Un bâton de colle",
+            "langue2": "A glue stick "
+        },
+        {
+            "langue1": " Une photocopieuse",
+            "langue2": "A copier / a copy machine "
+        },
+        {
+            "langue1": " Un fax",
+            "langue2": "A fax machine "
+        },
+        {
+            "langue1": " Un correcteur liquide",
+            "langue2": "A correction fluid "
+        },
+        {
+            "langue1": " Une calculatrice",
+            "langue2": "A calculator "
+        },
+        {
+            "langue1": " Crayon à papier",
+            "langue2": "A pencil "
+        },
+        {
+            "langue1": " Un crayon de couleur",
+            "langue2": "A colored (US) pencil / a coloured (GB) pencil "
+        },
+        {
+            "langue1": " Un stylo",
+            "langue2": "A pen "
+        },
+        {
+            "langue1": " Un feutre",
+            "langue2": "A highlighter "
+        },
+        {
+            "langue1": " Une gomme",
+            "langue2": "An eraser (US) / a rubber (GB) "
+        },
+        {
+            "langue1": " Un trombone",
+            "langue2": "A paper clip "
+        },
+        {
+            "langue1": " Une punaise",
+            "langue2": "A tack "
+        },
+        {
+            "langue1": " Une pause déjeuner / une pause café",
+            "langue2": "A lunch / coffee break "
+        },
+        {
+            "langue1": " Un rayon / une étagère",
+            "langue2": "A shelf "
+        },
+        {
+            "langue1": " Un numéro vert",
+            "langue2": "A toll-free call "
+        },
+        {
+            "langue1": " Heures de bureau",
+            "langue2": "Business hours "
+        },
+        {
+            "langue1": " Un lieu de stockage, un dépôt",
+            "langue2": "A storage room "
+        },
+        {
+            "langue1": " Ordre du jour / à l’ordre du jour",
+            "langue2": "Agenda / on the agenda "
+        },
+        {
+            "langue1": " Une mission / une tâche",
+            "langue2": "An assignment / a task "
+        },
+        {
+            "langue1": " En (caractère) gras (écriture) / en gras",
+            "langue2": "In bold (print) "
+        },
+        {
+            "langue1": " Un porte-documents / une serviette",
+            "langue2": "A briefcase "
+        },
+        {
+            "langue1": " Une date limite, butoir",
+            "langue2": "A deadline "
+        },
+        {
+            "langue1": " Un cahier",
+            "langue2": "A notebook "
+        },
+        {
+            "langue1": " Un bloc-notes",
+            "langue2": "A notepad "
+        },
+        {
+            "langue1": " Un ciseau / une paire de ciseaux",
+            "langue2": "A pair of scissors "
+        },
+        {
+            "langue1": " Un tiroir",
+            "langue2": "A drawer "
+        },
+        {
+            "langue1": " Un brouillon",
+            "langue2": "A draft "
+        },
+        {
+            "langue1": " Dépenses",
+            "langue2": "Expenditures / spendings "
+        },
+        {
+            "langue1": " Dépenses et recettes",
+            "langue2": "Expenditures and revenue "
+        },
+        {
+            "langue1": " Un ventilateur",
+            "langue2": "A fan "
+        },
+        {
+            "langue1": " L’annuaire",
+            "langue2": "The directory "
+        },
+        {
+            "langue1": " Un colis",
+            "langue2": "A parcel "
+        },
+        {
+            "langue1": " Une trousse",
+            "langue2": "A  pencil case / box "
+        },
+        {
+            "langue1": " Affranchissement",
+            "langue2": "Postage "
+        },
+        {
+            "langue1": " Un timbre",
+            "langue2": "A stamp "
+        },
+        {
+            "langue1": " Une enveloppe affranchie",
+            "langue2": "A stamped envelop "
+        },
+        {
+            "langue1": " Une lettre recommandée avec accusé de réception",
+            "langue2": "A registered letter with acknowledgement of receipt "
+        },
+        {
+            "langue1": " Une équerre",
+            "langue2": "A  set square "
+        },
+        {
+            "langue1": " Un rapporteur",
+            "langue2": "A protractor "
+        },
+        {
+            "langue1": " Une corbeille à papier",
+            "langue2": "A wastebasket "
+        },
+        {
+            "langue1": " Un formulaire",
+            "langue2": "A form "
+        },
+        {
+            "langue1": " Vendre",
+            "langue2": "To sell "
+        },
+        {
+            "langue1": " Acheter",
+            "langue2": "To buy / to purchase "
+        },
+        {
+            "langue1": " Obtenir / recevoir une lettre / colis",
+            "langue2": "To get / receive (a letter, parcel) "
+        },
+        {
+            "langue1": " Envoyer",
+            "langue2": "To send "
+        },
+        {
+            "langue1": " Envoyer / expédier un colis / commande",
+            "langue2": "To dispatch (a parcel / an  order) "
+        },
+        {
+            "langue1": " Expédier (par mer / par bateau), charger / embarquer",
+            "langue2": "To ship "
+        },
+        {
+            "langue1": " Charger (cargaison)",
+            "langue2": "To load "
+        },
+        {
+            "langue1": " Décharger (cargaison)",
+            "langue2": "To unload "
+        },
+        {
+            "langue1": " Affréter",
+            "langue2": "To charter "
+        },
+        {
+            "langue1": " Un avion charter",
+            "langue2": "A charter plane "
+        },
+        {
+            "langue1": " Pouvoir d'achat",
+            "langue2": "Purchasing power "
+        },
+        {
+            "langue1": " Une politique de vente",
+            "langue2": "A sales policy "
+        },
+        {
+            "langue1": " Les ventes",
+            "langue2": "Sales /sellings "
+        },
+        {
+            "langue1": " Les achats",
+            "langue2": "Purchases "
+        },
+        {
+            "langue1": " Prix de vente",
+            "langue2": "Selling price "
+        },
+        {
+            "langue1": " Le commerce / le négoce / les échanges commerciaux",
+            "langue2": "Trade "
+        },
+        {
+            "langue1": " À vendre",
+            "langue2": "For sale "
+        },
+        {
+            "langue1": " en solde",
+            "langue2": "On sale "
+        },
+        {
+            "langue1": " Un bon de commande",
+            "langue2": "An order form "
+        },
+        {
+            "langue1": " Un reçu",
+            "langue2": "A receipt "
+        },
+        {
+            "langue1": " A  réception de la facture",
+            "langue2": "Upon receipt of invoice "
+        },
+        {
+            "langue1": " Un détaillant",
+            "langue2": "A retailer "
+        },
+        {
+            "langue1": " Les ventes au détail",
+            "langue2": "The retail sales "
+        },
+        {
+            "langue1": " Un grossiste / marchand de gros",
+            "langue2": "A wholesaler "
+        },
+        {
+            "langue1": " Un concessionnaire / marchand",
+            "langue2": "A dealer "
+        },
+        {
+            "langue1": " Une ristourne",
+            "langue2": "A rebate "
+        },
+        {
+            "langue1": " Réduction / rabais",
+            "langue2": "A discount "
+        },
+        {
+            "langue1": " Vente par correspondance",
+            "langue2": "Mail order (sale) "
+        },
+        {
+            "langue1": " Régler toute la facture",
+            "langue2": "To pay in full "
+        },
+        {
+            "langue1": " Un présentoir / étal",
+            "langue2": "A display "
+        },
+        {
+            "langue1": " Un centre commercial / une galerie marchande",
+            "langue2": "A shopping  mall / shopping center "
+        },
+        {
+            "langue1": " Le montant",
+            "langue2": "The amount "
+        },
+        {
+            "langue1": " Une offre",
+            "langue2": "A bid "
+        },
+        {
+            "langue1": " Une offre publique d'achat",
+            "langue2": "A takeover bid "
+        },
+        {
+            "langue1": " La facturation",
+            "langue2": "Billing "
+        },
+        {
+            "langue1": " Facturer / faire payer",
+            "langue2": "To charge "
+        },
+        {
+            "langue1": " Prendre (monétairement)",
+            "langue2": "To charge for "
+        },
+        {
+            "langue1": " Frais, prix, coûts",
+            "langue2": "Charges "
+        },
+        {
+            "langue1": " Marchandise / produit/ denrée",
+            "langue2": "Commodity "
+        },
+        {
+            "langue1": " Un arrivage / envoi (de marchandises)",
+            "langue2": "A consignment "
+        },
+        {
+            "langue1": " livrer",
+            "langue2": "To deliver "
+        },
+        {
+            "langue1": " Livraison",
+            "langue2": "Delivery "
+        },
+        {
+            "langue1": " Expédier",
+            "langue2": "To dispatch "
+        },
+        {
+            "langue1": " Une traite",
+            "langue2": "A draft "
+        },
+        {
+            "langue1": " Manutention",
+            "langue2": "Handling "
+        },
+        {
+            "langue1": " En vrac",
+            "langue2": "In bulk "
+        },
+        {
+            "langue1": " Acheter en gros",
+            "langue2": "To buy in bulk "
+        },
+        {
+            "langue1": " Une facture",
+            "langue2": "An invoice "
+        },
+        {
+            "langue1": " Un article",
+            "langue2": "An item "
+        },
+        {
+            "langue1": " Un camion",
+            "langue2": "A lorry "
+        },
+        {
+            "langue1": " Le facteur",
+            "langue2": "The mailman (US) / postman (GB) "
+        },
+        {
+            "langue1": " Une commande",
+            "langue2": "An order "
+        },
+        {
+            "langue1": " Commander",
+            "langue2": "To order "
+        },
+        {
+            "langue1": " Passer une commande",
+            "langue2": "To put in an order (US) "
+        },
+        {
+            "langue1": " Traiter une commande",
+            "langue2": "To process an order "
+        },
+        {
+            "langue1": " En rupture de stock",
+            "langue2": "Out of stock "
+        },
+        {
+            "langue1": " La réserve / espace de stockage",
+            "langue2": "The storage room "
+        },
+        {
+            "langue1": " Un paquet / lot",
+            "langue2": "A package "
+        },
+        {
+            "langue1": " Un colis",
+            "langue2": "A parcel "
+        },
+        {
+            "langue1": " Un devis",
+            "langue2": "A quotation /  an estimate "
+        },
+        {
+            "langue1": " Un courrier recommandé",
+            "langue2": "A registered mail "
+        },
+        {
+            "langue1": " Une expédition",
+            "langue2": "A shipment "
+        },
+        {
+            "langue1": " Décharger (camion)",
+            "langue2": "To unload "
+        },
+        {
+            "langue1": " Déballer",
+            "langue2": "To Unpack "
+        },
+        {
+            "langue1": " Emballer",
+            "langue2": "To wrap "
+        },
+        {
+            "langue1": " L'empaquetage",
+            "langue2": "Packaging "
+        },
+        {
+            "langue1": " Un parc de véhicules",
+            "langue2": "A fleet of vehicles "
+        },
+        {
+            "langue1": " Français",
+            "langue2": "Boarding "
+        },
+        {
+            "langue1": " Carte d’embarquement",
+            "langue2": "A boarding Pass "
+        },
+        {
+            "langue1": " Embarquer / monter à bord (train, avion)",
+            "langue2": "To go on board / To board "
+        },
+        {
+            "langue1": " Monter dans un bus / descendre d’un bus",
+            "langue2": "To get on / off a bus "
+        },
+        {
+            "langue1": " Prix / tarif du billet (de transport; bus, taxi, train, avion)",
+            "langue2": "Fare "
+        },
+        {
+            "langue1": " Prix d’entrée (pour un musée, cinéma)",
+            "langue2": "Entry fee "
+        },
+        {
+            "langue1": " Droit d’entrée (pour un musée, cinéma)",
+            "langue2": "Entrance fee "
+        },
+        {
+            "langue1": " Les transports",
+            "langue2": "Transportation "
+        },
+        {
+            "langue1": " visites touristiques",
+            "langue2": "Sightseeing "
+        },
+        {
+            "langue1": " Faire du tourisme",
+            "langue2": "To go sightseeing "
+        },
+        {
+            "langue1": " Partir en vacances",
+            "langue2": "To go on holiday / vacation (US) "
+        },
+        {
+            "langue1": " Un voyage / une visite",
+            "langue2": "A tour (= journey) "
+        },
+        {
+            "langue1": " Un trajet (bus / voiture)",
+            "langue2": "A ride "
+        },
+        {
+            "langue1": " Voyager (en bus, train, métro) / aller en bus / aller en voiture / monter à cheval",
+            "langue2": "To ride "
+        },
+        {
+            "langue1": " Un voyage",
+            "langue2": "A trip (journey) "
+        },
+        {
+            "langue1": " Un voyage à l’étranger",
+            "langue2": "A foreign travel "
+        },
+        {
+            "langue1": " Frais de déplacement",
+            "langue2": "Travel allowance "
+        },
+        {
+            "langue1": " À l’étranger",
+            "langue2": "To go abroad "
+        },
+        {
+            "langue1": " À l’étranger",
+            "langue2": "Overseas "
+        },
+        {
+            "langue1": " Les voyages sont",
+            "langue2": "Travel is "
+        },
+        {
+            "langue1": " Un voyage organisé",
+            "langue2": "A package tour "
+        },
+        {
+            "langue1": " Un passager",
+            "langue2": "A passenger "
+        },
+        {
+            "langue1": " Les bagages",
+            "langue2": "Three pieces of luggage/baggage "
+        },
+        {
+            "langue1": " (Lieu de) récupération des bagages (aéroport)",
+            "langue2": "Baggage claim "
+        },
+        {
+            "langue1": " Récupérer ses bagages",
+            "langue2": "To retrieve "
+        },
+        {
+            "langue1": " Casier à consigne automatique",
+            "langue2": "Left-luggage (locker) "
+        },
+        {
+            "langue1": " Consigne",
+            "langue2": "Left-luggage "
+        },
+        {
+            "langue1": " Un vol direct",
+            "langue2": "A direct flight "
+        },
+        {
+            "langue1": " Vol avec / de correspondance",
+            "langue2": "A connecting flight "
+        },
+        {
+            "langue1": " Passager en transit",
+            "langue2": "Connecting passenger "
+        },
+        {
+            "langue1": " Une station balnéaire",
+            "langue2": "A sea resort "
+        },
+        {
+            "langue1": " Une station de sports d’hiver",
+            "langue2": "A ski resort "
+        },
+        {
+            "langue1": " Un vol aller-retour",
+            "langue2": "A round-trip flight "
+        },
+        {
+            "langue1": " Un billet aller-retour",
+            "langue2": "A round-trip ticket "
+        },
+        {
+            "langue1": " Un vol simple",
+            "langue2": "A one-way flight "
+        },
+        {
+            "langue1": " Un Vol sans arrêt  / sans escale",
+            "langue2": "A Non-stop flight "
+        },
+        {
+            "langue1": " Une escale / halte",
+            "langue2": "A stopover "
+        },
+        {
+            "langue1": " Un itinéraire",
+            "langue2": "A route "
+        },
+        {
+            "langue1": " Un avion",
+            "langue2": "An airplane / a plane "
+        },
+        {
+            "langue1": " Un avion",
+            "langue2": "An aircraft "
+        },
+        {
+            "langue1": " Une compagnie aérienne",
+            "langue2": "An airline / carrier "
+        },
+        {
+            "langue1": " Comptoir d’une compagnie aérienne",
+            "langue2": "Airline ticket counter "
+        },
+        {
+            "langue1": " Couloir (avion)",
+            "langue2": "Aisle "
+        },
+        {
+            "langue1": " Arrivée et départ",
+            "langue2": "Arrival and departure "
+        },
+        {
+            "langue1": " Réserver (une chambre, un vol, une place (siège))",
+            "langue2": "To book (a room, a flight, a seat) "
+        },
+        {
+            "langue1": " Complet (hôtel)",
+            "langue2": "Booked up "
+        },
+        {
+            "langue1": " Un taxi",
+            "langue2": "A taxi cab "
+        },
+        {
+            "langue1": " La carlingue de l’avion, la cabine",
+            "langue2": "The cabin "
+        },
+        {
+            "langue1": " La cabine de pilotage",
+            "langue2": "The flight deck "
+        },
+        {
+            "langue1": " L’équipage (avion)",
+            "langue2": "Cabin crew "
+        },
+        {
+            "langue1": " Membre de l’équipage",
+            "langue2": "Cabin / flight attendant "
+        },
+        {
+            "langue1": " Un wagon (pour voyageurs)",
+            "langue2": "A car (US) / A  carriage (GB) "
+        },
+        {
+            "langue1": " Un wagon de marchandises",
+            "langue2": "A wagon, truck (goods) "
+        },
+        {
+            "langue1": " Une navette",
+            "langue2": "A shuttle "
+        },
+        {
+            "langue1": " Un chariot",
+            "langue2": "A cart / trolley (US) "
+        },
+        {
+            "langue1": " Faire la navette entre son lieu de travail et son domicile",
+            "langue2": "To commute "
+        },
+        {
+            "langue1": " Un banlieusard",
+            "langue2": "A Commuter / a suburban "
+        },
+        {
+            "langue1": " La douane est…",
+            "langue2": "The Customs  is "
+        },
+        {
+            "langue1": " Hors-taxe",
+            "langue2": "Duty-free "
+        },
+        {
+            "langue1": " Le décalage horaire",
+            "langue2": "The Jet lag "
+        },
+        {
+            "langue1": " Atterrir, se poser (avion) / débarquer (navire)",
+            "langue2": "To land "
+        },
+        {
+            "langue1": " Décoller (avion)",
+            "langue2": "To take off "
+        },
+        {
+            "langue1": " Carte de débarquement",
+            "langue2": "Landing card "
+        },
+        {
+            "langue1": " Une voiture de location",
+            "langue2": "A rental car "
+        },
+        {
+            "langue1": " Haute saison",
+            "langue2": "Off season "
+        },
+        {
+            "langue1": " Une croisière",
+            "langue2": "A cruise "
+        },
+        {
+            "langue1": " Altitude de croisière",
+            "langue2": "A cruising altitude "
+        },
+        {
+            "langue1": " Métro",
+            "langue2": "A subway "
+        },
+        {
+            "langue1": " Un contrôleur de train",
+            "langue2": "A train conductor "
+        },
+        {
+            "langue1": " Hôtesse de l’air / steward",
+            "langue2": "A flight attendant "
+        },
+        {
+            "langue1": " Les rails",
+            "langue2": "Train tracks "
+        },
+        {
+            "langue1": " Passage à niveau",
+            "langue2": "Train crossing "
+        },
+        {
+            "langue1": " La voie ferrée",
+            "langue2": "The railway  (GB) / the railroad (US) "
+        },
+        {
+            "langue1": " Les rails",
+            "langue2": "The rails / the track "
+        },
+        {
+            "langue1": " Un quai",
+            "langue2": "A platform "
+        },
+        {
+            "langue1": " Fret / cargaison / prix du transport / port",
+            "langue2": "Freight "
+        },
+        {
+            "langue1": " Chèques de voyage",
+            "langue2": "Traveller’s checks "
+        },
+        {
+            "langue1": " Prix de la chambre",
+            "langue2": "The room rate "
+        },
+        {
+            "langue1": " Réseau",
+            "langue2": "Network "
+        },
+        {
+            "langue1": " À l’heure",
+            "langue2": "On time "
+        },
+        {
+            "langue1": " A temps, à terme",
+            "langue2": "In time "
+        },
+        {
+            "langue1": " Retard",
+            "langue2": "Delay "
+        },
+        {
+            "langue1": " Manquer, rater (le train)",
+            "langue2": "To miss "
+        },
+        {
+            "langue1": " Une piste d’aviation",
+            "langue2": "A runway "
+        },
+        {
+            "langue1": " Un aller-simple",
+            "langue2": "A one-way ticket "
+        },
+        {
+            "langue1": " L’heure de pointe",
+            "langue2": "Rush / peak (US) hour "
+        },
+        {
+            "langue1": " Un siège",
+            "langue2": "A seat "
+        },
+        {
+            "langue1": " Une ceinture de sécurité",
+            "langue2": "A seatbelt "
+        },
+        {
+            "langue1": " Hublot",
+            "langue2": "A window / porthole "
+        },
+        {
+            "langue1": " Enlèvement / collecte de marchandises",
+            "langue2": "A pick-up (=collection) "
+        },
+        {
+            "langue1": " Plannings / horaires / plan / programme",
+            "langue2": "Schedule "
+        },
+        {
+            "langue1": " Fuseau horaire",
+            "langue2": "Time zone "
+        },
+        {
+            "langue1": " Un envoi / une expédition",
+            "langue2": "A dispatch "
+        },
+        {
+            "langue1": " Envoyer / expédier  (marchandises)",
+            "langue2": "To dispatch "
+        },
+        {
+            "langue1": " La livraison",
+            "langue2": "The delivery "
+        },
+        {
+            "langue1": " Frais d’envoi",
+            "langue2": "Shipping costs "
+        },
+        {
+            "langue1": " Expédition / frais de transport / transport maritime",
+            "langue2": "Shipping "
+        },
+        {
+            "langue1": " Assister à (une conférence…)",
+            "langue2": "To attend something "
+        },
+        {
+            "langue1": " Le public / l’auditoire",
+            "langue2": "The audience "
+        },
+        {
+            "langue1": " Une cabine téléphonique (intérieure)",
+            "langue2": "A booth "
+        },
+        {
+            "langue1": " Une foire commerciale",
+            "langue2": "A trade fair "
+        },
+        {
+            "langue1": " Lancer un produit  sur le marché",
+            "langue2": "To launch a product onto the market "
+        },
+        {
+            "langue1": " Une marque (commerciale) d'un produit",
+            "langue2": "A brand "
+        },
+        {
+            "langue1": " Une marque déposée",
+            "langue2": "A (registered) trade mark "
+        },
+        {
+            "langue1": " Le cahier des charges",
+            "langue2": "Specifications "
+        },
+        {
+            "langue1": " Une gamme / choix / éventail de produits",
+            "langue2": "A range / line of products "
+        },
+        {
+            "langue1": " Atteindre un but / objectif",
+            "langue2": "To reach a goal "
+        },
+        {
+            "langue1": " Respecter un délai / une date limite",
+            "langue2": "To meet a deadline "
+        },
+        {
+            "langue1": " Une cible / un public ciblé",
+            "langue2": "A target / an audience target "
+        },
+        {
+            "langue1": " Un conseil / tuyau",
+            "langue2": "A tip "
+        },
+        {
+            "langue1": " Études de marché",
+            "langue2": "Market studies "
+        },
+        {
+            "langue1": " Un bureau d'étude",
+            "langue2": "A research department "
+        },
+        {
+            "langue1": " Comportement du consommateur",
+            "langue2": "Consumer behaviour (GB) / behavior (US) "
+        },
+        {
+            "langue1": " Canal / circuit / chaîne de distribution",
+            "langue2": "Distribution channel "
+        },
+        {
+            "langue1": " Un centre d'appel",
+            "langue2": "A call center "
+        },
+        {
+            "langue1": " Un échantillon",
+            "langue2": "A sample "
+        },
+        {
+            "langue1": " Une part de marché",
+            "langue2": "A market share "
+        },
+        {
+            "langue1": " Faire faire un sondage / une enquête",
+            "langue2": "To conduct a poll / survey "
+        },
+        {
+            "langue1": " Français",
+            "langue2": "An account "
+        },
+        {
+            "langue1": " Un compte bancaire",
+            "langue2": "A banking account "
+        },
+        {
+            "langue1": " Le montant",
+            "langue2": "The amount "
+        },
+        {
+            "langue1": " S’élever à… (somme)",
+            "langue2": "To amount to "
+        },
+        {
+            "langue1": " Le solde",
+            "langue2": "The balance "
+        },
+        {
+            "langue1": " Frais bancaires /agios",
+            "langue2": "Bank charges "
+        },
+        {
+            "langue1": " Un billet de banque",
+            "langue2": "A banknote "
+        },
+        {
+            "langue1": " Un pièce de monnaie",
+            "langue2": "A coin "
+        },
+        {
+            "langue1": " Une agence",
+            "langue2": "A branch "
+        },
+        {
+            "langue1": " Un courtier",
+            "langue2": "A broker "
+        },
+        {
+            "langue1": " Courtage",
+            "langue2": "Brokerage "
+        },
+        {
+            "langue1": " L’argent liquide",
+            "langue2": "Cash "
+        },
+        {
+            "langue1": " Un chéquier",
+            "langue2": "A checkbook "
+        },
+        {
+            "langue1": " Un livret d’épargne",
+            "langue2": "A passbook "
+        },
+        {
+            "langue1": " La caisse d’épargne",
+            "langue2": "The savings bank "
+        },
+        {
+            "langue1": " Un compte-chèque",
+            "langue2": "A checking account "
+        },
+        {
+            "langue1": " Un compte de dépôt",
+            "langue2": "A deposit account "
+        },
+        {
+            "langue1": " Une traite (finance)",
+            "langue2": "A draft "
+        },
+        {
+            "langue1": " Remplir un formulaire",
+            "langue2": "To fill in / out a form "
+        },
+        {
+            "langue1": " Fonds / aides financières",
+            "langue2": "Funds "
+        },
+        {
+            "langue1": " Versement / mensualité",
+            "langue2": "Instalment "
+        },
+        {
+            "langue1": " Devoir quelque chose",
+            "langue2": "To owe something "
+        },
+        {
+            "langue1": " Un portefeuille (d’actions/clients)",
+            "langue2": "A portfolio "
+        },
+        {
+            "langue1": " Un portefeuille (billets)",
+            "langue2": "A wallet "
+        },
+        {
+            "langue1": " La bourse (sac)",
+            "langue2": "A purse "
+        },
+        {
+            "langue1": " Versement",
+            "langue2": "Remittance "
+        },
+        {
+            "langue1": " Le guichetier",
+            "langue2": "The teller "
+        },
+        {
+            "langue1": " Un virement",
+            "langue2": "A transfer "
+        },
+        {
+            "langue1": " Retirer de l’argent",
+            "langue2": "To withdraw money "
+        }
+    ]
+}
