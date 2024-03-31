@@ -1,0 +1,70 @@
+{
+    "type": "traduction",
+    "quizName": "Perso",
+    "vocabulaire": [
+        {
+            "langue1": " 19 juin 1623 / 19 aout 1662 / 16 ans : Traité de géométrie projective / 19 ans : 1ere machine à calculé / auteur de texte important sur scientique/maths",
+            "langue2": "Date Blaise Pascal"
+        },
+        {
+            "langue1": " 26 decembre 1791 / 18 octobre 1871 / premier à énoncé le principe d'un ordi / ajouter des cartes Jacquard dans la machine à calculé / créer un ordi avec 3x moins de pièces",
+            "langue2": "Charles Babbage"
+        },
+        {
+            "langue1": " 10 décembre 1815 / 27 novembre 1852 / créer le 1er programme informatique / 1ere personne à avoir programmé",
+            "langue2": "Ada Lovelace"
+        },
+        {
+            "langue1": " 23 aout 1868 / 10 décembre 1944 / 1905 : rassemblage de tous les ouvrages investigateurs du Palais-Mondial-Mundaneum \"Google de papier\"",
+            "langue2": "Paul OHet"
+        },
+        {
+            "langue1": " 28 décembre 1903 / créer modèle inovant / base de la conception des ordi d'aujourd'hui",
+            "langue2": "John Von Neumann"
+        },
+        {
+            "langue1": " 9 décembre 1906 / 1 janvier 1992 / 1959 : langage Cobol / 1951 : premier compilateur",
+            "langue2": "Grace Hopper"
+        },
+        {
+            "langue1": " 23 novembre 1912 / 7 juin 1954 / Héros 2nd guerre mondiale à déchiffrer énigma (chiffrement NAZI) printemps 1942 / Travail sur le 1er ordi / débat IA / Creer test Turing / Invention bombe",
+            "langue2": "Alan Turing"
+        },
+        {
+            "langue1": " 9 novembre 1914 / 19 janvier 2000 / Invention du moyen codage des informations (place les satelies aujourd'hui)",
+            "langue2": "Hedy Lamarr"
+        },
+        {
+            "langue1": " 24 juin 1917 / 4 septembre 1996 / aide décryptage machine énigma",
+            "langue2": "Joan Clarke"
+        },
+        {
+            "langue1": " 17 aout 1936 /",
+            "langue2": "Margaret Hamilton"
+        },
+        {
+            "langue1": " 11 aout 1950 /",
+            "langue2": "Steve Wozriak"
+        },
+        {
+            "langue1": " 16 fevrier 1953 / créer des jeux vidéos",
+            "langue2": "Roberta Williams"
+        },
+        {
+            "langue1": " 24 fevrier 1955 / 20 octobre 2011 / 1 avril 1976 : créer la marque Apple",
+            "langue2": "Steve Jobs"
+        },
+        {
+            "langue1": " 8 juin 1955 / 6 aout 1991 créer le World Wilde Web / fabrique son premier ordi",
+            "langue2": "Tim Berners-Lee"
+        },
+        {
+            "langue1": " 28 octobre 1955 / 1975 : co-fondateur Microsoft / permet un développement informatique",
+            "langue2": "Bill Gates"
+        },
+        {
+            "langue1": " 26 décembre 1969 / 1991 (21 ans) : Créer le noyau Linux",
+            "langue2": "Linus Torvalds"
+        }
+    ]
+}

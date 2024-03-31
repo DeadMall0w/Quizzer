@@ -21,7 +21,10 @@ def convert_quiz(file_path, quiz_name):
 
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
+        i = 0
         for line in lines:
+            print(i)
+            i+=1
             langue2, langue1 = line.strip().split(',')
             item = {
                 "langue1": langue1,
