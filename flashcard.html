@@ -9,12 +9,18 @@
   <body>
     <div class="quiz-container">
       <p id="question-count">0/109</p>
-      <h1 id="question-text">Question 1:</h1>
+      <h1 id="text-1">Nom de l'auteur qui a écrit xxxx : </h1>
+      <p id="text-2">Monsieur ABC</p>
+      <br>
+      <br>
+      <!-- <div id="flashcard"></div> -->
 
       <div class="input-container">
         <input type="text" id="input-text" placeholder="Votre réponse" />
-        <button id="enter-button" onclick="SubmitAnswer()">Entrer</button>
-        <p id="response-text"></p>
+      </div>
+      <div class="buttons">
+        <button onclick="show()" >Afficher</button>
+        <button onclick="next()">Suivant</button>
       </div>
      
     </div>
