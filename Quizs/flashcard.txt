@@ -2,55 +2,18 @@
 name:Philo
 version:1
 ---
-Comment définit le bonheur;;etat de satisfaction/pleinitude propre à l'individu, il ne manque RIEN
-Bonheur dépend de nous ?;;Oui car 0 objectivté/0concept possible MAIS sinon pas de discussion possible
+Ethique a Nicomaque;; Aristote, These du souverains bien C'est une fin qui n'est pour aucune autres fin. Tout le monde recherche le bonheur tout le temps.
+Fondation métaphysique des Moeurs;; Kant, le bonheur n'est pas définissable Il faudrait être omniscient pour le faire. C'est un idéal de l'imagination
+Le banquet;; Platon, Mythe des Androgene, il essaye de trouver une explication par le mythe. quete de retrouver notre moitié, une souffrance passé. L'amour est le fondement de tous désirs.
+Philièbe;; Platon, Tout désir résorbe un manque, mais mène à un autre désir. Donc, le bonheur serait la chose qui mettrait fin à tous les désirs, et non à leurs quêtes.
+Gorgias;; 	Platon, Opposition de 2 Callicles : Être heureux tout de suite, sans courage ni raison (ex : voler glace a un enfant) Socrate : Vivre selon la justice et la vertu, qui s’obtient en mêlant le courage et l’intelligence.
+Lettre a Ménécée;; Epicure, 4 erreurs a ne pas faire pour atteindre le bonheur - Craindre les dieux- Craindre la mort- Connaître la classification des désirs - Désirs naturels et nécessaires (manger, amitié) - Désirs naturels et NON nécessaires (sexe, bien manger, bon logement) - Désirs sans fondement (influence social, publicité, comparaison avec les autres) - Supporter la douleur et ne pas s'en inquiéter 
+De la brieveté de la vie;; Seneque, Pour vivre heureux, il faut savoir en temps voulu se retirer des affaires pour ne plus avoir sa situation soumise au hasard. Cela, non pour vivre dans la paresse, mais pour avoir un repos intellectuellement / spirituellement actif, afin de devenir un sage, et de vivre heureux
+Manuel;; Epictete, Le bonheur dépend de nous, ex : la maladie n'est pas la tristesse, il faut laisser faire les choses, on est toujours libre dans notre tête. "Se blesser ne dépend pas de nous, mais s'apitoyer sur notre sort oui". Il faut prendre les choses telles qu'elles sont données, être un sage.
+Critique de la raison pur;; Kant, 
 
 
-La morale stoïcienne n’est-elle pas malgré tout intéressée?;;Paradoxe : Recherche du bonheur ≠ Faire son devoir ;; Mène à une fin qui ne serait que la vertu?
-Comment fonder la morale?;;Kant, Fondation de la Métaphysique des Mœurs (FMM) ;; Morale : Principe universel permettant la distinction bien/mal, or universel = partout, tt le temps…
-Qu'est-ce que l'impératif catégorique selon Kant?;;Commandement inconditionnel, indépendant des circonstances ;; Permet de déterminer si une intention est morale ou non
-Quels sont les postulats de la raison pratique selon Kant?;;L’autonomie de la volonté : Le libre-arbitre, la liberté absolue du pouvoir. Il est toujours possible de renoncer aux mobiles sensibles.;; L’immortalité de l’âme : Une existence après la mort.;; L’existence de Dieu : C’est lui qui décide de notre bien-être.
-Qu'est-ce que l'impératif catégorique?;;Idée de Kant ;; Commandement inconditionnel, indépendant des circonstances ;; Distinguer entre le devoir et les intérêts personnels
-Quels sont les deux types d'impératifs selon Kant?;;Impératifs hypothétiques ;; Impératifs catégoriques
-Quelles sont les caractéristiques de l'impératif catégorique?;;Commandement inconditionnel ;; Universellement valable pour tous les êtres rationnels ;; Découlant de la raison pure pratique
-Quels sont les postulats de la raison pratique selon Kant?;;L’autonomie de la volonté ;; L’immortalité de l’âme ;; L’existence de Dieu
-Qu'est-ce que l'autonomie de la volonté selon Kant?;;Libre arbitre ;; Capacité de la volonté à agir indépendamment des mobiles sensibles
-Qu'est-ce que l'immortalité de l'âme selon Kant?;;Idée que l'âme persiste après la mort ;; Nécessaire pour assurer la justice dans le monde
-Qu'est-ce que l'existence de Dieu selon Kant?;;Nécessaire pour garantir la finalité morale de l'univers ;; Source de la loi morale
-Quel est le concept de liberté selon Kant?;;Capacité de la volonté à agir selon la raison sans contrainte ;; Indépendant des inclinations ou des désirs
-Qu'est-ce que l'hétéronomie de la volonté selon Kant?;;Dépendance de la volonté à l'égard des désirs et des inclinations ;; Contraire à la morale
-Qu'est-ce que l'autonomie de la volonté selon Kant?;;Capacité de la volonté à se donner à elle-même ses propres lois morales ;; Indépendance à l'égard des inclinations et des désirs
-Quels sont les critères de moralité selon Kant?;;Universalité ;; Non-contradiction ;; Respect de la dignité humaine
-Quelle est la différence entre le bien et le mal selon Kant?;;Bien : conforme au devoir ;; Mal : contraire au devoir
-Quel est le principe de l'universalisation selon Kant?;;Agir uniquement selon la maxime qui peut être universalisée ;; Considérer si la maxime de son action pourrait être adoptée comme loi universelle
-Qu'est-ce que la loi morale selon Kant?;;Impératif catégorique ;; Commandement inconditionnel de la raison pure pratique ;; Exigence de l'universalisation des maximes
-Qu'est-ce que l'impératif hypothétique selon Kant?;;Commandement conditionnel ;; Exigeant quelque chose pour atteindre un certain but
-Quelle est la différence entre l'impératif catégorique et l'impératif hypothétique selon Kant?;;Catégorique : inconditionnel ;; Hypothétique : conditionnel
-Qu'est-ce que la bonne volonté selon Kant?;;Volonté qui agit par devoir ;; Indépendante des conséquences
-Qu'est-ce que la maxime selon Kant?;;Principe de l'action ;; Motivation ou règle suivie dans une action
-Qu'est-ce que la maxime universelle selon Kant?;;Principe de l'action qui pourrait être adopté par tous ;; Test de moralité d'une action
-Qu'est-ce que la loi morale selon Kant?;;Exigence de l'universalisation des maximes ;; Exigence d'agir uniquement selon les maximes qui pourraient être adoptées comme lois universelles
-Qu'est-ce que l'impératif catégorique selon Kant?;;Commandement inconditionnel ;; Exigence de l'universalisation des maximes
-Qu'est-ce que l'impératif hypothétique selon Kant?;;Commandement conditionnel ;; Exigence pour atteindre un certain but
-Qu'est-ce que la bonne volonté selon Kant?;;Volonté qui agit par devoir ;; Indépendante des conséquences
-Qu'est-ce que la maxime selon Kant?;;Principe de l'action ;; Motivation ou règle suivie dans une action
-Qu'est-ce que la maxime universelle selon Kant?;;Principe de l'action qui pourrait être adopté par tous ;; Test de moralité d'une action
-Qu'est-ce que la loi morale selon Kant?;;Exigence de l'universalisation des maximes ;; Exigence d'agir uniquement selon les maximes qui pourraient être adoptées comme lois universelles
-Qu'est-ce que l'impératif catégorique selon Kant?;;Commandement inconditionnel ;; Exigence de l'universalisation des maximes
-Qu'est-ce que l'impératif hypothétique selon Kant?;;Commandement conditionnel ;; Exigence pour atteindre un certain but
-Qu'est-ce que la bonne volonté selon Kant?;;Volonté qui agit par devoir ;; Indépendante des conséquences
-Qu'est-ce que la maxime selon Kant?;;Principe de l'action ;; Motivation ou règle suivie dans une action
-Qu'est-ce que la maxime universelle selon Kant?;;Principe de l'action qui pourrait être adopté par tous ;; Test de moralité d'une action
-Qu'est-ce que la loi morale selon Kant?;;Exigence de l'universalisation des maximes ;; Exigence d'agir uniquement selon les maximes qui pourraient être adoptées comme lois universelles
-Qu'est-ce que l'impératif catégorique selon Kant?;;Commandement inconditionnel ;; Exigence de l'universalisation des maximes
-Qu'est-ce que l'impératif hypothétique selon Kant?;;Commandement conditionnel ;; Exigence pour atteindre un certain but
-Qu'est-ce que la bonne volonté selon Kant?;;Volonté qui agit par devoir ;; Indépendante des conséquences
-Qu'est-ce que la maxime selon Kant?;;Principe de l'action ;; Motivation ou règle suivie dans une action
-Qu'est-ce que la maxime universelle selon Kant?;;Principe de l'action qui pourrait être adopté par tous ;; Test de moralité d'une action
-Qu'est-ce que la loi morale selon Kant?;;Exigence de l'universalisation des maximes ;; Exigence d'agir uniquement selon les maximes qui pourraient être adoptées comme lois universelles
-Qu'est-ce que l'impératif catégorique selon Kant?;;Commandement inconditionnel ;; Exigence de l'universalisation des maximes
-Qu'est-ce que l'impératif hypothétique selon Kant?;;Commandement conditionnel ;; Exigence pour atteindre un certain but
-Qu'est-ce que la bonne volonté selon Kant?;;Volonté qui agit par devoir ;; Indépendante des conséquences
-Qu'est-ce que la maxime selon Kant?;;Principe de l'action ;; Motivation ou règle suivie dans une action
-Qu'est-ce que la maxime universelle selon Kant?;;Principe de l'action qui pourrait être adopté par tous ;; Test de moralité d'une action
-Qu'est-ce que la loi morale selon Kant?;;Exigence de l'universalisation des maximes ;; Exigence d'agir uniquement selon les maximes qui pourraient être adoptées comme lois universelles
+
+
+
+

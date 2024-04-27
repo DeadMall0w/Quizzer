@@ -1,5 +1,5 @@
 let questions = {};
-let currentFlashcardIndex = 0;
+let currentFlashcardIndex = -1;
 
 const inputText = document.getElementById('input-text');
 document.addEventListener('DOMContentLoaded', function() {
