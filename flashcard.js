@@ -22,9 +22,8 @@ function loadFlashcardsFromFile(file) {
                 flashcards.push(flashcard);
               }
             });
-            // Maintenant que les flashcards sont chargées, affichez la première flashcard
-            show();
-            console.log(flashcards);
+            // Maintenant que les flashcards sont chargées, afficher la première flashcard
+            currentFlashcardIndex = -1;
             next();
       })
       .catch(error => console.error('Error loading flashcards:', error));

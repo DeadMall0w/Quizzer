@@ -1,16 +1,12 @@
 ---
-name:Philo
+name:Test
 version:1
 ---
-Ethique a Nicomaque;; Aristote, These du souverains bien C'est une fin qui n'est pour aucune autres fin. Tout le monde recherche le bonheur tout le temps.
-Fondation métaphysique des Moeurs;; Kant, le bonheur n'est pas définissable Il faudrait être omniscient pour le faire. C'est un idéal de l'imagination
-Le banquet;; Platon, Mythe des Androgene, il essaye de trouver une explication par le mythe. quete de retrouver notre moitié, une souffrance passé. L'amour est le fondement de tous désirs.
-Philièbe;; Platon, Tout désir résorbe un manque, mais mène à un autre désir. Donc, le bonheur serait la chose qui mettrait fin à tous les désirs, et non à leurs quêtes.
-Gorgias;; 	Platon, Opposition de 2 Callicles : Être heureux tout de suite, sans courage ni raison (ex : voler glace a un enfant) Socrate : Vivre selon la justice et la vertu, qui s’obtient en mêlant le courage et l’intelligence.
-Lettre a Ménécée;; Epicure, 4 erreurs a ne pas faire pour atteindre le bonheur - Craindre les dieux- Craindre la mort- Connaître la classification des désirs - Désirs naturels et nécessaires (manger, amitié) - Désirs naturels et NON nécessaires (sexe, bien manger, bon logement) - Désirs sans fondement (influence social, publicité, comparaison avec les autres) - Supporter la douleur et ne pas s'en inquiéter 
-De la brieveté de la vie;; Seneque, Pour vivre heureux, il faut savoir en temps voulu se retirer des affaires pour ne plus avoir sa situation soumise au hasard. Cela, non pour vivre dans la paresse, mais pour avoir un repos intellectuellement / spirituellement actif, afin de devenir un sage, et de vivre heureux
-Manuel;; Epictete, Le bonheur dépend de nous, ex : la maladie n'est pas la tristesse, il faut laisser faire les choses, on est toujours libre dans notre tête. "Se blesser ne dépend pas de nous, mais s'apitoyer sur notre sort oui". Il faut prendre les choses telles qu'elles sont données, être un sage.
-Critique de la raison pur;; Kant, 
+Quelle est la capitale de la France?;;Paris;;
+Quelle est la couleur du ciel par temps clair?;;Bleu;;
+Qui a peint la Joconde?;;Leonardo da Vinci;;
+Quelle est la racine carrée de 16?;;4;;
+Quel est le symbole chimique de l'eau?;;H2O;;
 
 
 
