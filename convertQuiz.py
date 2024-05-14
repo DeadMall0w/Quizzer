@@ -25,7 +25,7 @@ def convert_quiz(file_path, quiz_name):
         for line in lines:
             print(i)
             i+=1
-            langue2, langue1 = line.strip().split(',')
+            langue1, langue2 = line.strip().split(':')
             item = {
                 "langue1": langue1,
                 "langue2": langue2

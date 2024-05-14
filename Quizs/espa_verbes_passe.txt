@@ -1,0 +1,32 @@
+IMPARFAIT - S1 - AR : aba
+IMPARFAIT - S2 - AR : abas
+IMPARFAIT - S3 - AR : aba
+IMPARFAIT - P1 - AR : abamos
+IMPARFAIT - P2 - AR : abais
+IMPARFAIT - P3 - AR : aban
+IMPARFAIT - S1 - IR/ER : ia
+IMPARFAIT - S2 - IR/ER : ias
+IMPARFAIT - S3 - IR/ER : ia
+IMPARFAIT - P1 - IR/ER : iamos
+IMPARFAIT - P2 - IR/ER : iais
+IMPARFAIT - P3 - IR/ER : ian
+PASSE SIMPLE - S1 - AR : é
+PASSE SIMPLE - S2 - AR : aste
+PASSE SIMPLE - S3 - AR : o
+PASSE SIMPLE - P1 - AR : amos
+PASSE SIMPLE - P2 - AR : asteis
+PASSE SIMPLE - P3 - AR : aron
+PASSE SIMPLE - S1 - IR/ER : i
+PASSE SIMPLE - S2 - IR/ER : iste
+PASSE SIMPLE - S3 - IR/ER : o
+PASSE SIMPLE - P1 - IR/ER : imos
+PASSE SIMPLE - P2 - IR/ER : isteis
+PASSE SIMPLE - P3 - IR/ER : ieron
+PASSE COMPOSE - S1 : he
+PASSE COMPOSE - S2 : has
+PASSE COMPOSE - S3 : ha
+PASSE COMPOSE - P1 : hemos
+PASSE COMPOSE - P2 : habéis
+PASSE COMPOSE - P3 : han
+PASSE COMPOSE - AR : ado
+PASSE COMPOSE - ER/IR : ido

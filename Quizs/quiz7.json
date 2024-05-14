@@ -1,0 +1,134 @@
+{
+    "type": "traduction",
+    "quizName": "Espa verbes passe",
+    "vocabulaire": [
+        {
+            "langue1": "IMPARFAIT - S1 - AR ",
+            "langue2": " aba"
+        },
+        {
+            "langue1": "IMPARFAIT - S2 - AR ",
+            "langue2": " abas"
+        },
+        {
+            "langue1": "IMPARFAIT - S3 - AR ",
+            "langue2": " aba"
+        },
+        {
+            "langue1": "IMPARFAIT - P1 - AR ",
+            "langue2": " abamos"
+        },
+        {
+            "langue1": "IMPARFAIT - P2 - AR ",
+            "langue2": " abais"
+        },
+        {
+            "langue1": "IMPARFAIT - P3 - AR ",
+            "langue2": " aban"
+        },
+        {
+            "langue1": "IMPARFAIT - S1 - IR/ER ",
+            "langue2": " ia"
+        },
+        {
+            "langue1": "IMPARFAIT - S2 - IR/ER ",
+            "langue2": " ias"
+        },
+        {
+            "langue1": "IMPARFAIT - S3 - IR/ER ",
+            "langue2": " ia"
+        },
+        {
+            "langue1": "IMPARFAIT - P1 - IR/ER ",
+            "langue2": " iamos"
+        },
+        {
+            "langue1": "IMPARFAIT - P2 - IR/ER ",
+            "langue2": " iais"
+        },
+        {
+            "langue1": "IMPARFAIT - P3 - IR/ER ",
+            "langue2": " ian"
+        },
+        {
+            "langue1": "PASSE SIMPLE - S1 - AR ",
+            "langue2": " é"
+        },
+        {
+            "langue1": "PASSE SIMPLE - S2 - AR ",
+            "langue2": " aste"
+        },
+        {
+            "langue1": "PASSE SIMPLE - S3 - AR ",
+            "langue2": " o"
+        },
+        {
+            "langue1": "PASSE SIMPLE - P1 - AR ",
+            "langue2": " amos"
+        },
+        {
+            "langue1": "PASSE SIMPLE - P2 - AR ",
+            "langue2": " asteis"
+        },
+        {
+            "langue1": "PASSE SIMPLE - P3 - AR ",
+            "langue2": " aron"
+        },
+        {
+            "langue1": "PASSE SIMPLE - S1 - IR/ER ",
+            "langue2": " i"
+        },
+        {
+            "langue1": "PASSE SIMPLE - S2 - IR/ER ",
+            "langue2": " iste"
+        },
+        {
+            "langue1": "PASSE SIMPLE - S3 - IR/ER ",
+            "langue2": " o"
+        },
+        {
+            "langue1": "PASSE SIMPLE - P1 - IR/ER ",
+            "langue2": " imos"
+        },
+        {
+            "langue1": "PASSE SIMPLE - P2 - IR/ER ",
+            "langue2": " isteis"
+        },
+        {
+            "langue1": "PASSE SIMPLE - P3 - IR/ER ",
+            "langue2": " ieron"
+        },
+        {
+            "langue1": "PASSE COMPOSE - S1 ",
+            "langue2": " he"
+        },
+        {
+            "langue1": "PASSE COMPOSE - S2 ",
+            "langue2": " has"
+        },
+        {
+            "langue1": "PASSE COMPOSE - S3 ",
+            "langue2": " ha"
+        },
+        {
+            "langue1": "PASSE COMPOSE - P1 ",
+            "langue2": " hemos"
+        },
+        {
+            "langue1": "PASSE COMPOSE - P2 ",
+            "langue2": " habéis"
+        },
+        {
+            "langue1": "PASSE COMPOSE - P3 ",
+            "langue2": " han"
+        },
+        {
+            "langue1": "PASSE COMPOSE - AR ",
+            "langue2": " ado"
+        },
+        {
+            "langue1": "PASSE COMPOSE - ER/IR ",
+            "langue2": " ido"
+        }
+    ]
+}
