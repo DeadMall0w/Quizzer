@@ -1,7 +1,7 @@
----
+
 name:Test
 version:1
----
+
 Quelle est la capitale de la France?;;Paris;;
 Quelle est la couleur du ciel par temps clair?;;Bleu;;
 Qui a peint la Joconde?;;Leonardo da Vinci;;
