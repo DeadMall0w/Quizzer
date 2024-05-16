@@ -129,6 +129,127 @@
         {
             "langue1": "PASSE COMPOSE - ER/IR ",
             "langue2": " ido"
+        },
+        {
+            "langue1": "IMPARFAIT - IR",
+            "langue2": "iba"
+        },
+        {
+            "langue1": "IMPARFAIT - VER",
+            "langue2": "veia"
+        },
+        {
+            "langue1": "IMPARFAIT - SER",
+            "langue2": "era"
         }
+        ,
+        {
+            "langue1": "PASSE SIMPLE - IR",
+            "langue2": "fui"
+        },
+        {
+            "langue1": "PASSE SIMPLE - SER",
+            "langue2": "fui"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Andar (marcher)",
+          "langue2": "anduve"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Estar (être)",
+          "langue2": "estuve"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Dar (donner)",
+          "langue2": "di"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Decir (dire)",
+          "langue2": "dije"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Hacer (faire)",
+          "langue2": "hice"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Poder (pouvoir)",
+          "langue2": "pude"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Poner (mettre, placer)",
+          "langue2": "puse"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Querer (vouloir)",
+          "langue2": "quise"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Saber (savoir)",
+          "langue2": "supe"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Tener (avoir)",
+          "langue2": "tuve"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Traer (apporter)",
+          "langue2": "traje"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Venir (venir)",
+          "langue2": "vine"
+        },
+        {
+          "langue1": "PASSE SIMPLE - Conducir (conduire tous les verbes en « -ducir »)",
+          "langue2": "conduje"
+        },
+        {
+            "langue1": "hacer",
+            "langue2": "hecho"
+          },
+          {
+            "langue1": "decir",
+            "langue2": "dicho"
+          },
+          {
+            "langue1": "satisfacer",
+            "langue2": "satisfecho"
+          },
+          {
+            "langue1": "abrir",
+            "langue2": "abierto"
+          },
+          {
+            "langue1": "cubrir",
+            "langue2": "cubierto"
+          },
+          {
+            "langue1": "escribir",
+            "langue2": "escrito"
+          },
+          {
+            "langue1": "morir",
+            "langue2": "muerto"
+          },
+          {
+            "langue1": "poner",
+            "langue2": "puesto"
+          },
+          {
+            "langue1": "romper",
+            "langue2": "roto"
+          },
+          {
+            "langue1": "resolver",
+            "langue2": "resuelto"
+          },
+          {
+            "langue1": "ver",
+            "langue2": "visto"
+          },
+          {
+            "langue1": "volver",
+            "langue2": "vuelto"
+          }
     ]
 }
