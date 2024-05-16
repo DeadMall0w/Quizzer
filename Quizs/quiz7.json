@@ -204,52 +204,52 @@
           "langue2": "conduje"
         },
         {
-            "langue1": "hacer",
-            "langue2": "hecho"
-          },
-          {
-            "langue1": "decir",
-            "langue2": "dicho"
-          },
-          {
-            "langue1": "satisfacer",
-            "langue2": "satisfecho"
-          },
-          {
-            "langue1": "abrir",
-            "langue2": "abierto"
-          },
-          {
-            "langue1": "cubrir",
-            "langue2": "cubierto"
-          },
-          {
-            "langue1": "escribir",
-            "langue2": "escrito"
-          },
-          {
-            "langue1": "morir",
-            "langue2": "muerto"
-          },
-          {
-            "langue1": "poner",
-            "langue2": "puesto"
-          },
-          {
-            "langue1": "romper",
-            "langue2": "roto"
-          },
-          {
-            "langue1": "resolver",
-            "langue2": "resuelto"
-          },
-          {
-            "langue1": "ver",
-            "langue2": "visto"
-          },
-          {
-            "langue1": "volver",
-            "langue2": "vuelto"
-          }
+    "langue1": "PASSE COMPOSE - hacer",
+    "langue2": "hecho"
+  },
+  {
+    "langue1": "PASSE COMPOSE - decir",
+    "langue2": "dicho"
+  },
+  {
+    "langue1": "PASSE COMPOSE - satisfacer",
+    "langue2": "satisfecho"
+  },
+  {
+    "langue1": "PASSE COMPOSE - abrir",
+    "langue2": "abierto"
+  },
+  {
+    "langue1": "PASSE COMPOSE - cubrir",
+    "langue2": "cubierto"
+  },
+  {
+    "langue1": "PASSE COMPOSE - escribir",
+    "langue2": "escrito"
+  },
+  {
+    "langue1": "PASSE COMPOSE - morir",
+    "langue2": "muerto"
+  },
+  {
+    "langue1": "PASSE COMPOSE - poner",
+    "langue2": "puesto"
+  },
+  {
+    "langue1": "PASSE COMPOSE - romper",
+    "langue2": "roto"
+  },
+  {
+    "langue1": "PASSE COMPOSE - resolver",
+    "langue2": "resuelto"
+  },
+  {
+    "langue1": "PASSE COMPOSE - ver",
+    "langue2": "visto"
+  },
+  {
+    "langue1": "PASSE COMPOSE - volver",
+    "langue2": "vuelto"
+  }
     ]
 }
