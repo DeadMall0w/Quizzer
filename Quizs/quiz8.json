@@ -1,0 +1,46 @@
+{
+    "type": "traduction",
+    "quizName": "liste commande",
+    "vocabulaire": [
+        {
+            "langue1": "Qu'est-ce que la commande man permet d'obtenir ?",
+            "langue2": "Le manuel de n’importe quelle commande."
+        },
+        {
+            "langue1": "Quelle est la commande pour afficher la liste des répertoires et des fichiers ?",
+            "langue2": "La commande ls."
+        },
+        {
+            "langue1": "Quelle est la commande pour afficher les identifiants de l’utilisateur et les groupes d’utilisateurs dont il fait partie ?",
+            "langue2": "La commande id."
+        },
+        {
+            "langue1": "Quelle est la commande pour connaître le répertoire courant ?",
+            "langue2": "La commande pwd."
+        },
+        {
+            "langue1": "Quelle est la commande pour changer de répertoire ?",
+            "langue2": "La commande cd."
+        },
+        {
+            "langue1": "Quelle est la commande pour revenir au répertoire racine ?",
+            "langue2": "La commande cd/."
+        },
+        {
+            "langue1": "Quelle est la commande pour créer un répertoire dans le répertoire courant ?",
+            "langue2": "La commande mkdir nom."
+        },
+        {
+            "langue1": "Quelle est la commande pour afficher un fichier dans la console ?",
+            "langue2": "La commande cat."
+        },
+        {
+            "langue1": "Qu'est-ce qu'un chemin absolu ?",
+            "langue2": "Un chemin qui part de la racine et décrit l’ensemble des répertoires à traverser pour accéder au fichier recherché"
+        },
+        {
+            "langue1": "Qu'est-ce qu'un chemin relatif ?",
+            "langue2": "Un chemin qui dépend du répertoire courant."
+        }
+    ]
+}
