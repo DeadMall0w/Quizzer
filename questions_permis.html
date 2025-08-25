@@ -1,38 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Quiz Permis</title>
-<style>
-  body { font-family: Arial, sans-serif; margin: 10px; background: #f0f0f0; padding: 15px;}
-  h2 { color: #333; font-size: 8em;  text-align: center;}
-  label { display: block; margin-top: 10px; }
-  button { margin-top: 15px; padding: 12px 0; width: 100%; border: none; background: #007BFF; color: white; border-radius: 5px; cursor: pointer; font-size: 2.3em; }
-  button:hover { background: #0056b3; }
-  p { font-size: 1.5em; }
-  .result { margin-top: 15px; background: #e0ffe0; padding: 10px; border-radius: 5px; font-size: 1em; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzer - Questions Permis</title>
 </head>
-<body>
+<body style="background:#f9f9f9; color:#222; font-family:sans-serif; padding:2em;">
+    <h1>Questions Permis</h1>
+    <div style="white-space:pre-line; line-height:1.6;">
+    </div>
 
-<div class="quiz-container">
-  <h2 id="question-title">Question : 19</h2>
-  <div id="question-container">
-    <p id="question-securite"></p>
-    <textarea id="reponse-securite" placeholder="" rows="2" style="width:100%;font-size:2em;margin-top:5px;padding:10px;box-sizing:border-box;" oninput="this.style.height='auto';this.style.height=(this.scrollHeight)+'px';"></textarea>
+    <a href="quiz_permis.html" style="position:fixed;top:20px;right:20px;z-index:1000;background:#176c2c;color:#fff;padding:0.7em 1.2em;border-radius:6px;text-decoration:none;font-weight:bold;box-shadow:0 2px 8px rgba(0,0,0,0.08);">Quiz Permis</a>
 
-    <p id="question-secours"></p>
-    <textarea id="reponse-secours" placeholder="" rows="2" style="width:100%;font-size:2em;margin-top:5px;padding:10px;box-sizing:border-box;" oninput="this.style.height='auto';this.style.height=(this.scrollHeight)+'px';"></textarea>
-
-    <div id="result" class="result" style="display:none;"></div>
-    
-    <button id="valider" onclick="verifierReponses()">Voir les réponses</button>
-    <button id="suivant" onclick="poserQuestion()" style="display:none;">Suivant</button>
-    
-    <a href="questions_permis.html" style="position:fixed;font-size:2em;top:20px;right:20px;z-index:1000;background:#176c2c;color:#fff;padding:0.7em 1.2em;border-radius:6px;text-decoration:none;font-weight:bold;box-shadow:0 2px 8px rgba(0,0,0,0.08);">Quiz Permis</a>
-    
-  </div>
-</div>
+</body>
 
 <script>
 const questions = [
@@ -738,49 +718,13 @@ const questions = [
   }
 ];
 
-
-function poserQuestion() {
-  const index = Math.floor(Math.random() * questions.length);
-  const q = questions[index];
-
-  document.getElementById('question-title').innerText = "Question n°" + q.numero;
-  
-  document.getElementById('question-securite').innerText = "Sécurité routière : " + q.question_securite;
-  document.getElementById('question-secours').innerText = "1ers secours : " + q.question_secours;
-  
-  document.getElementById('reponse-securite').value = "";
-  document.getElementById('reponse-secours').value = "";
-  document.getElementById('result').style.display = "none";
-  
-  // Boutons
-  document.getElementById('valider').style.display = "inline-block";
-  document.getElementById('suivant').style.display = "none";
-  
-  document.getElementById('question-container').dataset.current = index;
-}
-
-function verifierReponses() {
-  const index = document.getElementById('question-container').dataset.current;
-  const q = questions[index];
-  
-  const reponseSecu = document.getElementById('reponse-securite').value.trim();
-  const reponseSecours = document.getElementById('reponse-secours').value.trim();
-  
-  const resultDiv = document.getElementById('result');
-  resultDiv.style.display = "block";
-  resultDiv.innerHTML = `
-    <p><strong>Réponse sécurité routière :</strong>  ${q.reponse_securite}</p>
-    <p><strong>Réponse 1ers secours :</strong>: ${q.reponse_secours}</p>
-  `;
-  
-  // On cache "Valider" et on montre "Suivant"
-  document.getElementById('valider').style.display = "none";
-  document.getElementById('suivant').style.display = "inline-block";
-}
-
-// Lancer la première question
-poserQuestion();
+const container = document.querySelector('div');
+container.innerHTML = questions.map(q =>
+    `<h2>N°${q.numero}</h2>
+    <b><i>Sécurité :</i></b> ${q.question_securite}
+    <b>Réponse :</b> <i style="color:#176c2c;">${q.reponse_securite}</i>
+    <b><i>Secours :</i></b> ${q.question_secours}
+    <b>Réponse :</b> <i style="color:#176c2c;">${q.reponse_secours}</i>`
+).join('<br><br>');
 </script>
-
-</body>
 </html>
